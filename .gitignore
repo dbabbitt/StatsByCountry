@@ -1,3 +1,24 @@
+
+# C:\Users\dev\Documents\repositories\StatsByCountry\.gitignore
+
+# Ignore big files (GitHub will warn you when pushing files larger than 50 MB. You will not be allowed to
+# push files larger than 100 MB.) Tip: If you regularly push large files to GitHub, consider introducing
+# Git Large File Storage (Git LFS) as part of your workflow.
+data/svg/Koppen-Geiger_Map_World_future.svg
+data/svg/Koppen-Geiger_Map_World_present.svg
+saves/maps/Spain_languages-en.svg
+
+# Ignore wierd files
+*.pdf
+*.xlsx
+*.png
+*.Rproj
+
+# Ignore whole folders
+.RData
+.Rhistory
+.Rproj.user
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

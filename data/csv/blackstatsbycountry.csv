@@ -1,0 +1,82 @@
+Country,Racial_Region,Racial_Subregion,UNODC_murder_Rate,Lynn_Vanhanen_Avg_IQ,Power_Index,Atlantic_Slave_Trade
+Argentina,Other,South America,5.5,96,1.6242,No
+Australia,European,Australasia,1,98,0.8253,No
+Austria,European,Western Europe,0.6,102,1.2974,No
+Barbados,Other,Caribbean,11.3,78,,No
+Belgium,European,Western Europe,1.7,100,1.2754,No
+Brazil,Other,South America,21.8,87,0.6663,No
+Bulgaria,European,Eastern Europe,2,93,2.1731,No
+Canada,European,Northern America,1.6,97,0.7432,No
+China,Other,Eastern Asia,1,100,0.2594,No
+Colombia,Other,South America,31.4,89,1.6234,No
+Congo,African,Middle Africa,30.8,73,,Yes
+Croatia,European,Southern Europe,1.4,90,1.5255,No
+Cuba,Other,Caribbean,5,85,,No
+Czech Republic,European,Eastern Europe,1.7,97,1.1656,No
+Denmark,European,Northern Europe,0.9,98,1.4379,No
+Ecuador,Other,South America,18.2,80,2.3045,No
+Egypt,African,Northern Africa,1.2,83,0.6122,No
+Equatorial Guinea,African,Middle Africa,20.7,59,,Yes
+Ethiopia,African,Eastern Africa,25.5,63,1.3229,No
+Fiji,Other,Melanesia,2.8,84,,No
+Finland,European,Northern Europe,2.2,97,1.5361,No
+France,European,Western Europe,1.1,98,0.4706,No
+Germany,European,Western Europe,0.8,102,0.4899,No
+Ghana,African,Western Africa,15.7,71,2.9726,Yes
+Greece,European,Southern Europe,1.5,92,1.6341,No
+Guatemala,Other,Central America,38.5,79,,No
+Guinea,African,Western Africa,22.5,66,,Yes
+Hong Kong,Other,Eastern Asia,0.2,107,,No
+Hungary,European,Eastern Europe,1.3,99,1.7148,No
+India,Other,Southern Asia,3.5,81,0.3872,No
+Indonesia,Other,South-Eastern Asia,8.1,89,0.8008,No
+Iran,Other,Southern Asia,3,84,0.8891,No
+Iraq,Other,Western Asia,2,87,2.0406,No
+Ireland,European,Northern Europe,1.2,93,,No
+Israel,Other,Western Asia,2.1,94,0.5887,No
+Italy,European,Southern Europe,0.9,102,0.5991,No
+Jamaica,Other,Caribbean,40.9,72,,No
+Japan,Other,Eastern Asia,0.4,105,0.5581,No
+Kenya,African,Eastern Africa,20.1,72,1.7689,No
+Lebanon,Other,Western Asia,2.2,86,2.5221,No
+Malaysia,Other,South-Eastern Asia,2.3,92,1.3143,No
+Mexico,Other,Central America,23.7,87,1.1843,No
+Morocco,African,Northern Africa,1.4,85,1.8499,No
+Nepal,Other,Southern Asia,2.8,78,2.3242,No
+Netherlands,European,Western Europe,1.1,102,1.1703,No
+New Zealand,European,Australasia,0.9,100,2.5907,No
+Nigeria,African,Western Africa,12.2,67,1.5261,Yes
+Norway,European,Northern Europe,0.6,98,1.3137,No
+Peru,Other,South America,10.3,90,1.6926,No
+Philippines,Other,South-Eastern Asia,5.4,86,1.3042,No
+Poland,European,Eastern Europe,1.1,99,0.7565,No
+Portugal,European,Southern Europe,1.2,95,1.6061,Yes
+Puerto Rico,Other,Caribbean,26.2,84,,No
+Qatar,Other,Western Asia,0.9,78,2.4841,No
+Romania,European,Eastern Europe,2,94,1.5863,No
+Russia,European,Eastern Europe,10.2,96,0.2355,No
+Sierra Leone,African,Western Africa,14.9,64,,Yes
+Singapore,Other,South-Eastern Asia,0.3,103,1.4699,No
+Slovakia,European,Eastern Europe,1.5,96,2.1745,No
+Slovenia,European,Southern Europe,0.7,95,3.0535,No
+South Africa,African,Southern Africa,31.8,72,1.3467,No
+South Korea,Other,Eastern Asia,2.6,106,0.5536,No
+Spain,European,Southern Europe,0.8,97,1.0791,No
+Sudan,African,Northern Africa,24.2,72,2.3465,No
+Suriname,Other,South America,4.6,89,,No
+Sweden,European,Northern Europe,1,101,1.1029,No
+Switzerland,European,Western Europe,0.7,101,1.0278,No
+Taiwan,Other,Eastern Asia,3.2,104,0.7564,No
+Tanzania,African,Eastern Africa,24.5,72,4.3423,No
+Thailand,Other,South-Eastern Asia,4.8,91,0.9287,No
+Tonga,Other,Polynesia,1,87,,No
+Turkey,Other,Western Asia,3.3,90,0.5171,No
+Uganda,African,Eastern Africa,36.3,73,2.6895,No
+United Kingdom,European,Northern Europe,1.2,100,0.3923,Yes
+United States - Black,African,Western Africa,14.09220644,85,,Yes
+United States - Other,Other,Central America,9.366025352,89,,No
+United States - Total,Northern America,Northern America,4.711970931,98,0.2208,Yes
+United States - White,European,Northern Europe,2.115379527,103,,Yes
+Uruguay,Other,South America,5.9,96,3.6352,No
+Zambia,African,Eastern Africa,38,77,3.5013,No
+Zimbabwe,African,Eastern Africa,14.3,66,3.0955,No
