@@ -1,2 +1,2 @@
 # StatsByCountry
-Various visualizations of by-country stats
+Various visualizations of by-country statistics. (If you are curious about the choice of subject matter, I'm trying to disprove things with simple statistics - generally, Nazi pseudoscience about genetics and race and Marxist pseudoscience about the malleability of human nature. In this case, it's the idea that homicide rate correlates with the continent your ancestors evolved on. It's mostly a disappointing exercise trying to simplify something that is complex, but I'm merely trying to show that simple, ideologically-motivated ideas don't hold up. And these exercises that I am giving myself are good practice.)
