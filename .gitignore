@@ -149,3 +149,4 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+data/csv/U.S._Homicide_Reports,_1980-2014_Homicides_between_1980_and_2014.csv
