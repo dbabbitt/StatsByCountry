@@ -26,7 +26,7 @@ def get_notebook_path():
     # `jupyter_notebook_config.py` and have edited and/or uncommented the line
     # containing `c.FileContentsManager.root_dir =`:
     c = Config()
-    file_path = os.path.join(jupyter_config_dir(), 'jupyter_notebook_config.py')
+    file_path = os.path.join(jupyter_config_dir(), 'jupyter_jupyterlab_server_config.py')
     exec(open(file_path).read())
     root_dir = c['FileContentsManager']['root_dir']
 

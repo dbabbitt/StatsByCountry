@@ -1,375 +1,81 @@
 
-  <text
-     x="833.54633"
-     y="896.8385"
-     id="text-zabul"
-     xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.0px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
-     inkscape:label="Zabul district abbreviation"><tspan
-       sodipodi:role="line"
-       id="tspan-zabul0"
-       x="833.54633"
-       y="896.8385">ZAB</tspan></text>
-  <text
-     x="957.05383"
-     y="602.82227"
-     id="text-wardak"
-     xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.0px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
-     inkscape:label="Wardak district abbreviation"><tspan
-       sodipodi:role="line"
-       id="tspan-wardak0"
-       x="957.05383"
-       y="602.82227">WAR</tspan></text>
-  <text
-     x="712.03918"
-     y="817.83392"
-     id="text-urozgan"
-     xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.0px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
-     inkscape:label="Urozgan district abbreviation"><tspan
-       sodipodi:role="line"
-       id="tspan-urozgan0"
-       x="712.03918"
-       y="817.83392">URU</tspan></text>
-  <text
-     x="1138.0631"
-     y="294.30481"
-     id="text-takhar"
-     xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.0px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
-     inkscape:label="Takhar district abbreviation"><tspan
-       sodipodi:role="line"
-       id="tspan-takhar0"
-       x="1138.0631"
-       y="294.30481">TAK</tspan></text>
-  <text
-     x="723.04034"
-     y="422.81216"
-     id="text-sar-e-pol"
-     xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.0px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
-     inkscape:label="Sar-e Pol district abbreviation"><tspan
-       sodipodi:role="line"
-       id="tspan-sar-e-pol0"
-       x="723.04034"
-       y="422.81216">SAR</tspan></text>
-  <text
-     x="915.05078"
-     y="388.31021"
-     id="text-samangan"
-     xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.0px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
-     inkscape:label="Samangan district abbreviation"><tspan
-       sodipodi:role="line"
-       id="tspan-samangan0"
-       x="915.05078"
-       y="388.31021">SAM</tspan></text>
-  <text
-     x="1018.0577"
-     y="536.31799"
-     id="text-parwan"
-     xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.0px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
-     inkscape:label="Parwan district abbreviation"><tspan
-       sodipodi:role="line"
-       id="tspan-parwan0"
-       x="1018.0577"
-       y="536.31799">PAR</tspan></text>
-  <text
-     x="1132.0635"
-     y="478.81485"
-     id="text-panjshir"
-     xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.0px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
-     inkscape:label="Panjshir district abbreviation"><tspan
-       sodipodi:role="line"
-       id="tspan-panjshir0"
-       x="1132.0635"
-       y="478.81485">PAN</tspan></text>
-  <text
-     x="1027.5579"
-     y="859.33673"
-     id="text-paktika"
-     xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.0px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
-     inkscape:label="Paktika district abbreviation"><tspan
-       sodipodi:role="line"
-       id="tspan-paktika0"
-       x="1027.5579"
-       y="859.33673">PKA</tspan></text>
-  <text
-     x="1098.0618"
-     y="716.828"
-     id="text-paktia"
-     xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.0px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
-     inkscape:label="Paktia district abbreviation"><tspan
-       sodipodi:role="line"
-       id="tspan-paktia0"
-       x="1098.0618"
-       y="716.828">PIA</tspan></text>
-  <text
-     x="1265.571"
-     y="482.31494"
-     id="text-nuristan"
-     xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.0px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
-     inkscape:label="Nuristan district abbreviation"><tspan
-       sodipodi:role="line"
-       id="tspan-nuristan0"
-       x="1265.571"
-       y="482.31494">NUR</tspan></text>
-  <text
-     x="289.51459"
-     y="1080.8496"
-     id="text-nimruz"
-     xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.0px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
-     inkscape:label="Nimruz district abbreviation"><tspan
-       sodipodi:role="line"
-       id="tspan-nimruz0"
-       x="289.51459"
-       y="1080.8496">NIM</tspan></text>
-  <text
-     x="1230.0692"
-     y="625.82349"
-     id="text-nangarhar"
-     xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.0px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
-     inkscape:label="Nangarhar district abbreviation"><tspan
-       sodipodi:role="line"
-       id="tspan-nangarhar0"
-       x="1230.0692"
-       y="625.82349">NAN</tspan></text>
-  <text
-     x="1074.5601"
-     y="648.82501"
-     id="text-logar"
-     xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.0px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
-     inkscape:label="Logar district abbreviation"><tspan
-       sodipodi:role="line"
-       id="tspan-logar0"
-       x="1074.5601"
-       y="648.82501">LOG</tspan></text>
-  <text
-     x="1196.5674"
-     y="559.8194"
-     id="text-laghman"
-     xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.0px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
-     inkscape:label="Laghman district abbreviation"><tspan
-       sodipodi:role="line"
-       id="tspan-laghman0"
-       x="1196.5674"
-       y="559.8194">LAG</tspan></text>
-  <text
-     x="1032.5574"
-     y="276.80304"
-     id="text-kunduz"
-     xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.0px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
-     inkscape:label="Kunduz district abbreviation"><tspan
-       sodipodi:role="line"
-       id="tspan-kunduz0"
-       x="1032.5574"
-       y="276.80304">KDZ</tspan></text>
-  <text
-     x="1288.5725"
-     y="537.31848"
-     id="text-kunar"
-     xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.0px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
-     inkscape:label="Kunar district abbreviation"><tspan
-       sodipodi:role="line"
-       id="tspan-kunar0"
-       x="1288.5725"
-       y="537.31848">KNR</tspan></text>
-  <text
-     x="1166.0645"
-     y="740.82971"
-     id="text-khost"
-     xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.0px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
-     inkscape:label="Khost district abbreviation"><tspan
-       sodipodi:role="line"
-       id="tspan-khost0"
-       x="1166.0645"
-       y="740.82971">KHO</tspan></text>
-  <text
-     x="1128.0635"
-     y="518.81757"
-     id="text-kapisa"
-     xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.0px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
-     inkscape:label="Kapisa district abbreviation"><tspan
-       sodipodi:role="line"
-       id="tspan-kapisa0"
-       x="1128.0635"
-       y="518.81757">KAP</tspan></text>
-  <text
-     x="670.53772"
-     y="1031.8464"
-     id="text-kandahar"
-     xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.0px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
-     inkscape:label="Kandahar district abbreviation"><tspan
-       sodipodi:role="line"
-       id="tspan-kandahar0"
-       x="670.53772"
-       y="1031.8464">KAN</tspan></text>
-  <text
-     x="1099.5612"
-     y="592.32172"
-     id="text-kabul"
-     xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.0px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
-     inkscape:label="Kabul district abbreviation"><tspan
-       sodipodi:role="line"
-       id="tspan-kabul0"
-       x="1099.5612"
-       y="592.32172">KAB</tspan></text>
-  <text
-     x="696.53839"
-     y="289.30466"
-     id="text-jowzjan"
-     xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.0px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
-     inkscape:label="Jowzjan district abbreviation"><tspan
-       sodipodi:role="line"
-       id="tspan-jowzjan0"
-       x="696.53839"
-       y="289.30466">JOW</tspan></text>
-  <text
-     x="247.51393"
-     y="635.82416"
-     id="text-herat"
-     xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.0px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
-     inkscape:label="Herat district abbreviation"><tspan
-       sodipodi:role="line"
-       id="tspan-herat0"
-       x="247.51393"
-       y="635.82416">HER</tspan></text>
-  <text
-     x="474.02667"
-     y="1010.8453"
-     id="text-helmand"
-     xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.0px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
-     inkscape:label="Helmand district abbreviation"><tspan
-       sodipodi:role="line"
-       id="tspan-helmand0"
-       x="474.02667"
-       y="1010.8453">HEL</tspan></text>
-  <text
-     x="580.03278"
-     y="619.32324"
-     id="text-ghor"
-     xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.0px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
-     inkscape:label="Ghor district abbreviation"><tspan
-       sodipodi:role="line"
-       id="tspan-ghor0"
-       x="580.03278"
-       y="619.32324">GHO</tspan></text>
-  <text
-     x="919.05115"
-     y="730.82941"
-     id="text-ghazni"
-     xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.0px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
-     inkscape:label="Ghazni district abbreviation"><tspan
-       sodipodi:role="line"
-       id="tspan-ghazni0"
-       x="919.05115"
-       y="730.82941">GHA</tspan></text>
-  <text
-     x="546.0307"
-     y="400.31021"
-     id="text-faryab"
-     xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.0px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
-     inkscape:label="Faryab district abbreviation"><tspan
-       sodipodi:role="line"
-       id="tspan-faryab0"
-       x="546.0307"
-       y="400.31021">FYB</tspan></text>
-  <text
-     x="234.01317"
-     y="864.83649"
-     id="text-farah"
-     xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.0px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
-     inkscape:label="Farah district abbreviation"><tspan
-       sodipodi:role="line"
-       id="tspan-farah0"
-       x="234.01317"
-       y="864.83649">FRA</tspan></text>
-  <text
-     x="729.04169"
-     y="694.32709"
-     id="text-daykundi"
-     xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.0px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
-     inkscape:label="Daykundi district abbreviation"><tspan
-       sodipodi:role="line"
-       id="tspan-daykundi0"
-       x="729.04169"
-       y="694.32709">DAY</tspan></text>
-  <text
-     x="847.54767"
-     y="534.31897"
-     id="text-bamyan"
-     xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.0px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
-     inkscape:label="Bamyan district abbreviation"><tspan
-       sodipodi:role="line"
-       id="tspan-bamyan0"
-       x="847.54767"
-       y="534.31897">BAM</tspan></text>
-  <text
-     x="839.04779"
-     y="270.30414"
-     id="text-balkh"
-     xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.0px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
-     inkscape:label="Balkh district abbreviation"><tspan
-       sodipodi:role="line"
-       id="tspan-balkh0"
-       x="839.04779"
-       y="270.30414">BAL</tspan></text>
-  <text
-     x="1062.0598"
-     y="406.31122"
-     id="text-baghlan"
-     xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.0px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
-     inkscape:label="Baghlan district abbreviation"><tspan
-       sodipodi:role="line"
-       id="tspan-baghlan0"
-       x="1062.0598"
-       y="406.31122">BGL</tspan></text>
-  <text
-     x="444.02499"
-     y="506.31662"
-     id="text-badghis"
-     xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.0px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
-     inkscape:label="Badghis district abbreviation"><tspan
-       sodipodi:role="line"
-       id="tspan-badghis0"
-       x="444.02499"
-       y="506.31662">BDG</tspan></text>
-  <text
-     x="1270.5022"
-     y="272.78897"
-     id="text-badakhshan"
-     xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.0px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
-     inkscape:label="Badakhshan district abbreviation"><tspan
-       sodipodi:role="line"
-       id="tspan-badakhshan0"
-       x="1270.5022"
-       y="272.78897">BDS</tspan></text>
+<text x="629.91254" y="639.30615" id="text-yemen" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none" inkscape:label="Yemen district abbreviation"><tspan sodipodi:role="line" id="tspan-yemen0" x="629.91254" y="639.30615">YE</tspan></text>
+<text x="1111.8936" y="590.16235" id="text-viet-nam" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none" inkscape:label="Viet Nam district abbreviation"><tspan sodipodi:role="line" id="tspan-viet-nam0" x="1111.8936" y="590.16235">VN</tspan></text>
+<text x="764.5899623498641" y="413.96036985165324" id="text-uzbekistan" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none" inkscape:label="Uzbekistan district abbreviation"><tspan sodipodi:role="line" id="tspan-uzbekistan0" x="764.5899623498641" y="413.96036985165324">UZ</tspan></text>
+<text x="195.78926" y="327.91925" id="text-united-kingdom-of-great-britain-and-northern-ireland" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none" inkscape:label="United Kingdom of Great Britain and Northern Ireland district abbreviation"><tspan sodipodi:role="line" id="tspan-united-kingdom-of-great-britain-and-northern-ireland0" x="195.78926" y="327.91925">GB</tspan></text>
+<text x="674.8313" y="576.52356" id="text-united-arab-emirates" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none" inkscape:label="United Arab Emirates district abbreviation"><tspan sodipodi:role="line" id="tspan-united-arab-emirates0" x="674.8313" y="576.52356">AE</tspan></text>
+<text x="490.9527654924624" y="351.39259921537166" id="text-ukraine" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none" inkscape:label="Ukraine district abbreviation"><tspan sodipodi:role="line" id="tspan-ukraine0" x="490.9527654924624" y="351.39259921537166">UA</tspan></text>
+<text x="714.08618" y="436.55511" id="text-turkmenistan" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none" inkscape:label="Turkmenistan district abbreviation"><tspan sodipodi:role="line" id="tspan-turkmenistan0" x="714.08618" y="436.55511">TM</tspan></text>
+<text x="523.4838141071788" y="437.4869227184784" id="text-turkey" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none" inkscape:label="Turkey district abbreviation"><tspan sodipodi:role="line" id="tspan-turkey0" x="523.4838141071788" y="437.4869227184784">TR</tspan></text>
+<text x="1087.3461522922578" y="642.7280543526831" id="text-thailand" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none" inkscape:label="Thailand district abbreviation"><tspan sodipodi:role="line" id="tspan-thailand0" x="1087.3461522922578" y="642.7280543526831">TH</tspan></text>
+<text x="831.3525226352974" y="441.84973519789406" id="text-tajikistan" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none" inkscape:label="Tajikistan district abbreviation"><tspan sodipodi:role="line" id="tspan-tajikistan0" x="831.3525226352974" y="441.84973519789406">TJ</tspan></text>
+<text x="1257.6135641857477" y="569.2894752174961" id="text-taiwan-province-of-china" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none" inkscape:label="Taiwan, Province of China district abbreviation"><tspan sodipodi:role="line" id="tspan-taiwan-province-of-china0" x="1257.6135641857477" y="569.2894752174961">TW</tspan></text>
+<text x="553.95483" y="466.53265" id="text-syrian-arab-republic" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none" inkscape:label="Syrian Arab Republic district abbreviation"><tspan sodipodi:role="line" id="tspan-syrian-arab-republic0" x="553.95483" y="466.53265">SY</tspan></text>
+<text x="291.968901954058" y="370.4372281600832" id="text-switzerland" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none" inkscape:label="Switzerland district abbreviation"><tspan sodipodi:role="line" id="tspan-switzerland0" x="291.968901954058" y="370.4372281600832">CH</tspan></text>
+<text x="350.91922" y="270.11383" id="text-sweden" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none" inkscape:label="Sweden district abbreviation"><tspan sodipodi:role="line" id="tspan-sweden0" x="350.91922" y="270.11383">SE</tspan></text>
+<text x="913.6601196087089" y="707.0520899545094" id="text-sri-lanka" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none" inkscape:label="Sri Lanka district abbreviation"><tspan sodipodi:role="line" id="tspan-sri-lanka0" x="913.6601196087089" y="707.0520899545094">LK</tspan></text>
+<text x="191.28124959074967" y="425.66090526316395" id="text-spain" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none" inkscape:label="Spain district abbreviation"><tspan sodipodi:role="line" id="tspan-spain0" x="191.28124959074967" y="425.66090526316395">ES</tspan></text>
+<text x="345.6947" y="377.68457" id="text-slovenia" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none" inkscape:label="Slovenia district abbreviation"><tspan sodipodi:role="line" id="tspan-slovenia0" x="345.6947" y="377.68457">SI</tspan></text>
+<text x="383.66235" y="351.78854" id="text-slovakia" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none" inkscape:label="Slovakia district abbreviation"><tspan sodipodi:role="line" id="tspan-slovakia0" x="383.66235" y="351.78854">SK</tspan></text>
+<text x="400.29016" y="398.41251" id="text-serbia" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none" inkscape:label="Serbia district abbreviation"><tspan sodipodi:role="line" id="tspan-serbia0" x="400.29016" y="398.41251">RS</tspan></text>
+<text x="603.3285969161318" y="566.8000732870443" id="text-saudi-arabia" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none" inkscape:label="Saudi Arabia district abbreviation"><tspan sodipodi:role="line" id="tspan-saudi-arabia0" x="603.3285969161318" y="566.8000732870443">SA</tspan></text>
+<text x="613.23975" y="292.17242" id="text-russian-federation" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none" inkscape:label="Russian Federation district abbreviation"><tspan sodipodi:role="line" id="tspan-russian-federation0" x="613.23975" y="292.17242">RU</tspan></text>
+<text x="436.18516655946974" y="378.40485589348776" id="text-romania" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none" inkscape:label="Romania district abbreviation"><tspan sodipodi:role="line" id="tspan-romania0" x="436.18516655946974" y="378.40485589348776">RO</tspan></text>
+<text x="661.2499729039747" y="555.7451473609364" id="text-qatar" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none" inkscape:label="Qatar district abbreviation"><tspan sodipodi:role="line" id="tspan-qatar0" x="661.2499729039747" y="555.7451473609364">QA</tspan></text>
+<text x="153.8039661024993" y="431.7619701151802" id="text-portugal" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none" inkscape:label="Portugal district abbreviation"><tspan sodipodi:role="line" id="tspan-portugal0" x="153.8039661024993" y="431.7619701151802">PT</tspan></text>
+<text x="388.3774674815797" y="325.02207035668397" id="text-poland" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none" inkscape:label="Poland district abbreviation"><tspan sodipodi:role="line" id="tspan-poland0" x="388.3774674815797" y="325.02207035668397">PL</tspan></text>
+<text x="1260.7877" y="630.81744" id="text-philippines" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none" inkscape:label="Philippines district abbreviation"><tspan sodipodi:role="line" id="tspan-philippines0" x="1260.7877" y="630.81744">PH</tspan></text>
+<text x="816.5262838150834" y="515.5043512243182" id="text-pakistan" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none" inkscape:label="Pakistan district abbreviation"><tspan sodipodi:role="line" id="tspan-pakistan0" x="816.5262838150834" y="515.5043512243182">PK</tspan></text>
+<text x="695.00201" y="607.63654" id="text-oman" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none" inkscape:label="Oman district abbreviation"><tspan sodipodi:role="line" id="tspan-oman0" x="695.00201" y="607.63654">OM</tspan></text>
+<text x="296.73975" y="261.3913" id="text-norway" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none" inkscape:label="Norway district abbreviation"><tspan sodipodi:role="line" id="tspan-norway0" x="296.73975" y="261.3913">NO</tspan></text>
+<text x="408.16415469230293" y="415.59629095393115" id="text-north-macedonia" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none" inkscape:label="North Macedonia district abbreviation"><tspan sodipodi:role="line" id="tspan-north-macedonia0" x="408.16415469230293" y="415.59629095393115">MK</tspan></text>
+<text x="270.2008965515496" y="324.4249306186983" id="text-netherlands" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none" inkscape:label="Netherlands district abbreviation"><tspan sodipodi:role="line" id="tspan-netherlands0" x="270.2008965515496" y="324.4249306186983">NL</tspan></text>
+<text x="941.9159851216306" y="529.3920480426094" id="text-nepal" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none" inkscape:label="Nepal district abbreviation"><tspan sodipodi:role="line" id="tspan-nepal0" x="941.9159851216306" y="529.3920480426094">NP</tspan></text>
+<text x="1049.078942371832" y="590.5003130844565" id="text-myanmar" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none" inkscape:label="Myanmar district abbreviation"><tspan sodipodi:role="line" id="tspan-myanmar0" x="1049.078942371832" y="590.5003130844565">MM</tspan></text>
+<text x="387.06866545791655" y="405.200882720694" id="text-montenegro" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none" inkscape:label="Montenegro district abbreviation"><tspan sodipodi:role="line" id="tspan-montenegro0" x="387.06866545791655" y="405.200882720694">ME</tspan></text>
+<text x="1105.5584527153649" y="370.34555390245634" id="text-mongolia" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none" inkscape:label="Mongolia district abbreviation"><tspan sodipodi:role="line" id="tspan-mongolia0" x="1105.5584527153649" y="370.34555390245634">MN</tspan></text>
+<text x="466.04798068292547" y="367.3249480441368" id="text-moldova-republic-of" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none" inkscape:label="Moldova, Republic of district abbreviation"><tspan sodipodi:role="line" id="tspan-moldova-republic-of0" x="466.04798068292547" y="367.3249480441368">MD</tspan></text>
+<text x="1097.296" y="740.30682" id="text-malaysia" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none" inkscape:label="Malaysia district abbreviation"><tspan sodipodi:role="line" id="tspan-malaysia0" x="1097.296" y="740.30682">MY</tspan></text>
+<text x="274.6127" y="346.93298" id="text-luxembourg" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none" inkscape:label="Luxembourg district abbreviation"><tspan sodipodi:role="line" id="tspan-luxembourg0" x="274.6127" y="346.93298">LU</tspan></text>
+<text x="426.60703" y="299.52893" id="text-lithuania" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none" inkscape:label="Lithuania district abbreviation"><tspan sodipodi:role="line" id="tspan-lithuania0" x="426.60703" y="299.52893">LT</tspan></text>
+<text x="532.73114" y="484.33859" id="text-lebanon" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none" inkscape:label="Lebanon district abbreviation"><tspan sodipodi:role="line" id="tspan-lebanon0" x="532.73114" y="484.33859">LB</tspan></text>
+<text x="432.13708" y="286.62512" id="text-latvia" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none" inkscape:label="Latvia district abbreviation"><tspan sodipodi:role="line" id="tspan-latvia0" x="432.13708" y="286.62512">LV</tspan></text>
+<text x="1096.7466" y="613.78656" id="text-lao-people-s-democratic-republic" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none" inkscape:label="Lao People's Democratic Republic district abbreviation"><tspan sodipodi:role="line" id="tspan-lao-people-s-democratic-republic0" x="1096.7466" y="613.78656">LA</tspan></text>
+<text x="861.7677861166306" y="416.32455698093247" id="text-kyrgyzstan" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none" inkscape:label="Kyrgyzstan district abbreviation"><tspan sodipodi:role="line" id="tspan-kyrgyzstan0" x="861.7677861166306" y="416.32455698093247">KG</tspan></text>
+<text x="629.7742538578146" y="521.9941575869262" id="text-kuwait" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none" inkscape:label="Kuwait district abbreviation"><tspan sodipodi:role="line" id="tspan-kuwait0" x="629.7742538578146" y="521.9941575869262">KW</tspan></text>
+<text x="1317.1113708221883" y="459.5387999702846" id="text-korea-republic-of" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none" inkscape:label="Korea, Republic of district abbreviation"><tspan sodipodi:role="line" id="tspan-korea-republic-of0" x="1317.1113708221883" y="459.5387999702846">KR</tspan></text>
+<text x="1311.172818907888" y="427.98442056781147" id="text-korea-democratic-people-s-republic-of" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none" inkscape:label="Korea (Democratic People's Republic of) district abbreviation"><tspan sodipodi:role="line" id="tspan-korea-democratic-people-s-republic-of0" x="1311.172818907888" y="427.98442056781147">KP</tspan></text>
+<text x="799.4270372251208" y="358.871210203038" id="text-kazakhstan" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none" inkscape:label="Kazakhstan district abbreviation"><tspan sodipodi:role="line" id="tspan-kazakhstan0" x="799.4270372251208" y="358.871210203038">KZ</tspan></text>
+<text x="542.44891" y="499.16684" id="text-jordan" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none" inkscape:label="Jordan district abbreviation"><tspan sodipodi:role="line" id="tspan-jordan0" x="542.44891" y="499.16684">JO</tspan></text>
+<text x="1415.007" y="463.56656" id="text-japan" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none" inkscape:label="Japan district abbreviation"><tspan sodipodi:role="line" id="tspan-japan0" x="1415.007" y="463.56656">JP</tspan></text>
+<text x="312.67813" y="389.79126" id="text-italy" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none" inkscape:label="Italy district abbreviation"><tspan sodipodi:role="line" id="tspan-italy0" x="312.67813" y="389.79126">IT</tspan></text>
+<text x="522.1716320666113" y="502.7074381800687" id="text-israel" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none" inkscape:label="Israel district abbreviation"><tspan sodipodi:role="line" id="tspan-israel0" x="522.1716320666113" y="502.7074381800687">IL</tspan></text>
+<text x="152.10645197057588" y="316.2576030921985" id="text-ireland" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none" inkscape:label="Ireland district abbreviation"><tspan sodipodi:role="line" id="tspan-ireland0" x="152.10645197057588" y="316.2576030921985">IE</tspan></text>
+<text x="597.40204" y="499.548" id="text-iraq" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none" inkscape:label="Iraq district abbreviation"><tspan sodipodi:role="line" id="tspan-iraq0" x="597.40204" y="499.548">IQ</tspan></text>
+<text x="687.4881266693145" y="493.19110448492165" id="text-iran-islamic-republic-of" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none" inkscape:label="Iran (Islamic Republic of) district abbreviation"><tspan sodipodi:role="line" id="tspan-iran-islamic-republic-of0" x="687.4881266693145" y="493.19110448492165">IR</tspan></text>
+<text x="1250.8167" y="794.68213" id="text-indonesia" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none" inkscape:label="Indonesia district abbreviation"><tspan sodipodi:role="line" id="tspan-indonesia0" x="1250.8167" y="794.68213">ID</tspan></text>
+<text x="904.5223400691215" y="575.4244542457137" id="text-india" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none" inkscape:label="India district abbreviation"><tspan sodipodi:role="line" id="tspan-india0" x="904.5223400691215" y="575.4244542457137">IN</tspan></text>
+<text x="63.43898286831819" y="215.47186213145463" id="text-iceland" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none" inkscape:label="Iceland district abbreviation"><tspan sodipodi:role="line" id="tspan-iceland0" x="63.43898286831819" y="215.47186213145463">IS</tspan></text>
+<text x="384.45734" y="366.53882" id="text-hungary" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none" inkscape:label="Hungary district abbreviation"><tspan sodipodi:role="line" id="tspan-hungary0" x="384.45734" y="366.53882">HU</tspan></text>
+<text x="416.45370600704837" y="436.2657937852328" id="text-greece" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none" inkscape:label="Greece district abbreviation"><tspan sodipodi:role="line" id="tspan-greece0" x="416.45370600704837" y="436.2657937852328">GR</tspan></text>
+<text x="310.8391958907561" y="334.1035760394939" id="text-germany" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none" inkscape:label="Germany district abbreviation"><tspan sodipodi:role="line" id="tspan-germany0" x="310.8391958907561" y="334.1035760394939">DE</tspan></text>
+<text x="599.56561" y="414.38919" id="text-georgia" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none" inkscape:label="Georgia district abbreviation"><tspan sodipodi:role="line" id="tspan-georgia0" x="599.56561" y="414.38919">GE</tspan></text>
+<text x="243.5942744146116" y="373.1172023974851" id="text-france" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none" inkscape:label="France district abbreviation"><tspan sodipodi:role="line" id="tspan-france0" x="243.5942744146116" y="373.1172023974851">FR</tspan></text>
+<text x="447.05693678609725" y="219.66489037200904" id="text-finland" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none" inkscape:label="Finland district abbreviation"><tspan sodipodi:role="line" id="tspan-finland0" x="447.05693678609725" y="219.66489037200904">FI</tspan></text>
+<text x="443.1391805269418" y="269.38202767620686" id="text-estonia" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none" inkscape:label="Estonia district abbreviation"><tspan sodipodi:role="line" id="tspan-estonia0" x="443.1391805269418" y="269.38202767620686">EE</tspan></text>
+<text x="308.80527" y="298.5538" id="text-denmark" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none" inkscape:label="Denmark district abbreviation"><tspan sodipodi:role="line" id="tspan-denmark0" x="308.80527" y="298.5538">DK</tspan></text>
+<text x="353.55723656789667" y="345.27218788663174" id="text-czechia" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none" inkscape:label="Czechia district abbreviation"><tspan sodipodi:role="line" id="tspan-czechia0" x="353.55723656789667" y="345.27218788663174">CZ</tspan></text>
+<text x="365.10449" y="385.30362" id="text-croatia" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none" inkscape:label="Croatia district abbreviation"><tspan sodipodi:role="line" id="tspan-croatia0" x="365.10449" y="385.30362">HR</tspan></text>
+<text x="1111.3768321713344" y="458.3238939174478" id="text-china" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none" inkscape:label="China district abbreviation"><tspan sodipodi:role="line" id="tspan-china0" x="1111.3768321713344" y="458.3238939174478">CN</tspan></text>
+<text x="1120.7470435998655" y="663.1662754453927" id="text-cambodia" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none" inkscape:label="Cambodia district abbreviation"><tspan sodipodi:role="line" id="tspan-cambodia0" x="1120.7470435998655" y="663.1662754453927">KH</tspan></text>
+<text x="437.6727976881773" y="405.16767428609745" id="text-bulgaria" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none" inkscape:label="Bulgaria district abbreviation"><tspan sodipodi:role="line" id="tspan-bulgaria0" x="437.6727976881773" y="405.16767428609745">BG</tspan></text>
+<text x="374.5842609834973" y="393.30830108521457" id="text-bosnia-and-herzegovina" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none" inkscape:label="Bosnia and Herzegovina district abbreviation"><tspan sodipodi:role="line" id="tspan-bosnia-and-herzegovina0" x="374.5842609834973" y="393.30830108521457">BA</tspan></text>
+<text x="996.8364573347409" y="537.1488801632457" id="text-bhutan" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none" inkscape:label="Bhutan district abbreviation"><tspan sodipodi:role="line" id="tspan-bhutan0" x="996.8364573347409" y="537.1488801632457">BT</tspan></text>
+<text x="261.7495167091991" y="337.67918067524926" id="text-belgium" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none" inkscape:label="Belgium district abbreviation"><tspan sodipodi:role="line" id="tspan-belgium0" x="261.7495167091991" y="337.67918067524926">BE</tspan></text>
+<text x="462.33389" y="316.99713" id="text-belarus" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none" inkscape:label="Belarus district abbreviation"><tspan sodipodi:role="line" id="tspan-belarus0" x="462.33389" y="316.99713">BY</tspan></text>
+<text x="995.4954767363893" y="567.8352395130985" id="text-bangladesh" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none" inkscape:label="Bangladesh district abbreviation"><tspan sodipodi:role="line" id="tspan-bangladesh0" x="995.4954767363893" y="567.8352395130985">BD</tspan></text>
+<text x="630.32751" y="430.79468" id="text-azerbaijan" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none" inkscape:label="Azerbaijan district abbreviation"><tspan sodipodi:role="line" id="tspan-azerbaijan0" x="630.32751" y="430.79468">AZ</tspan></text>
+<text x="343.0660439935145" y="361.97501" id="text-austria" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none" inkscape:label="Austria district abbreviation"><tspan sodipodi:role="line" id="tspan-austria0" x="343.0660439935145" y="361.97501">AT</tspan></text>
+<text x="607.9714316860086" y="426.43697970602597" id="text-armenia" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none" inkscape:label="Armenia district abbreviation"><tspan sodipodi:role="line" id="tspan-armenia0" x="607.9714316860086" y="426.43697970602597">AM</tspan></text>
+<text x="394.0162037689034" y="419.2903457031141" id="text-albania" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none" inkscape:label="Albania district abbreviation"><tspan sodipodi:role="line" id="tspan-albania0" x="394.0162037689034" y="419.2903457031141">AL</tspan></text>
+<text x="787.5757301728107" y="482.4091644943021" id="text-afghanistan" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none" inkscape:label="Afghanistan district abbreviation"><tspan sodipodi:role="line" id="tspan-afghanistan0" x="787.5757301728107" y="482.4091644943021">AF</tspan></text>

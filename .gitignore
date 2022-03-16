@@ -7,18 +7,21 @@
 data/svg/Koppen-Geiger_Map_World_future.svg
 data/svg/Koppen-Geiger_Map_World_present.svg
 saves/maps/Spain_languages-en.svg
+data/csv/U.S._Homicide_Reports,_1980-2014_Homicides_between_1980_and_2014.csv
 
 # Ignore wierd files
 *.pdf
 *.xlsx
 *.png
 *.Rproj
+*.bak
 
 # Ignore whole folders
 .RData
 .Rhistory
 .Rproj.user
 saves/emblems
+py/Python_Binding_1_1
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -149,4 +152,3 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
-data/csv/U.S._Homicide_Reports,_1980-2014_Homicides_between_1980_and_2014.csv
