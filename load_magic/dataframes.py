@@ -80,13 +80,16 @@ def get_column_descriptions(df, column_list=None):
     for dtype, dtype_column_list in g.items():
         for column_name in dtype_column_list:
             if column_name in column_list:
-                mask_series = df[column_name].isnull()
+                null_mask_series = df[column_name].isnull()
+                blank_mask_series = df[column_name].map(lambda x: not len(str(x)))
+                mask_series = null_mask_series | blank_mask_series
                 
                 # Get input row in dictionary format; key = col_name
                 row_dict = {}
                 row_dict['column_name'] = column_name
                 row_dict['dtype'] = str(dtype)
-                row_dict['count_blanks'] = df[column_name].isnull().sum()
+                row_dict['count_nulls'] = null_mask_series.sum()
+                row_dict['count_blanks'] = blank_mask_series.sum()
                 
                 # Count how many unique numbers there are
                 try:
@@ -125,7 +128,7 @@ def get_column_descriptions(df, column_list=None):
 
                 rows_list.append(row_dict)
 
-    columns_list = ['column_name', 'dtype', 'count_blanks', 'count_uniques', 'count_zeroes', 'has_dates',
+    columns_list = ['column_name', 'dtype', 'count_nulls', 'count_blanks', 'count_uniques', 'count_zeroes', 'has_dates',
                     'min_value', 'max_value', 'only_integers']
     blank_ranking_df = pd.DataFrame(rows_list, columns=columns_list)
     
