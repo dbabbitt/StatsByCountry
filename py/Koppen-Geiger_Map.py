@@ -1,6 +1,12 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+
+
+# Soli Deo gloria
+
+
+
 import choropleth_utils
 
 c = choropleth_utils.ChoroplethUtilities()

@@ -3,6 +3,18 @@
 
 
 
+
+
+
+
+# Soli Deo gloria
+
+
+
+
+
+
+
 from urllib import request
 import os
 import random

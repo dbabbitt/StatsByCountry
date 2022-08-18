@@ -1,6 +1,12 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+
+
+# Soli Deo gloria
+
+
+
 from math import sqrt
 from matplotlib import cm
 from shutil import copyfile
@@ -90,7 +96,6 @@ class ChoroplethUtilities(object):
                                 'writing-mode': 'lr-tb', 'text-anchor': 'middle', 'fill': self.get_fill_color(fill_color='#000000'),
                                 'fill-opacity': '1', 'stroke': 'none'}
         self.text_style_list = self.get_style_list(self.text_style_dict.copy())
-        # self.ts_str = '<tspan sodipodi:role="line" id="tspan-{}" x="{}" y="{}">{}</tspan>'
         self.ts_str = '<tspan sodipodi:role="line" id="tspan-{}" x="{}" dy="{}">{}</tspan>'# alignment-baseline="middle"
         self.label_line_style_list = self.get_style_list({'fill': 'none', 'fill-rule': 'evenodd', 'stroke': '#e00000',
                                                           'stroke-width': '2', 'stroke-linecap': 'butt', 'stroke-linejoin': 'miter',
@@ -291,12 +296,21 @@ class ChoroplethUtilities(object):
           </g>{}
         </g>'''
         self.hyphen_dict = pyphen.Pyphen(lang='en_US')
-        self.line_height = 12
+        self.line_height = 9
         self.width_ratio = -0.027663496798780152
         self.height_ratio = -0.0676069034160266
         self.nonword_regex = re.compile(r'\W+')
         self.light_grey_hex_str = '#e0e0e0'
         self.ocean_blue_hex_str = '#c8eafb'
+        self.us_states_list = ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado',
+                               'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia',
+                               'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky',
+                               'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota',
+                               'Mississippi', 'Missouri', 'Montana', 'Nebraska', 'Nevada', 'New Hampshire',
+                               'New Jersey', 'New Mexico', 'New York', 'North Carolina', 'North Dakota',
+                               'Ohio', 'Oklahoma', 'Oregon', 'Pennsylvania', 'Rhode Island', 'South Carolina',
+                               'South Dakota', 'Tennessee', 'Texas', 'Utah', 'Vermont', 'Virginia',
+                               'Washington', 'West Virginia', 'Wisconsin', 'Wyoming']
     
     
     ###########################
@@ -663,6 +677,7 @@ class ChoroplethUtilities(object):
         mask_series = one_country_df['centroid_id'].isnull()
         if string_column_name is not None:
             mask_series = mask_series | one_country_df[string_column_name].isnull()
+        from html import escape
         for district_name, row_series in one_country_df[~mask_series].sort_index(axis='index', ascending=False).iterrows():
             text_id = self.indexize_string(district_name)
             centroid_id = row_series.centroid_id
@@ -689,9 +704,10 @@ class ChoroplethUtilities(object):
             tspan_str = ''
             for i, column_value_str in enumerate(tspan_list):
                 if str(row_series.dy) == 'nan':
-                    tspan_str += self.ts_str.format(text_id+str(i), x, self.line_height*i, column_value_str)
+                    dy_num = self.line_height*i
                 else:
-                    tspan_str += self.ts_str.format(text_id+str(i), x, row_series.dy*i, column_value_str)
+                    dy_num = row_series.dy*i
+                tspan_str += self.ts_str.format(text_id+str(i), x, dy_num, escape(column_value_str))
             
             # Update the background color and font size
             # fill: rgb(0, 0, 0); font-size: 380%;
@@ -710,7 +726,6 @@ class ChoroplethUtilities(object):
                 text_style_dict['font-size'] = '1em'
             
             style_str = ';'.join(self.get_style_list(text_style_dict)) + ';'
-            # text_str = f'<text x="{x}" y="{y}" id="text-{text_id}" style="{style_str}" inkscape:label="{label}" dominant-baseline="middle" text-anchor="middle">{tspan_str}</text>'
             text_str = f'''
   <style id="style-{group_id}">.{group_id}{{fill:rgb{backround_rgb};}}</style>
   <text x="{x}" y="{y}" id="text-{text_id}" style="{style_str}" inkscape:label="{label}" dominant-baseline="text-after-edge" text-anchor="middle">{tspan_str}</text>'''
@@ -999,6 +1014,7 @@ class ChoroplethUtilities(object):
                 cap_str = cu_str[:1].upper()+cu_str[1:]
                 column_name = 'Google_Suggest_{}'.format(cap_str)
                 mask_series = self.one_country_df[column_name].isnull()
+                from html import escape
                 for district_name, row_series in self.one_country_df[~mask_series].sort_index(axis='index', ascending=False).iterrows():
                     text_id = self.indexize_string(district_name)
                     label = '{} Google {} Suggestion'.format(district_name, cap_str)
@@ -1012,7 +1028,7 @@ class ChoroplethUtilities(object):
                     tspan_list = self.get_tspan_list(suggestion)
                     tspan_str = ''
                     for i, suggestion_str in enumerate(tspan_list):
-                        tspan_str += self.ts_str.format(text_id+str(i), x, self.line_height*i, suggestion_str)
+                        tspan_str += self.ts_str.format(text_id+str(i), x, self.line_height*i, escape(suggestion_str))
                     style_str = ';'.join(self.text_style_list)
                     text_str = f'<text x="{x}" y="{y}" id="text-{text_id}" style="{style_str}" inkscape:label="{label}">{tspan_str}</text>'
                     with open(text_file_path, 'a') as f:

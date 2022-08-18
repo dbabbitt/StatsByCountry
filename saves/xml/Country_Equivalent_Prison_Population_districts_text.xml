@@ -1,0 +1,664 @@
+
+
+  <style id="style-wyoming">.wyoming{fill:rgb(68, 1, 84);}</style>
+  <text x="408.9788513183594" y="191.26553344726562" id="text-wyoming" style="fill:#ffffff;font-size:12.0;" inkscape:label="Wyoming Country Equivalent Prison Population" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-wyoming0" x="408.9788513183594" dy="0">Fiji</tspan></text>
+  <script type="application/ecmascript" id="script-wyoming">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;district-wyoming&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-wyoming&quot;);
+        
+  </script>
+
+  <style id="style-wisconsin">.wisconsin{fill:rgb(71, 43, 122);}</style>
+  <text x="661.4596557617188" y="153.29937744140625" id="text-wisconsin" style="fill:#ffffff;font-size:12.0;" inkscape:label="Wisconsin Country Equivalent Prison Population" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-wisconsin0" x="661.4596557617188" dy="0">Honduras</tspan></text>
+  <script type="application/ecmascript" id="script-wisconsin">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;district-wisconsin&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-wisconsin&quot;);
+        
+  </script>
+
+  <style id="style-west-virginia">.west-virginia{fill:rgb(69, 8, 91);}</style>
+  <text x="830.541015625" y="242.49905395507812" id="text-west-virginia" style="fill:#ffffff;font-size:12.0;" inkscape:label="West Virginia Country Equivalent Prison Population" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-west-virginia0" x="830.541015625" dy="0">Lebanon</tspan></text>
+  <script type="application/ecmascript" id="script-west-virginia">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;district-west-virginia&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-west-virginia&quot;);
+        
+  </script>
+
+  <style id="style-washington">.washington{fill:rgb(71, 37, 117);}</style>
+  <text x="245.27381896972656" y="78.79137420654297" id="text-washington" style="fill:#ffffff;font-size:12.0;" inkscape:label="Washington Country Equivalent Prison Population" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-washington0" x="245.27381896972656" dy="0">Israel</tspan></text>
+  <script type="application/ecmascript" id="script-washington">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;district-washington&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-washington&quot;);
+        
+  </script>
+
+  <style id="style-virginia">.virginia{fill:rgb(61, 74, 137);}</style>
+  <text x="867.4775390625" y="257.4370422363281" id="text-virginia" style="fill:#ffffff;font-size:12.0;" inkscape:label="Virginia Country Equivalent Prison Population" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-virginia0" x="867.4775390625" dy="0">El</tspan><tspan sodipodi:role="line" id="tspan-virginia1" x="867.4775390625" dy="9">Salvador</tspan></text>
+  <script type="application/ecmascript" id="script-virginia">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;district-virginia&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-virginia&quot;);
+        
+  </script>
+
+  <style id="style-vermont">.vermont{fill:rgbIntegerRGB(red=200, green=234, blue=251);}</style>
+  <text x="882.9308471679688" y="77.37940216064453" id="text-vermont" style="fill:#000000;font-size:12.0;" inkscape:label="Vermont Country Equivalent Prison Population" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-vermont0" x="882.9308471679688" dy="0">Qatar</tspan></text>
+  <script type="application/ecmascript" id="script-vermont">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;district-vermont&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-vermont&quot;);
+        
+  </script>
+
+  <style id="style-utah">.utah{fill:rgb(69, 8, 91);}</style>
+  <text x="340.6334228515625" y="256.7130126953125" id="text-utah" style="fill:#ffffff;font-size:12.0;" inkscape:label="Utah Country Equivalent Prison Population" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-utah0" x="340.6334228515625" dy="0">Lebanon</tspan></text>
+  <script type="application/ecmascript" id="script-utah">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;district-utah&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-utah&quot;);
+        
+  </script>
+
+  <style id="style-texas">.texas{fill:rgb(253, 231, 36);}</style>
+  <text x="540.0236206054688" y="433.9912109375" id="text-texas" style="fill:#000000;font-size:12.0;" inkscape:label="Texas Country Equivalent Prison Population" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-texas0" x="540.0236206054688" dy="0">South</tspan><tspan sodipodi:role="line" id="tspan-texas1" x="540.0236206054688" dy="9">Africa</tspan></text>
+  <script type="application/ecmascript" id="script-texas">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;district-texas&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-texas&quot;);
+        
+  </script>
+
+  <style id="style-tennessee">.tennessee{fill:rgb(68, 55, 129);}</style>
+  <text x="744.5364379882812" y="328.1961669921875" id="text-tennessee" style="fill:#ffffff;font-size:10.0;" inkscape:label="Tennessee Country Equivalent Prison Population" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-tennessee0" x="744.5364379882812" dy="0">Dominican</tspan><tspan sodipodi:role="line" id="tspan-tennessee1" x="744.5364379882812" dy="9">Republic</tspan></text>
+  <script type="application/ecmascript" id="script-tennessee">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;district-tennessee&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-tennessee&quot;);
+        
+  </script>
+
+  <style id="style-south-dakota">.south-dakota{fill:rgb(68, 1, 84);}</style>
+  <text x="517.3457641601562" y="167.97604370117188" id="text-south-dakota" style="fill:#ffffff;font-size:12.0;" inkscape:label="South Dakota Country Equivalent Prison Population" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-south-dakota0" x="517.3457641601562" dy="0">Eswatini</tspan></text>
+  <script type="application/ecmascript" id="script-south-dakota">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;district-south-dakota&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-south-dakota&quot;);
+        
+  </script>
+
+  <style id="style-south-carolina">.south-carolina{fill:rgb(71, 37, 117);}</style>
+  <text x="843.3272094726562" y="345.96466064453125" id="text-south-carolina" style="fill:#ffffff;font-size:12.0;" inkscape:label="South Carolina Country Equivalent Prison Population" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-south-carolina0" x="843.3272094726562" dy="0">Bolivia</tspan></text>
+  <script type="application/ecmascript" id="script-south-carolina">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;district-south-carolina&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-south-carolina&quot;);
+        
+  </script>
+
+  <style id="style-rhode-island">.rhode-island{fill:rgbIntegerRGB(red=200, green=234, blue=251);}</style>
+  <text x="983.9039916992188" y="159.578369140625" id="text-rhode-island" style="fill:#000000;font-size:12.0;" inkscape:label="Rhode Island Country Equivalent Prison Population" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-rhode-island0" x="983.9039916992188" dy="0">Bahamas</tspan></text>
+  <script type="application/ecmascript" id="script-rhode-island">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;district-rhode-island&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-rhode-island&quot;);
+        
+  </script>
+
+  <style id="style-pennsylvania">.pennsylvania{fill:rgb(54, 91, 140);}</style>
+  <text x="856.097412109375" y="189.2136993408203" id="text-pennsylvania" style="fill:#ffffff;font-size:12.0;" inkscape:label="Pennsylvania Country Equivalent Prison Population" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-pennsylvania0" x="856.097412109375" dy="0">Japan</tspan></text>
+  <script type="application/ecmascript" id="script-pennsylvania">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;district-pennsylvania&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-pennsylvania&quot;);
+        
+  </script>
+
+  <style id="style-oregon">.oregon{fill:rgb(72, 29, 111);}</style>
+  <text x="221.30357360839844" y="139.91429138183594" id="text-oregon" style="fill:#ffffff;font-size:12.0;" inkscape:label="Oregon Country Equivalent Prison Population" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-oregon0" x="221.30357360839844" dy="0">Paraguay</tspan></text>
+  <script type="application/ecmascript" id="script-oregon">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;district-oregon&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-oregon&quot;);
+        
+  </script>
+
+  <style id="style-oklahoma">.oklahoma{fill:rgb(70, 49, 126);}</style>
+  <text x="566.3180541992188" y="347.5689697265625" id="text-oklahoma" style="fill:#ffffff;font-size:12.0;" inkscape:label="Oklahoma Country Equivalent Prison Population" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-oklahoma0" x="566.3180541992188" dy="0">Guatemala</tspan></text>
+  <script type="application/ecmascript" id="script-oklahoma">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;district-oklahoma&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-oklahoma&quot;);
+        
+  </script>
+
+  <style id="style-ohio">.ohio{fill:rgb(49, 101, 141);}</style>
+  <text x="784.0713500976562" y="224.19021606445312" id="text-ohio" style="fill:#ffffff;font-size:12.0;" inkscape:label="Ohio Country Equivalent Prison Population" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-ohio0" x="784.0713500976562" dy="0">Ukraine</tspan></text>
+  <script type="application/ecmascript" id="script-ohio">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;district-ohio&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-ohio&quot;);
+        
+  </script>
+
+  <style id="style-north-dakota">.north-dakota{fill:rgb(68, 1, 84);}</style>
+  <text x="514.116455078125" y="111.24363708496094" id="text-north-dakota" style="fill:#ffffff;font-size:12.0;" inkscape:label="North Dakota Country Equivalent Prison Population" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-north-dakota0" x="514.116455078125" dy="0">Maldives</tspan></text>
+  <script type="application/ecmascript" id="script-north-dakota">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;district-north-dakota&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-north-dakota&quot;);
+        
+  </script>
+
+  <style id="style-north-carolina">.north-carolina{fill:rgb(64, 68, 135);}</style>
+  <text x="866.1985473632812" y="301.4194641113281" id="text-north-carolina" style="fill:#ffffff;font-size:12.0;" inkscape:label="North Carolina Country Equivalent Prison Population" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-north-carolina0" x="866.1985473632812" dy="0">Kazakhstan</tspan></text>
+  <script type="application/ecmascript" id="script-north-carolina">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;district-north-carolina&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-north-carolina&quot;);
+        
+  </script>
+
+  <style id="style-new-york">.new-york{fill:rgb(57, 85, 139);}</style>
+  <text x="880.1045532226562" y="154.17367553710938" id="text-new-york" style="fill:#ffffff;font-size:12.0;" inkscape:label="New York Country Equivalent Prison Population" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-new-york0" x="880.1045532226562" dy="0">Australia</tspan></text>
+  <script type="application/ecmascript" id="script-new-york">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;district-new-york&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-new-york&quot;);
+        
+  </script>
+
+  <style id="style-new-mexico">.new-mexico{fill:rgb(69, 8, 91);}</style>
+  <text x="418.8934326171875" y="371.0360412597656" id="text-new-mexico" style="fill:#ffffff;font-size:12.0;" inkscape:label="New Mexico Country Equivalent Prison Population" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-new-mexico0" x="418.8934326171875" dy="0">Lebanon</tspan></text>
+  <script type="application/ecmascript" id="script-new-mexico">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;district-new-mexico&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-new-mexico&quot;);
+        
+  </script>
+
+  <style id="style-new-jersey">.new-jersey{fill:rgbIntegerRGB(red=200, green=234, blue=251);}</style>
+  <text x="960.7341918945312" y="208.5584716796875" id="text-new-jersey" style="fill:#000000;font-size:10.0;" inkscape:label="New Jersey Country Equivalent Prison Population" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-new-jersey0" x="960.7341918945312" dy="0">Mozambique</tspan></text>
+  <script type="application/ecmascript" id="script-new-jersey">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;district-new-jersey&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-new-jersey&quot;);
+        
+  </script>
+
+  <style id="style-new-hampshire">.new-hampshire{fill:rgbIntegerRGB(red=200, green=234, blue=251);}</style>
+  <text x="997.3741455078125" y="106.20854187011719" id="text-new-hampshire" style="fill:#000000;font-size:12.0;" inkscape:label="New Hampshire Country Equivalent Prison Population" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-new-hampshire0" x="997.3741455078125" dy="0">Mauritius</tspan></text>
+  <script type="application/ecmascript" id="script-new-hampshire">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;district-new-hampshire&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-new-hampshire&quot;);
+        
+  </script>
+
+  <style id="style-nevada">.nevada{fill:rgb(71, 22, 105);}</style>
+  <text x="257.3663635253906" y="239.53660583496094" id="text-nevada" style="fill:#ffffff;font-size:12.0;" inkscape:label="Nevada Country Equivalent Prison Population" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-nevada0" x="257.3663635253906" dy="0">Ghana</tspan></text>
+  <script type="application/ecmascript" id="script-nevada">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;district-nevada&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-nevada&quot;);
+        
+  </script>
+
+  <style id="style-nebraska">.nebraska{fill:rgb(69, 8, 91);}</style>
+  <text x="524.7603759765625" y="231.70228576660156" id="text-nebraska" style="fill:#ffffff;font-size:12.0;" inkscape:label="Nebraska Country Equivalent Prison Population" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-nebraska0" x="524.7603759765625" dy="0">Mongolia</tspan></text>
+  <script type="application/ecmascript" id="script-nebraska">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;district-nebraska&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-nebraska&quot;);
+        
+  </script>
+
+  <style id="style-montana">.montana{fill:rgb(69, 8, 91);}</style>
+  <text x="391.8310546875" y="106.26010131835938" id="text-montana" style="fill:#ffffff;font-size:12.0;" inkscape:label="Montana Country Equivalent Prison Population" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-montana0" x="391.8310546875" dy="0">Gabon</tspan></text>
+  <script type="application/ecmascript" id="script-montana">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;district-montana&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-montana&quot;);
+        
+  </script>
+
+  <style id="style-missouri">.missouri{fill:rgb(68, 55, 129);}</style>
+  <text x="639.5698852539062" y="289.0379943847656" id="text-missouri" style="fill:#ffffff;font-size:12.0;" inkscape:label="Missouri Country Equivalent Prison Population" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-missouri0" x="639.5698852539062" dy="0">Angola</tspan></text>
+  <script type="application/ecmascript" id="script-missouri">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;district-missouri&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-missouri&quot;);
+        
+  </script>
+
+  <style id="style-mississippi">.mississippi{fill:rgb(71, 37, 117);}</style>
+  <text x="697.7506103515625" y="422.3154296875" id="text-mississippi" style="fill:#ffffff;font-size:12.0;" inkscape:label="Mississippi Country Equivalent Prison Population" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-mississippi0" x="697.7506103515625" dy="0">Panama</tspan></text>
+  <script type="application/ecmascript" id="script-mississippi">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;district-mississippi&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-mississippi&quot;);
+        
+  </script>
+
+  <style id="style-minnesota">.minnesota{fill:rgb(71, 15, 98);}</style>
+  <text x="599.1307373046875" y="112.43512725830078" id="text-minnesota" style="fill:#ffffff;font-size:12.0;" inkscape:label="Minnesota Country Equivalent Prison Population" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-minnesota0" x="599.1307373046875" dy="0">UAE</tspan></text>
+  <script type="application/ecmascript" id="script-minnesota">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;district-minnesota&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-minnesota&quot;);
+        
+  </script>
+
+  <style id="style-michigan">.michigan{fill:rgb(59, 80, 138);}</style>
+  <text x="745.2725830078125" y="174.73953247070312" id="text-michigan" style="fill:#ffffff;font-size:12.0;" inkscape:label="Michigan Country Equivalent Prison Population" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-michigan0" x="745.2725830078125" dy="0">Venezuela</tspan></text>
+  <script type="application/ecmascript" id="script-michigan">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;district-michigan&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-michigan&quot;);
+        
+  </script>
+
+  <style id="style-massachusetts">.massachusetts{fill:rgb(71, 15, 98);}</style>
+  <text x="937.329833984375" y="140.91110229492188" id="text-massachusetts" style="fill:#ffffff;font-size:12.0;" inkscape:label="Massachusetts Country Equivalent Prison Population" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-massachusetts0" x="937.329833984375" dy="0">Namibia</tspan></text>
+  <script type="application/ecmascript" id="script-massachusetts">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;district-massachusetts&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-massachusetts&quot;);
+        
+  </script>
+
+  <style id="style-maryland">.maryland{fill:rgbIntegerRGB(red=200, green=234, blue=251);}</style>
+  <text x="985.551025390625" y="274.39794921875" id="text-maryland" style="fill:#000000;font-size:12.0;" inkscape:label="Maryland Country Equivalent Prison Population" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-maryland0" x="985.551025390625" dy="0">Mozambique</tspan></text>
+  <script type="application/ecmascript" id="script-maryland">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;district-maryland&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-maryland&quot;);
+        
+  </script>
+
+  <style id="style-maine">.maine{fill:rgb(68, 1, 84);}</style>
+  <text x="953.9833374023438" y="67.32627868652344" id="text-maine" style="fill:#ffffff;font-size:12.0;" inkscape:label="Maine Country Equivalent Prison Population" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-maine0" x="953.9833374023438" dy="0">Oman</tspan></text>
+  <script type="application/ecmascript" id="script-maine">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;district-maine&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-maine&quot;);
+        
+  </script>
+
+  <style id="style-louisiana">.louisiana{fill:rgb(66, 62, 133);}</style>
+  <text x="649.512939453125" y="410.2768859863281" id="text-louisiana" style="fill:#ffffff;font-size:12.0;" inkscape:label="Louisiana Country Equivalent Prison Population" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-louisiana0" x="649.512939453125" dy="0">Tanzania</tspan></text>
+  <script type="application/ecmascript" id="script-louisiana">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;district-louisiana&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-louisiana&quot;);
+        
+  </script>
+
+  <style id="style-kentucky">.kentucky{fill:rgb(70, 49, 126);}</style>
+  <text x="760.8612670898438" y="284.5969543457031" id="text-kentucky" style="fill:#ffffff;font-size:12.0;" inkscape:label="Kentucky Country Equivalent Prison Population" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-kentucky0" x="760.8612670898438" dy="0">Romania</tspan></text>
+  <script type="application/ecmascript" id="script-kentucky">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;district-kentucky&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-kentucky&quot;);
+        
+  </script>
+
+  <style id="style-kansas">.kansas{fill:rgb(71, 15, 98);}</style>
+  <text x="541.6953125" y="289.33709716796875" id="text-kansas" style="fill:#ffffff;font-size:12.0;" inkscape:label="Kansas Country Equivalent Prison Population" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-kansas0" x="541.6953125" dy="0">UAE</tspan></text>
+  <script type="application/ecmascript" id="script-kansas">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;district-kansas&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-kansas&quot;);
+        
+  </script>
+
+  <style id="style-iowa">.iowa{fill:rgb(71, 15, 98);}</style>
+  <text x="620.4613647460938" y="213.45132446289062" id="text-iowa" style="fill:#ffffff;font-size:12.0;" inkscape:label="Iowa Country Equivalent Prison Population" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-iowa0" x="620.4613647460938" dy="0">Niger</tspan></text>
+  <script type="application/ecmascript" id="script-iowa">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;district-iowa&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-iowa&quot;);
+        
+  </script>
+
+  <style id="style-indiana">.indiana{fill:rgb(68, 55, 129);}</style>
+  <text x="736.7445068359375" y="262.5254211425781" id="text-indiana" style="fill:#ffffff;font-size:10.0;" inkscape:label="Indiana Country Equivalent Prison Population" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-indiana0" x="736.7445068359375" dy="0">Dominican</tspan><tspan sodipodi:role="line" id="tspan-indiana1" x="736.7445068359375" dy="9">Republic</tspan></text>
+  <script type="application/ecmascript" id="script-indiana">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;district-indiana&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-indiana&quot;);
+        
+  </script>
+
+  <style id="style-illinois">.illinois{fill:rgb(59, 80, 138);}</style>
+  <text x="687.9576416015625" y="247.8595733642578" id="text-illinois" style="fill:#ffffff;font-size:12.0;" inkscape:label="Illinois Country Equivalent Prison Population" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-illinois0" x="687.9576416015625" dy="0">Canada</tspan></text>
+  <script type="application/ecmascript" id="script-illinois">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;district-illinois&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-illinois&quot;);
+        
+  </script>
+
+  <style id="style-idaho">.idaho{fill:rgb(71, 15, 98);}</style>
+  <text x="314.79205322265625" y="167.07046508789062" id="text-idaho" style="fill:#ffffff;font-size:12.0;" inkscape:label="Idaho Country Equivalent Prison Population" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-idaho0" x="314.79205322265625" dy="0">Chad</tspan></text>
+  <script type="application/ecmascript" id="script-idaho">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;district-idaho&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-idaho&quot;);
+        
+  </script>
+
+  <style id="style-hawaii">.hawaii{fill:rgbIntegerRGB(red=200, green=234, blue=251);}</style>
+  <text x="401.6885986328125" y="566.3689575195312" id="text-hawaii" style="fill:#000000;font-size:12.0;" inkscape:label="Hawaii Country Equivalent Prison Population" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-hawaii0" x="401.6885986328125" dy="0">Norway</tspan></text>
+  <script type="application/ecmascript" id="script-hawaii">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;district-hawaii&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-hawaii&quot;);
+        
+  </script>
+
+  <style id="style-georgia">.georgia{fill:rgb(47, 106, 141);}</style>
+  <text x="812.7996826171875" y="386.42352294921875" id="text-georgia" style="fill:#ffffff;font-size:12.0;" inkscape:label="Georgia Country Equivalent Prison Population" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-georgia0" x="812.7996826171875" dy="0">Italy</tspan></text>
+  <script type="application/ecmascript" id="script-georgia">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;district-georgia&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-georgia&quot;);
+        
+  </script>
+
+  <style id="style-florida">.florida{fill:rgb(36, 170, 130);}</style>
+  <text x="829.0050659179688" y="431.70281982421875" id="text-florida" style="fill:#ffffff;font-size:12.0;" inkscape:label="Florida Country Equivalent Prison Population" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-florida0" x="829.0050659179688" dy="0">Colombia</tspan></text>
+  <script type="application/ecmascript" id="script-florida">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;district-florida&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-florida&quot;);
+        
+  </script>
+
+  <style id="style-district-of-columbia">.district-of-columbia{fill:rgbIntegerRGB(red=200, green=234, blue=251);}</style>
+  <text x="943.6771850585938" y="291.0225524902344" id="text-district-of-columbia" style="fill:#000000;font-size:12.0;" inkscape:label="District of Columbia Country Equivalent Prison Population" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-district-of-columbia0" x="943.6771850585938" dy="0">District of</tspan><tspan sodipodi:role="line" id="tspan-district-of-columbia1" x="943.6771850585938" dy="9">Columbia</tspan></text>
+  <script type="application/ecmascript" id="script-district-of-columbia">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;district-of-columbia&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-district-of-columbia&quot;);
+        
+  </script>
+
+  <style id="style-delaware">.delaware{fill:rgbIntegerRGB(red=200, green=234, blue=251);}</style>
+  <text x="992.0967407226562" y="243.09442138671875" id="text-delaware" style="fill:#000000;font-size:12.0;" inkscape:label="Delaware Country Equivalent Prison Population" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-delaware0" x="992.0967407226562" dy="0">Togo</tspan></text>
+  <script type="application/ecmascript" id="script-delaware">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;district-delaware&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-delaware&quot;);
+        
+  </script>
+
+  <style id="style-connecticut">.connecticut{fill:rgbIntegerRGB(red=200, green=234, blue=251);}</style>
+  <text x="972.2053833007812" y="185.3159942626953" id="text-connecticut" style="fill:#000000;font-size:10.0;" inkscape:label="Connecticut Country Equivalent Prison Population" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-connecticut0" x="972.2053833007812" dy="0">Chad</tspan></text>
+  <script type="application/ecmascript" id="script-connecticut">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;district-connecticut&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-connecticut&quot;);
+        
+  </script>
+
+  <style id="style-colorado">.colorado{fill:rgb(71, 43, 122);}</style>
+  <text x="432.7596130371094" y="280.0089111328125" id="text-colorado" style="fill:#ffffff;font-size:12.0;" inkscape:label="Colorado Country Equivalent Prison Population" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-colorado0" x="432.7596130371094" dy="0">Israel</tspan></text>
+  <script type="application/ecmascript" id="script-colorado">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;district-colorado&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-colorado&quot;);
+        
+  </script>
+
+  <style id="style-california">.california{fill:rgb(119, 208, 82);}</style>
+  <text x="204.72113037109375" y="287.0751647949219" id="text-california" style="fill:#000000;font-size:12.0;" inkscape:label="California Country Equivalent Prison Population" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-california0" x="204.72113037109375" dy="0">Egypt</tspan></text>
+  <script type="application/ecmascript" id="script-california">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;district-california&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-california&quot;);
+        
+  </script>
+
+  <style id="style-arkansas">.arkansas{fill:rgb(71, 37, 117);}</style>
+  <text x="649.2536010742188" y="342.4818115234375" id="text-arkansas" style="fill:#ffffff;font-size:12.0;" inkscape:label="Arkansas Country Equivalent Prison Population" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-arkansas0" x="649.2536010742188" dy="0">Jordan</tspan></text>
+  <script type="application/ecmascript" id="script-arkansas">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;district-arkansas&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-arkansas&quot;);
+        
+  </script>
+
+  <style id="style-arizona">.arizona{fill:rgb(59, 80, 138);}</style>
+  <text x="326.0997619628906" y="353.33734130859375" id="text-arizona" style="fill:#ffffff;font-size:12.0;" inkscape:label="Arizona Country Equivalent Prison Population" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-arizona0" x="326.0997619628906" dy="0">Chile</tspan></text>
+  <script type="application/ecmascript" id="script-arizona">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;district-arizona&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-arizona&quot;);
+        
+  </script>
+
+  <style id="style-alaska">.alaska{fill:rgb(68, 1, 84);}</style>
+  <text x="220.50682067871094" y="492.661376953125" id="text-alaska" style="fill:#ffffff;font-size:12.0;" inkscape:label="Alaska Country Equivalent Prison Population" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-alaska0" x="220.50682067871094" dy="0">Maldives</tspan></text>
+  <script type="application/ecmascript" id="script-alaska">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;district-alaska&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-alaska&quot;);
+        
+  </script>
+
+  <style id="style-alabama">.alabama{fill:rgb(71, 43, 122);}</style>
+  <text x="748.1443481445312" y="392.44476318359375" id="text-alabama" style="fill:#ffffff;font-size:12.0;" inkscape:label="Alabama Country Equivalent Prison Population" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-alabama0" x="748.1443481445312" dy="0">DRC</tspan></text>
+  <script type="application/ecmascript" id="script-alabama">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;district-alabama&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-alabama&quot;);
+        
+  </script>
