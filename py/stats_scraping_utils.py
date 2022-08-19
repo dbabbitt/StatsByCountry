@@ -74,6 +74,7 @@ class StatsScrapingUtilities(object):
             'DR Congo': 'DRC',
             'Democratic Republic of Congo': 'DRC',
             'Democratic Republic of the Congo': 'DRC',
+            'Egypt, Arab Republic': 'Egypt',
             'Gambia, The': 'Gambia',
             'Guinea Bissau': 'Guinea-Bissau',
             'Hong Kong SAR, China': 'Hong Kong',
@@ -382,8 +383,10 @@ class StatsScrapingUtilities(object):
     
     
     
-    def get_country_state_equivalents(self, countries_df, country_name_column, country_value_column,
-                                      states_df, state_name_column, state_value_column, st_col_explanation=None,
+    def get_country_state_equivalents(self,
+                                      countries_df, country_name_column, country_value_column,
+                                      states_df, state_name_column, state_value_column,
+                                      cn_col_explanation=None, st_col_explanation=None,
                                       countries_set=None, states_set=None, verbose=False):
         if countries_set is None:
             countries_set = set([cn for cn in countries_df[country_name_column] if str(cn) != 'nan'])
@@ -408,20 +411,28 @@ class StatsScrapingUtilities(object):
         # Get country-to-state equivalence dictionary
         rows_list = []
         if verbose:
-            country_col_explanation = country_value_column.replace('_', ' ')
+            if cn_col_explanation is None:
+                cn_col_explanation = country_value_column.replace('_', ' ')
+            print()
+            explanations_list = []
         for country_tuple in country_tuples_list:
             candidate_tuple = sorted([s for s in state_tuples_list], key=lambda x: abs(x[1] - country_tuple[1]))[0]
             state_name = candidate_tuple[0]
             country_name = country_tuple[0]
             if verbose:
-                print(f'{country_name} ({country_tuple[1]:.2f}) is close to the {country_col_explanation} of {state_name} ({candidate_tuple[1]:.2f})')
+                explanations_list.append(f'{country_name} ({country_tuple[1]:.2f}) is close to the {cn_col_explanation} of {state_name} ({candidate_tuple[1]:.2f})')
             row_dict = {}
             row_dict['country_name'] = country_name
             row_dict['state_name'] = state_name
             rows_list.append(row_dict)
-        country_to_state_equivalent_dict = pd.DataFrame(rows_list).set_index('country_name').state_name.to_dict()
+        c2s_equivalent_dict = pd.DataFrame(rows_list).set_index('country_name').state_name.to_dict()
+        if verbose:
+            for explanation in sorted(explanations_list):
+                print(explanation.replace('.00)', ')'))
+
         
         # Get the state-to-country equivalence dictionary
+        rows_list = []
         if verbose:
             if st_col_explanation is None:
                 st_col_explanation = state_value_column.replace('_', ' ')
@@ -437,12 +448,12 @@ class StatsScrapingUtilities(object):
             row_dict['state_name'] = state_name
             row_dict['country_name'] = country_name
             rows_list.append(row_dict)
-        state_to_country_equivalent_dict = pd.DataFrame(rows_list).set_index('state_name').country_name.to_dict()
+        s2c_equivalent_dict = pd.DataFrame(rows_list).set_index('state_name').country_name.to_dict()
         if verbose:
             for explanation in sorted(explanations_list):
                 print(explanation.replace('.00)', ')'))
         
-        return state_to_country_equivalent_dict, country_to_state_equivalent_dict
+        return s2c_equivalent_dict, c2s_equivalent_dict
     
     
     
@@ -506,11 +517,11 @@ class StatsScrapingUtilities(object):
                                   equivalence_column_name, verbose=False):
         
         # Create the equivalence dictionaries
-        s2c_dict, c2s_dict = self.get_country_state_equivalents(countries_df, 'country_name',
-                                                                countries_target_column_name,
-                                                                us_states_df, 'state_name',
-                                                                st_col_name, st_col_explanation,
-                                                                verbose=verbose)
+        s2c_dict, c2s_dict = self.get_country_state_equivalents(
+            countries_df, 'country_name', countries_target_column_name,
+            us_states_df, 'state_name', st_col_name,
+            cn_col_explanation=None, st_col_explanation=st_col_explanation,
+            countries_set=None, states_set=None, verbose=verbose)
         
         # Add the country equivalence column to the US stats dataframe
         self.us_stats_df[equivalence_column_name] = self.us_stats_df.index.map(lambda x: s2c_dict.get(x, x))
