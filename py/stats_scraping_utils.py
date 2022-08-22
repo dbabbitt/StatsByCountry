@@ -147,6 +147,10 @@ class StatsScrapingUtilities(object):
                                     'Portugal', 'Slovakia', 'Slovenia', 'Spain', 'Sweden', 'Switzerland',
                                     'Turkiye', 'UK', 'USA']
         
+        # These countries cause redditors to make hurtful comments *sniff*
+        self.derisable_countries_list = ['Falkland Islands (Malvinas)', 'Guernsey',
+                                         'Hong Kong', 'Jersey', 'Macau', 'Puerto Rico']
+        
         # US States information
         self.us_states_list = ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado',
                                'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia',
