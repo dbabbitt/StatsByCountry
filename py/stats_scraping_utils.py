@@ -139,6 +139,13 @@ class StatsScrapingUtilities(object):
             'Wallis and Futuna': 'Wallis & Futuna',
             'Yemen, Rep.': 'Yemen',
         }
+        self.oecd_countries_list = ['Austria', 'Australia', 'Belgium', 'Canada', 'Chile', 'Colombia',
+                                    'Costa Rica', 'Czechia', 'Denmark', 'Estonia', 'Finland', 'France',
+                                    'Germany', 'Greece', 'Hungary', 'Iceland', 'Ireland', 'Israel',
+                                    'Italy', 'Japan', 'Korea', 'Latvia', 'Lithuania', 'Luxembourg',
+                                    'Mexico', 'Netherlands', 'New Zealand', 'Norway', 'Poland',
+                                    'Portugal', 'Slovakia', 'Slovenia', 'Spain', 'Sweden', 'Switzerland',
+                                    'Turkiye', 'UK', 'USA']
         
         # US States information
         self.us_states_list = ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado',
