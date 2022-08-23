@@ -1,0 +1,2533 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" sodipodi:docname="US_log_pwrindx_score_wikipedia_title.svg" width="1030.0" xmlns:svg="http://www.w3.org/2000/svg" inkscape:version="1.1.2 (b8e25be833, 2022-02-05)" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1030.0 589.0" height="589.0" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" version="1.0" id="svg">
+  <sodipodi:namedview bordercolor="#666666" borderopacity="1.0" id="named-view" inkscape:current-layer="svg" inkscape:cx="519.35606" inkscape:cy="287.55662" inkscape:pagecheckerboard="0" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:window-height="991" inkscape:window-maximized="1" inkscape:window-width="1920" inkscape:window-x="-9" inkscape:window-y="-9" inkscape:zoom="1.2776908" pagecolor="#ffffff" showgrid="false" />
+  <defs id="defs-main">
+        <style type="text/css" id="style-main">
+            path {fill-rule: evenodd;};
+            *{stroke-linecap:butt;stroke-linejoin:round;}
+        </style>
+        <path
+            d="M 0,0 H 3.5"
+            id="m-ticks"
+            style="stroke:#000000;stroke-width:0.80000001;stroke-linecap:butt;stroke-linejoin:round"
+            inkscape:connector-curvature="0" />
+  </defs>
+  <metadata id="metadata-main">
+  </metadata>
+  <rect
+     height="589.0"
+     id="ocean-background"
+     style="display:inline;fill:#c8eafb;"
+     width="1030.0"
+     x="0"
+     y="0"
+     inkscape:label="Ocean Background" />
+<path id="district-zimbabwe" d="nan" data-id="ZW" data-name="Zimbabwe" style="stroke-width:1.0;fill:#218c8d;" inkscape:connector-curvature="0" />
+<path id="district-zambia" d="nan" data-id="ZM" data-name="Zambia" style="stroke-width:1.0;fill:#218c8d;" inkscape:connector-curvature="0" />
+<path id="district-yemen" d="nan" data-id="YE" data-name="Yemen" style="stroke-width:1.0;fill:#1e998a;" inkscape:connector-curvature="0" />
+<path id="district-western-sahara" d="nan" data-id="EH" data-name="Western Sahara" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-wallis-and-futuna" d="nan" data-id="None" data-name="Wallis and Futuna" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-virgin-islands-u-s" d="nan" data-id="None" data-name="Virgin Islands (U.S.)" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-virgin-islands-british" d="nan" data-id="None" data-name="Virgin Islands (British)" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-viet-nam" d="nan" data-id="None" data-name="Viet Nam" style="stroke-width:1.0;fill:#44be70;" inkscape:connector-curvature="0" />
+<path id="district-venezuela-bolivarian-republic-of" d="nan" data-id="None" data-name="Venezuela (Bolivarian Republic of)" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-vanuatu" d="nan" data-id="VU" data-name="Vanuatu" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-uzbekistan" d="nan" data-id="UZ" data-name="Uzbekistan" style="stroke-width:1.0;fill:#26ac81;" inkscape:connector-curvature="0" />
+<path id="district-uruguay" d="nan" data-id="UY" data-name="Uruguay" style="stroke-width:1.0;fill:#23898d;" inkscape:connector-curvature="0" />
+<path id="district-united-states-of-america" d="nan" data-id="None" data-name="United States of America" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-united-kingdom-of-great-britain-and-northern-ireland" d="nan" data-id="None" data-name="United Kingdom of Great Britain and Northern Ireland" style="stroke-width:1.0;fill:#a5da35;" inkscape:connector-curvature="0" />
+<path id="district-united-arab-emirates" d="nan" data-id="None" data-name="United Arab Emirates" style="stroke-width:1.0;fill:#35b778;" inkscape:connector-curvature="0" />
+<path id="district-ukraine" d="nan" data-id="UA" data-name="Ukraine" style="stroke-width:1.0;fill:#5bc862;" inkscape:connector-curvature="0" />
+<path id="district-uganda" d="nan" data-id="UG" data-name="Uganda" style="stroke-width:1.0;fill:#218c8d;" inkscape:connector-curvature="0" />
+<path id="district-tuvalu" d="nan" data-id="TV" data-name="Tuvalu" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-turks-and-caicos-islands" d="nan" data-id="None" data-name="Turks and Caicos Islands" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-turkmenistan" d="nan" data-id="TM" data-name="Turkmenistan" style="stroke-width:1.0;fill:#1f958b;" inkscape:connector-curvature="0" />
+<path id="district-turkey" d="nan" data-id="None" data-name="Turkey" style="stroke-width:1.0;fill:#83d34b;" inkscape:connector-curvature="0" />
+<path id="district-tunisia" d="nan" data-id="TN" data-name="Tunisia" style="stroke-width:1.0;fill:#1e9c89;" inkscape:connector-curvature="0" />
+<path id="district-trinidad-and-tobago" d="nan" data-id="None" data-name="Trinidad and Tobago" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-tonga" d="nan" data-id="TO" data-name="Tonga" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-tokelau" d="nan" data-id="TK" data-name="Tokelau" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-togo" d="nan" data-id="TG" data-name="Togo" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-timor-leste" d="nan" data-id="TL" data-name="Timor-Leste" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-thailand" d="nan" data-id="TH" data-name="Thailand" style="stroke-width:1.0;fill:#44be70;" inkscape:connector-curvature="0" />
+<path id="district-tanzania-united-republic-of" d="nan" data-id="None" data-name="Tanzania, United Republic of" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-tajikistan" d="nan" data-id="TJ" data-name="Tajikistan" style="stroke-width:1.0;fill:#24858d;" inkscape:connector-curvature="0" />
+<path id="district-taiwan-province-of-china" d="nan" data-id="None" data-name="Taiwan, Province of China" style="stroke-width:1.0;fill:#5bc862;" inkscape:connector-curvature="0" />
+<path id="district-syrian-arab-republic" d="nan" data-id="None" data-name="Syrian Arab Republic" style="stroke-width:1.0;fill:#2cb17d;" inkscape:connector-curvature="0" />
+<path id="district-switzerland" d="nan" data-id="CH" data-name="Switzerland" style="stroke-width:1.0;fill:#3dbb74;" inkscape:connector-curvature="0" />
+<path id="district-sweden" d="nan" data-id="SE" data-name="Sweden" style="stroke-width:1.0;fill:#47c06e;" inkscape:connector-curvature="0" />
+<path id="district-svalbard-and-jan-mayen" d="nan" data-id="None" data-name="Svalbard and Jan Mayen" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-suriname" d="nan" data-id="SR" data-name="Suriname" style="stroke-width:1.0;fill:#31648d;" inkscape:connector-curvature="0" />
+<path id="district-sudan" d="nan" data-id="SD" data-name="Sudan" style="stroke-width:1.0;fill:#1e9c89;" inkscape:connector-curvature="0" />
+<path id="district-sri-lanka" d="nan" data-id="LK" data-name="Sri Lanka" style="stroke-width:1.0;fill:#1e998a;" inkscape:connector-curvature="0" />
+<path id="district-spain" d="nan" data-id="ES" data-name="Spain" style="stroke-width:1.0;fill:#62ca5f;" inkscape:connector-curvature="0" />
+<path id="district-south-sudan" d="nan" data-id="SS" data-name="South Sudan" style="stroke-width:1.0;fill:#23898d;" inkscape:connector-curvature="0" />
+<path id="district-south-georgia-and-the-south-sandwich-islands" d="nan" data-id="None" data-name="South Georgia and the South Sandwich Islands" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-south-africa" d="nan" data-id="ZA" data-name="South Africa" style="stroke-width:1.0;fill:#47c06e;" inkscape:connector-curvature="0" />
+<path id="district-somalia" d="nan" data-id="SO" data-name="Somalia" style="stroke-width:1.0;fill:#3a528b;" inkscape:connector-curvature="0" />
+<path id="district-solomon-islands" d="nan" data-id="SB" data-name="Solomon Islands" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-slovenia" d="nan" data-id="SI" data-name="Slovenia" style="stroke-width:1.0;fill:#208f8c;" inkscape:connector-curvature="0" />
+<path id="district-slovakia" d="nan" data-id="SK" data-name="Slovakia" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-sint-maarten-dutch-part" d="nan" data-id="None" data-name="Sint Maarten (Dutch part)" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-singapore" d="nan" data-id="SG" data-name="Singapore" style="stroke-width:1.0;fill:#32b57a;" inkscape:connector-curvature="0" />
+<path id="district-sierra-leone" d="nan" data-id="SL" data-name="Sierra Leone" style="stroke-width:1.0;fill:#31648d;" inkscape:connector-curvature="0" />
+<path id="district-seychelles" d="nan" data-id="SC" data-name="Seychelles" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-serbia" d="nan" data-id="RS" data-name="Serbia" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-senegal" d="nan" data-id="SN" data-name="Senegal" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-saudi-arabia" d="nan" data-id="SA" data-name="Saudi Arabia" style="stroke-width:1.0;fill:#62ca5f;" inkscape:connector-curvature="0" />
+<path id="district-sao-tome-and-principe" d="nan" data-id="None" data-name="Sao Tome and Principe" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-san-marino" d="nan" data-id="SM" data-name="San Marino" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-samoa" d="nan" data-id="WS" data-name="Samoa" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-saint-vincent-and-the-grenadines" d="nan" data-id="None" data-name="Saint Vincent and the Grenadines" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-saint-pierre-and-miquelon" d="nan" data-id="None" data-name="Saint Pierre and Miquelon" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-saint-martin-french-part" d="nan" data-id="None" data-name="Saint Martin (French part)" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-saint-lucia" d="nan" data-id="None" data-name="Saint Lucia" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-saint-kitts-and-nevis" d="nan" data-id="None" data-name="Saint Kitts and Nevis" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-saint-helena-ascension-and-tristan-da-cunha" d="nan" data-id="None" data-name="Saint Helena, Ascension and Tristan da Cunha" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-saint-barthélemy" d="nan" data-id="None" data-name="Saint Barthélemy" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-réunion" d="nan" data-id="RE" data-name="Réunion" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-rwanda" d="nan" data-id="RW" data-name="Rwanda" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-russian-federation" d="nan" data-id="None" data-name="Russian Federation" style="stroke-width:1.0;fill:#fde724;" inkscape:connector-curvature="0" />
+<path id="district-romania" d="nan" data-id="RO" data-name="Romania" style="stroke-width:1.0;fill:#35b778;" inkscape:connector-curvature="0" />
+<path id="district-qatar" d="nan" data-id="QA" data-name="Qatar" style="stroke-width:1.0;fill:#1e9a89;" inkscape:connector-curvature="0" />
+<path id="district-puerto-rico" d="nan" data-id="PR" data-name="Puerto Rico" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-portugal" d="nan" data-id="PT" data-name="Portugal" style="stroke-width:1.0;fill:#2ab07e;" inkscape:connector-curvature="0" />
+<path id="district-poland" d="nan" data-id="PL" data-name="Poland" style="stroke-width:1.0;fill:#4bc26c;" inkscape:connector-curvature="0" />
+<path id="district-pitcairn" d="nan" data-id="PN" data-name="Pitcairn" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-philippines" d="nan" data-id="PH" data-name="Philippines" style="stroke-width:1.0;fill:#26ac81;" inkscape:connector-curvature="0" />
+<path id="district-peru" d="nan" data-id="PE" data-name="Peru" style="stroke-width:1.0;fill:#2ab07e;" inkscape:connector-curvature="0" />
+<path id="district-paraguay" d="nan" data-id="PY" data-name="Paraguay" style="stroke-width:1.0;fill:#24858d;" inkscape:connector-curvature="0" />
+<path id="district-papua-new-guinea" d="nan" data-id="PG" data-name="Papua New Guinea" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-panama" d="nan" data-id="PA" data-name="Panama" style="stroke-width:1.0;fill:#2c718e;" inkscape:connector-curvature="0" />
+<path id="district-palestine-state-of" d="nan" data-id="None" data-name="Palestine, State of" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-palau" d="nan" data-id="PW" data-name="Palau" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-pakistan" d="nan" data-id="PK" data-name="Pakistan" style="stroke-width:1.0;fill:#9ad83c;" inkscape:connector-curvature="0" />
+<path id="district-oman" d="nan" data-id="OM" data-name="Oman" style="stroke-width:1.0;fill:#1e9a89;" inkscape:connector-curvature="0" />
+<path id="district-norway" d="nan" data-id="NO" data-name="Norway" style="stroke-width:1.0;fill:#39b976;" inkscape:connector-curvature="0" />
+<path id="district-northern-mariana-islands" d="nan" data-id="MP" data-name="Northern Mariana Islands" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-north-macedonia" d="nan" data-id="MK" data-name="North Macedonia" style="stroke-width:1.0;fill:#2e6d8e;" inkscape:connector-curvature="0" />
+<path id="district-norfolk-island" d="nan" data-id="NF" data-name="Norfolk Island" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-niue" d="nan" data-id="NU" data-name="Niue" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-nigeria" d="nan" data-id="NG" data-name="Nigeria" style="stroke-width:1.0;fill:#36b877;" inkscape:connector-curvature="0" />
+<path id="district-niger" d="nan" data-id="NE" data-name="Niger" style="stroke-width:1.0;fill:#23878d;" inkscape:connector-curvature="0" />
+<path id="district-nicaragua" d="nan" data-id="NI" data-name="Nicaragua" style="stroke-width:1.0;fill:#287a8e;" inkscape:connector-curvature="0" />
+<path id="district-new-zealand" d="nan" data-id="NZ" data-name="New Zealand" style="stroke-width:1.0;fill:#1f958b;" inkscape:connector-curvature="0" />
+<path id="district-new-caledonia" d="nan" data-id="NC" data-name="New Caledonia" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-netherlands" d="nan" data-id="NL" data-name="Netherlands" style="stroke-width:1.0;fill:#35b778;" inkscape:connector-curvature="0" />
+<path id="district-nepal" d="nan" data-id="NP" data-name="Nepal" style="stroke-width:1.0;fill:#277d8e;" inkscape:connector-curvature="0" />
+<path id="district-nauru" d="nan" data-id="NR" data-name="Nauru" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-namibia" d="nan" data-id="NA" data-name="Namibia" style="stroke-width:1.0;fill:#2a778e;" inkscape:connector-curvature="0" />
+<path id="district-myanmar" d="nan" data-id="MM" data-name="Myanmar" style="stroke-width:1.0;fill:#35b778;" inkscape:connector-curvature="0" />
+<path id="district-mozambique" d="nan" data-id="MZ" data-name="Mozambique" style="stroke-width:1.0;fill:#267f8e;" inkscape:connector-curvature="0" />
+<path id="district-morocco" d="nan" data-id="MA" data-name="Morocco" style="stroke-width:1.0;fill:#24aa82;" inkscape:connector-curvature="0" />
+<path id="district-montserrat" d="nan" data-id="MS" data-name="Montserrat" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-montenegro" d="nan" data-id="ME" data-name="Montenegro" style="stroke-width:1.0;fill:#2b738e;" inkscape:connector-curvature="0" />
+<path id="district-mongolia" d="nan" data-id="MN" data-name="Mongolia" style="stroke-width:1.0;fill:#23898d;" inkscape:connector-curvature="0" />
+<path id="district-monaco" d="nan" data-id="MC" data-name="Monaco" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-moldova-republic-of" d="nan" data-id="None" data-name="Moldova, Republic of" style="stroke-width:1.0;fill:#23878d;" inkscape:connector-curvature="0" />
+<path id="district-micronesia-federated-states-of" d="nan" data-id="None" data-name="Micronesia (Federated States of)" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-mexico" d="nan" data-id="MX" data-name="Mexico" style="stroke-width:1.0;fill:#32b57a;" inkscape:connector-curvature="0" />
+<path id="district-mayotte" d="nan" data-id="YT" data-name="Mayotte" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-mauritius" d="nan" data-id="MU" data-name="Mauritius" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-mauritania" d="nan" data-id="MR" data-name="Mauritania" style="stroke-width:1.0;fill:#2a778e;" inkscape:connector-curvature="0" />
+<path id="district-martinique" d="nan" data-id="MQ" data-name="Martinique" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-marshall-islands" d="nan" data-id="MH" data-name="Marshall Islands" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-malta" d="nan" data-id="MT" data-name="Malta" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-mali" d="nan" data-id="ML" data-name="Mali" style="stroke-width:1.0;fill:#228a8d;" inkscape:connector-curvature="0" />
+<path id="district-maldives" d="nan" data-id="MV" data-name="Maldives" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-malaysia" d="nan" data-id="MY" data-name="Malaysia" style="stroke-width:1.0;fill:#2cb17d;" inkscape:connector-curvature="0" />
+<path id="district-malawi" d="nan" data-id="MW" data-name="Malawi" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-madagascar" d="nan" data-id="MG" data-name="Madagascar" style="stroke-width:1.0;fill:#2a758e;" inkscape:connector-curvature="0" />
+<path id="district-macao" d="nan" data-id="None" data-name="Macao" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-luxembourg" d="nan" data-id="LU" data-name="Luxembourg" style="stroke-width:1.0;fill:#2a758e;" inkscape:connector-curvature="0" />
+<path id="district-lithuania" d="nan" data-id="LT" data-name="Lithuania" style="stroke-width:1.0;fill:#1f958b;" inkscape:connector-curvature="0" />
+<path id="district-liechtenstein" d="nan" data-id="LI" data-name="Liechtenstein" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-libya" d="nan" data-id="LY" data-name="Libya" style="stroke-width:1.0;fill:#1e9c89;" inkscape:connector-curvature="0" />
+<path id="district-liberia" d="nan" data-id="LR" data-name="Liberia" style="stroke-width:1.0;fill:#345e8d;" inkscape:connector-curvature="0" />
+<path id="district-lesotho" d="nan" data-id="LS" data-name="Lesotho" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-lebanon" d="nan" data-id="LB" data-name="Lebanon" style="stroke-width:1.0;fill:#25838d;" inkscape:connector-curvature="0" />
+<path id="district-latvia" d="nan" data-id="LV" data-name="Latvia" style="stroke-width:1.0;fill:#228a8d;" inkscape:connector-curvature="0" />
+<path id="district-lao-people-s-democratic-republic" d="nan" data-id="None" data-name="Lao People's Democratic Republic" style="stroke-width:1.0;fill:#287b8e;" inkscape:connector-curvature="0" />
+<path id="district-kyrgyzstan" d="nan" data-id="KG" data-name="Kyrgyzstan" style="stroke-width:1.0;fill:#218c8d;" inkscape:connector-curvature="0" />
+<path id="district-kuwait" d="nan" data-id="KW" data-name="Kuwait" style="stroke-width:1.0;fill:#1e9e88;" inkscape:connector-curvature="0" />
+<path id="district-korea-republic-of" d="nan" data-id="None" data-name="Korea, Republic of" style="stroke-width:1.0;fill:#afdc2e;" inkscape:connector-curvature="0" />
+<path id="district-korea-democratic-people-s-republic-of" d="nan" data-id="None" data-name="Korea (Democratic People's Republic of)" style="stroke-width:1.0;fill:#44be70;" inkscape:connector-curvature="0" />
+<path id="district-kiribati" d="nan" data-id="KI" data-name="Kiribati" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-kenya" d="nan" data-id="KE" data-name="Kenya" style="stroke-width:1.0;fill:#1e998a;" inkscape:connector-curvature="0" />
+<path id="district-kazakhstan" d="nan" data-id="KZ" data-name="Kazakhstan" style="stroke-width:1.0;fill:#20a485;" inkscape:connector-curvature="0" />
+<path id="district-jordan" d="nan" data-id="JO" data-name="Jordan" style="stroke-width:1.0;fill:#1e9a89;" inkscape:connector-curvature="0" />
+<path id="district-jersey" d="nan" data-id="JE" data-name="Jersey" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-japan" d="nan" data-id="JP" data-name="Japan" style="stroke-width:1.0;fill:#b5dd2b;" inkscape:connector-curvature="0" />
+<path id="district-jamaica" d="nan" data-id="JM" data-name="Jamaica" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-italy" d="nan" data-id="IT" data-name="Italy" style="stroke-width:1.0;fill:#8dd644;" inkscape:connector-curvature="0" />
+<path id="district-israel" d="nan" data-id="IL" data-name="Israel" style="stroke-width:1.0;fill:#6bcd59;" inkscape:connector-curvature="0" />
+<path id="district-isle-of-man" d="nan" data-id="IM" data-name="Isle of Man" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-ireland" d="nan" data-id="IE" data-name="Ireland" style="stroke-width:1.0;fill:#228a8d;" inkscape:connector-curvature="0" />
+<path id="district-iraq" d="nan" data-id="IQ" data-name="Iraq" style="stroke-width:1.0;fill:#36b877;" inkscape:connector-curvature="0" />
+<path id="district-iran-islamic-republic-of" d="nan" data-id="None" data-name="Iran (Islamic Republic of)" style="stroke-width:1.0;fill:#7ed24e;" inkscape:connector-curvature="0" />
+<path id="district-indonesia" d="nan" data-id="ID" data-name="Indonesia" style="stroke-width:1.0;fill:#79d151;" inkscape:connector-curvature="0" />
+<path id="district-india" d="nan" data-id="IN" data-name="India" style="stroke-width:1.0;fill:#c5df21;" inkscape:connector-curvature="0" />
+<path id="district-iceland" d="nan" data-id="IS" data-name="Iceland" style="stroke-width:1.0;fill:#440154;" inkscape:connector-curvature="0" />
+<path id="district-hungary" d="nan" data-id="HU" data-name="Hungary" style="stroke-width:1.0;fill:#24aa82;" inkscape:connector-curvature="0" />
+<path id="district-hong-kong" d="nan" data-id="HK" data-name="Hong Kong" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-honduras" d="nan" data-id="HN" data-name="Honduras" style="stroke-width:1.0;fill:#23878d;" inkscape:connector-curvature="0" />
+<path id="district-holy-see" d="nan" data-id="VA" data-name="Holy See" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-heard-island-and-mcdonald-islands" d="nan" data-id="None" data-name="Heard Island and McDonald Islands" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-haiti" d="nan" data-id="HT" data-name="Haiti" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-guyana" d="nan" data-id="GY" data-name="Guyana" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-guinea-bissau" d="nan" data-id="GW" data-name="Guinea-Bissau" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-guinea" d="nan" data-id="GN" data-name="Guinea" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-guernsey" d="nan" data-id="GG" data-name="Guernsey" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-guatemala" d="nan" data-id="GT" data-name="Guatemala" style="stroke-width:1.0;fill:#218c8d;" inkscape:connector-curvature="0" />
+<path id="district-guam" d="nan" data-id="GU" data-name="Guam" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-guadeloupe" d="nan" data-id="GP" data-name="Guadeloupe" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-grenada" d="nan" data-id="GD" data-name="Grenada" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-greenland" d="nan" data-id="GL" data-name="Greenland" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-greece" d="nan" data-id="GR" data-name="Greece" style="stroke-width:1.0;fill:#44be70;" inkscape:connector-curvature="0" />
+<path id="district-gibraltar" d="nan" data-id="GI" data-name="Gibraltar" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-ghana" d="nan" data-id="GH" data-name="Ghana" style="stroke-width:1.0;fill:#228a8d;" inkscape:connector-curvature="0" />
+<path id="district-germany" d="nan" data-id="DE" data-name="Germany" style="stroke-width:1.0;fill:#74d054;" inkscape:connector-curvature="0" />
+<path id="district-georgia" d="nan" data-id="GE" data-name="Georgia" style="stroke-width:1.0;fill:#208f8c;" inkscape:connector-curvature="0" />
+<path id="district-gambia" d="nan" data-id="GM" data-name="Gambia" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-gabon" d="nan" data-id="GA" data-name="Gabon" style="stroke-width:1.0;fill:#2b738e;" inkscape:connector-curvature="0" />
+<path id="district-french-southern-territories" d="nan" data-id="TF" data-name="French Southern Territories" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-french-polynesia" d="nan" data-id="PF" data-name="French Polynesia" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-french-guiana" d="nan" data-id="GF" data-name="French Guiana" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-france" d="nan" data-id="FR" data-name="France" style="stroke-width:1.0;fill:#aadb32;" inkscape:connector-curvature="0" />
+<path id="district-finland" d="nan" data-id="FI" data-name="Finland" style="stroke-width:1.0;fill:#23a883;" inkscape:connector-curvature="0" />
+<path id="district-fiji" d="nan" data-id="FJ" data-name="Fiji" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-faroe-islands" d="nan" data-id="FO" data-name="Faroe Islands" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-falkland-islands-malvinas" d="nan" data-id="FK" data-name="Falkland Islands (Malvinas)" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-ethiopia" d="nan" data-id="ET" data-name="Ethiopia" style="stroke-width:1.0;fill:#20a485;" inkscape:connector-curvature="0" />
+<path id="district-eswatini" d="nan" data-id="SZ" data-name="Eswatini" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-estonia" d="nan" data-id="EE" data-name="Estonia" style="stroke-width:1.0;fill:#23878d;" inkscape:connector-curvature="0" />
+<path id="district-eritrea" d="nan" data-id="ER" data-name="Eritrea" style="stroke-width:1.0;fill:#2a778e;" inkscape:connector-curvature="0" />
+<path id="district-equatorial-guinea" d="nan" data-id="GQ" data-name="Equatorial Guinea" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-el-salvador" d="nan" data-id="SV" data-name="El Salvador" style="stroke-width:1.0;fill:#2a778e;" inkscape:connector-curvature="0" />
+<path id="district-egypt" d="nan" data-id="EG" data-name="Egypt" style="stroke-width:1.0;fill:#88d547;" inkscape:connector-curvature="0" />
+<path id="district-ecuador" d="nan" data-id="EC" data-name="Ecuador" style="stroke-width:1.0;fill:#1fa286;" inkscape:connector-curvature="0" />
+<path id="district-dominican-republic" d="nan" data-id="DO" data-name="Dominican Republic" style="stroke-width:1.0;fill:#287b8e;" inkscape:connector-curvature="0" />
+<path id="district-dominica" d="nan" data-id="DM" data-name="Dominica" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-djibouti" d="nan" data-id="DJ" data-name="Djibouti" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-denmark" d="nan" data-id="DK" data-name="Denmark" style="stroke-width:1.0;fill:#24aa82;" inkscape:connector-curvature="0" />
+<path id="district-côte-d-ivoire" d="nan" data-id="CI" data-name="Côte d'Ivoire" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-czechia" d="nan" data-id="CZ" data-name="Czechia" style="stroke-width:1.0;fill:#32b57a;" inkscape:connector-curvature="0" />
+<path id="district-cyprus" d="nan" data-id="CY" data-name="Cyprus" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-curaçao" d="nan" data-id="CW" data-name="Curaçao" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-cuba" d="nan" data-id="CU" data-name="Cuba" style="stroke-width:1.0;fill:#1ea087;" inkscape:connector-curvature="0" />
+<path id="district-croatia" d="nan" data-id="HR" data-name="Croatia" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-costa-rica" d="nan" data-id="CR" data-name="Costa Rica" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-cook-islands" d="nan" data-id="CK" data-name="Cook Islands" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-congo-democratic-republic-of-the" d="nan" data-id="None" data-name="Congo, Democratic Republic of the" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-congo" d="nan" data-id="None" data-name="Congo" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-comoros" d="nan" data-id="KM" data-name="Comoros" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-colombia" d="nan" data-id="CO" data-name="Colombia" style="stroke-width:1.0;fill:#32b57a;" inkscape:connector-curvature="0" />
+<path id="district-cocos-keeling-islands" d="nan" data-id="CC" data-name="Cocos (Keeling) Islands" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-christmas-island" d="nan" data-id="CX" data-name="Christmas Island" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-china" d="nan" data-id="CN" data-name="China" style="stroke-width:1.0;fill:#fde724;" inkscape:connector-curvature="0" />
+<path id="district-chile" d="nan" data-id="CL" data-name="Chile" style="stroke-width:1.0;fill:#26ac81;" inkscape:connector-curvature="0" />
+<path id="district-chad" d="nan" data-id="TD" data-name="Chad" style="stroke-width:1.0;fill:#208f8c;" inkscape:connector-curvature="0" />
+<path id="district-central-african-republic" d="nan" data-id="CF" data-name="Central African Republic" style="stroke-width:1.0;fill:#2d6f8e;" inkscape:connector-curvature="0" />
+<path id="district-cayman-islands" d="nan" data-id="KY" data-name="Cayman Islands" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-canada" d="nan" data-id="CA" data-name="Canada" style="stroke-width:1.0;fill:#53c567;" inkscape:connector-curvature="0" />
+<path id="district-cameroon" d="nan" data-id="CM" data-name="Cameroon" style="stroke-width:1.0;fill:#23878d;" inkscape:connector-curvature="0" />
+<path id="district-cambodia" d="nan" data-id="KH" data-name="Cambodia" style="stroke-width:1.0;fill:#228a8d;" inkscape:connector-curvature="0" />
+<path id="district-cabo-verde" d="nan" data-id="None" data-name="Cabo Verde" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-burundi" d="nan" data-id="BI" data-name="Burundi" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-burkina-faso" d="nan" data-id="BF" data-name="Burkina Faso" style="stroke-width:1.0;fill:#2b738e;" inkscape:connector-curvature="0" />
+<path id="district-bulgaria" d="nan" data-id="BG" data-name="Bulgaria" style="stroke-width:1.0;fill:#20a485;" inkscape:connector-curvature="0" />
+<path id="district-brunei-darussalam" d="nan" data-id="None" data-name="Brunei Darussalam" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-british-indian-ocean-territory" d="nan" data-id="IO" data-name="British Indian Ocean Territory" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-brazil" d="nan" data-id="BR" data-name="Brazil" style="stroke-width:1.0;fill:#90d643;" inkscape:connector-curvature="0" />
+<path id="district-botswana" d="nan" data-id="BW" data-name="Botswana" style="stroke-width:1.0;fill:#23878d;" inkscape:connector-curvature="0" />
+<path id="district-bosnia-and-herzegovina" d="nan" data-id="None" data-name="Bosnia and Herzegovina" style="stroke-width:1.0;fill:#29798e;" inkscape:connector-curvature="0" />
+<path id="district-bonaire-sint-eustatius-and-saba" d="nan" data-id="None" data-name="Bonaire, Sint Eustatius and Saba" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-bolivia-plurinational-state-of" d="nan" data-id="None" data-name="Bolivia (Plurinational State of)" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-bhutan" d="nan" data-id="BT" data-name="Bhutan" style="stroke-width:1.0;fill:#472575;" inkscape:connector-curvature="0" />
+<path id="district-bermuda" d="nan" data-id="BM" data-name="Bermuda" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-benin" d="nan" data-id="BJ" data-name="Benin" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-belize" d="nan" data-id="BZ" data-name="Belize" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-belgium" d="nan" data-id="BE" data-name="Belgium" style="stroke-width:1.0;fill:#1fa286;" inkscape:connector-curvature="0" />
+<path id="district-belarus" d="nan" data-id="BY" data-name="Belarus" style="stroke-width:1.0;fill:#26ac81;" inkscape:connector-curvature="0" />
+<path id="district-barbados" d="nan" data-id="BB" data-name="Barbados" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-bangladesh" d="nan" data-id="BD" data-name="Bangladesh" style="stroke-width:1.0;fill:#2fb37b;" inkscape:connector-curvature="0" />
+<path id="district-bahrain" d="nan" data-id="BH" data-name="Bahrain" style="stroke-width:1.0;fill:#228a8d;" inkscape:connector-curvature="0" />
+<path id="district-bahamas" d="nan" data-id="BS" data-name="Bahamas" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-azerbaijan" d="nan" data-id="AZ" data-name="Azerbaijan" style="stroke-width:1.0;fill:#20a585;" inkscape:connector-curvature="0" />
+<path id="district-austria" d="nan" data-id="AT" data-name="Austria" style="stroke-width:1.0;fill:#24aa82;" inkscape:connector-curvature="0" />
+<path id="district-australia" d="nan" data-id="AU" data-name="Australia" style="stroke-width:1.0;fill:#74d054;" inkscape:connector-curvature="0" />
+<path id="district-aruba" d="nan" data-id="AW" data-name="Aruba" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-armenia" d="nan" data-id="AM" data-name="Armenia" style="stroke-width:1.0;fill:#228a8d;" inkscape:connector-curvature="0" />
+<path id="district-argentina" d="nan" data-id="AR" data-name="Argentina" style="stroke-width:1.0;fill:#35b778;" inkscape:connector-curvature="0" />
+<path id="district-antigua-and-barbuda" d="nan" data-id="None" data-name="Antigua and Barbuda" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-antarctica" d="nan" data-id="AQ" data-name="Antarctica" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-anguilla" d="nan" data-id="AI" data-name="Anguilla" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-angola" d="nan" data-id="AO" data-name="Angola" style="stroke-width:1.0;fill:#20a485;" inkscape:connector-curvature="0" />
+<path id="district-andorra" d="nan" data-id="AD" data-name="Andorra" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-american-samoa" d="nan" data-id="AS" data-name="American Samoa" style="stroke-width:1.0;fill:#21a784;" inkscape:connector-curvature="0" />
+<path id="district-algeria" d="nan" data-id="DZ" data-name="Algeria" style="stroke-width:1.0;fill:#40bd72;" inkscape:connector-curvature="0" />
+<path id="district-albania" d="nan" data-id="AL" data-name="Albania" style="stroke-width:1.0;fill:#26818e;" inkscape:connector-curvature="0" />
+<path id="district-afghanistan" d="nan" data-id="AF" data-name="Afghanistan" style="stroke-width:1.0;fill:#277d8e;" inkscape:connector-curvature="0" />
+
+<path style="fill:none;fill-rule:evenodd;stroke:#e00000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-variant-east_asian:normal;opacity:1;vector-effect:none;fill-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0" d="M 911.5622768467056,107.85171527956979 884.28111,80.375484" id="path-vermont" inkscape:connector-curvature="0" inkscape:label="Vermont Label Line" />
+<path style="fill:none;fill-rule:evenodd;stroke:#e00000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-variant-east_asian:normal;opacity:1;vector-effect:none;fill-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0" d="m 942.9759028208904,148.34133440231676 26.87755,13.92345" id="path-rhode-island" inkscape:connector-curvature="0" inkscape:label="Rhode Island Label Line" />
+<path style="fill:none;fill-rule:evenodd;stroke:#e00000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-variant-east_asian:normal;opacity:1;vector-effect:none;fill-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0" d="m 906.6006462142022,195.74062521568754 44.94279,20.62081" id="path-new-jersey" inkscape:connector-curvature="0" inkscape:label="New Jersey Label Line" />
+<path style="fill:none;fill-rule:evenodd;stroke:#e00000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-variant-east_asian:normal;opacity:1;vector-effect:none;fill-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0" d="m 928.94975,109.98702 68.42438,-3.77848" id="path-new-hampshire" inkscape:connector-curvature="0" inkscape:label="New Hampshire Label Line" />
+<path style="fill:none;fill-rule:evenodd;stroke:#e00000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-variant-east_asian:normal;opacity:1;vector-effect:none;fill-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0" d="m 894.2228756234892,223.57596220248865 81.39157,51.3884" id="path-maryland" inkscape:connector-curvature="0" inkscape:label="Maryland Label Line" />
+<path style="fill:none;fill-rule:evenodd;stroke:#e00000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-variant-east_asian:normal;opacity:1;vector-effect:none;fill-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0" d="m 418.44421,525.24959 -15.71816,33.03223" id="path-hawaii" inkscape:connector-curvature="0" inkscape:label="Hawaii Label Line" />
+<path style="fill:none;fill-rule:evenodd;stroke:#e00000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-variant-east_asian:normal;opacity:1;vector-effect:none;fill-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0" d="m 879.977863,229.340179 c 18.76635,18.34401 37.53168,36.68702 63.69933,61.68236" id="path-district-of-columbia" inkscape:connector-curvature="0" inkscape:label="District of Columbia Label Line" />
+<path style="fill:none;fill-rule:evenodd;stroke:#e00000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-variant-east_asian:normal;opacity:1;vector-effect:none;fill-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0" d="m 902.3632590085718,220.5912415446095 64.68237,16.47902" id="path-delaware" inkscape:connector-curvature="0" inkscape:label="Delaware Label Line" />
+<path style="fill:none;fill-rule:evenodd;stroke:#e00000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-variant-east_asian:normal;opacity:1;vector-effect:none;fill-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0" d="m 926.74831,155.86054 46.74191,28.17348" id="path-connecticut" inkscape:connector-curvature="0" inkscape:label="Connecticut Label Line" />
+
+
+
+  <style id="style-zw">.zw{fill:rgb(33, 140, 141);}</style>
+  <text x="1526.3228179795312" y="873.195" id="text-zimbabwe" style="fill:#ffffff;font-size:14.5193px;" inkscape:label="Zimbabwe wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-zimbabwe0" x="1526.3228179795312" dy="0">Zimbabwe</tspan></text>
+  <script type="application/ecmascript" id="script-zimbabwe">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-zimbabwe&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-zimbabwe&quot;);
+        
+  </script>
+
+  <style id="style-zm">.zm{fill:rgb(33, 140, 141);}</style>
+  <text x="1511.793990680675" y="826.5" id="text-zambia" style="fill:#ffffff;font-size:29.1309px;" inkscape:label="Zambia wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-zambia0" x="1511.793990680675" dy="0">Zambia</tspan></text>
+  <script type="application/ecmascript" id="script-zambia">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-zambia&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-zambia&quot;);
+        
+  </script>
+
+  <style id="style-ye">.ye{fill:rgb(30, 153, 138);}</style>
+  <text x="1663.1664861092986" y="570.643" id="text-yemen" style="fill:#ffffff;font-size:28.798px;" inkscape:label="Yemen wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-yemen0" x="1663.1664861092986" dy="0">Yemen</tspan></text>
+  <script type="application/ecmascript" id="script-yemen">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;Yemen_mainland&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-yemen&quot;);
+        
+  </script>
+
+  <style id="style-eh">.eh{fill:rgb(33, 167, 132);}</style>
+  <text x="1204.7715123629087" y="498.9" id="text-western-sahara" style="fill:#ffffff;font-size:20.7145px;" inkscape:label="Western Sahara wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-western-sahara0" x="1204.7715123629087" dy="0.0">Western</tspan><tspan sodipodi:role="line" id="tspan-western-sahara1" x="1204.7715123629087" dy="14.785868203919257">Sahara</tspan></text>
+
+  <style id="style-vu">.vu{fill:rgb(33, 167, 132);}</style>
+  <text x="2563.6879762920453" y="831.142" id="text-vanuatu" style="fill:#ffffff;font-size:2.25693px;" inkscape:label="Vanuatu wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-vanuatu0" x="2563.6879762920453" dy="0">Vanuatu</tspan></text>
+  <script type="application/ecmascript" id="script-vanuatu">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-vanuatu003&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-vanuatu&quot;);
+        
+  </script>
+
+  <style id="style-uz">.uz{fill:rgb(38, 172, 129);}</style>
+  <text x="1748.599988851919" y="353.334" id="text-uzbekistan" style="fill:#ffffff;font-size:28.6087px;" inkscape:label="Uzbekistan wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-uzbekistan0" x="1748.599988851919" dy="0">Uzbekistan</tspan></text>
+  <script type="application/ecmascript" id="script-uzbekistan">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-uzbekistan&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-uzbekistan&quot;);
+        
+  </script>
+
+  <style id="style-uy">.uy{fill:rgb(35, 137, 141);}</style>
+  <text x="897.1791123532425" y="986.754" id="text-uruguay" style="fill:#ffffff;font-size:11.5322px;" inkscape:label="Uruguay wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-uruguay0" x="897.1791123532425" dy="0">Uruguay</tspan></text>
+  <script type="application/ecmascript" id="script-uruguay">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-uruguay&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-uruguay&quot;);
+        
+  </script>
+
+  <style id="style-ua">.ua{fill:rgb(91, 200, 98);}</style>
+  <text x="1518.9166534622036" y="288.051" id="text-ukraine" style="fill:#000000;font-size:37.5187px;" inkscape:label="Ukraine wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-ukraine0" x="1518.9166534622036" dy="0">Ukraine</tspan></text>
+  <script type="application/ecmascript" id="script-ukraine">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-ukraine&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-ukraine&quot;);
+        
+  </script>
+
+  <style id="style-ug">.ug{fill:rgb(33, 140, 141);}</style>
+  <text x="1547.5281477729397" y="694.741" id="text-uganda" style="fill:#ffffff;font-size:14.1233px;" inkscape:label="Uganda wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-uganda0" x="1547.5281477729397" dy="0">Uganda</tspan></text>
+  <script type="application/ecmascript" id="script-uganda">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-uganda&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-uganda&quot;);
+        
+  </script>
+
+  <style id="style-tv">.tv{fill:rgb(33, 167, 132);}</style>
+  <text x="2659.8637644385444" y="772.01" id="text-tuvalu" style="fill:#ffffff;font-size:1.29819px;" inkscape:label="Tuvalu wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-tuvalu0" x="2659.8637644385444" dy="0">Tuvalu</tspan></text>
+  <script type="application/ecmascript" id="script-tuvalu">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-tuvalu&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-tuvalu&quot;);
+        
+  </script>
+
+  <style id="style-tm">.tm{fill:rgb(31, 149, 139);}</style>
+  <text x="1726.55396711534" y="372.677" id="text-turkmenistan" style="fill:#ffffff;font-size:20.2456px;" inkscape:label="Turkmenistan wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-turkmenistan0" x="1726.55396711534" dy="0">Turkmenistan</tspan></text>
+  <script type="application/ecmascript" id="script-turkmenistan">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-turkmenistan&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-turkmenistan&quot;);
+        
+  </script>
+
+  <style id="style-tn">.tn{fill:rgb(30, 156, 137);}</style>
+  <text x="1373.489061985977" y="416.492" id="text-tunisia" style="fill:#ffffff;font-size:10.7846px;" inkscape:label="Tunisia wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-tunisia0" x="1373.489061985977" dy="0">Tunisia</tspan></text>
+  <script type="application/ecmascript" id="script-tunisia">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;Tunisia_mainland&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-tunisia&quot;);
+        
+  </script>
+
+  <style id="style-to">.to{fill:rgb(33, 167, 132);}</style>
+  <text x="2686.495" y="882.12" id="text-tonga" style="fill:#ffffff;font-size:1.85396px;" inkscape:label="Tonga wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-tonga0" x="2686.495" dy="0">Tonga</tspan></text>
+  <script type="application/ecmascript" id="script-tonga">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-tonga001&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-tonga&quot;);
+        
+  </script>
+
+  <style id="style-tk">.tk{fill:rgb(33, 167, 132);}</style>
+  <text x="2737.880000000001" y="782.76" id="text-tokelau" style="fill:#ffffff;font-size:1.08559px;" inkscape:label="Tokelau wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-tokelau0" x="2737.880000000001" dy="0">Tokelau</tspan></text>
+  <script type="application/ecmascript" id="script-tokelau">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-tokelau&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-tokelau&quot;);
+        
+  </script>
+
+  <style id="style-tg">.tg{fill:rgb(33, 167, 132);}</style>
+  <text x="1308.2623261381807" y="631.23" id="text-togo" style="fill:#ffffff;font-size:8.17781px;" inkscape:label="Togo wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-togo0" x="1308.2623261381807" dy="0">Togo</tspan></text>
+  <script type="application/ecmascript" id="script-togo">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-togo&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-togo&quot;);
+        
+  </script>
+
+  <style id="style-tl">.tl{fill:rgb(33, 167, 132);}</style>
+  <text x="2246.0350000000003" y="779.7596460582512" id="text-timor-leste" style="fill:#ffffff;font-size:1em;" inkscape:label="Timor-Leste wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-timor-leste0" x="2246.0350000000003" dy="0">East</tspan><tspan sodipodi:role="line" id="tspan-timor-leste1" x="2246.0350000000003" dy="9">Timor</tspan></text>
+  <script type="application/ecmascript" id="script-timor-leste">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;Timor-Leste_Oecusse&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-timor-leste&quot;);
+        
+  </script>
+
+  <style id="style-th">.th{fill:rgb(68, 190, 112);}</style>
+  <text x="2067.2921953145424" y="606.983" id="text-thailand" style="fill:#ffffff;font-size:19.1946px;" inkscape:label="Thailand wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-thailand0" x="2067.2921953145424" dy="0">Thailand</tspan></text>
+  <script type="application/ecmascript" id="script-thailand">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;Thailand_mainland&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-thailand&quot;);
+        
+  </script>
+
+  <style id="style-tj">.tj{fill:rgb(36, 133, 141);}</style>
+  <text x="1810.0251236001413" y="368.639" id="text-tajikistan" style="fill:#ffffff;font-size:15.7382px;" inkscape:label="Tajikistan wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-tajikistan0" x="1810.0251236001413" dy="0">Tajikistan</tspan></text>
+  <script type="application/ecmascript" id="script-tajikistan">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-tajikistan&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-tajikistan&quot;);
+        
+  </script>
+
+  <style id="style-ch">.ch{fill:rgb(61, 187, 116);}</style>
+  <text x="1364.842124377574" y="297.223" id="text-switzerland" style="fill:#ffffff;font-size:7.34079px;" inkscape:label="Switzerland wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-switzerland0" x="1364.842124377574" dy="0">Switzerland</tspan></text>
+  <script type="application/ecmascript" id="script-switzerland">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-switzerland&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-switzerland&quot;);
+        
+  </script>
+
+  <style id="style-se">.se{fill:rgb(71, 192, 110);}</style>
+  <text x="1421.4876416490758" y="187.718" id="text-sweden" style="fill:#ffffff;font-size:24.0461px;" inkscape:label="Sweden wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-sweden0" x="1421.4876416490758" dy="0">Sweden</tspan></text>
+  <script type="application/ecmascript" id="script-sweden">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;Sweden_mainland&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-sweden&quot;);
+        
+  </script>
+
+  <style id="style-sr">.sr{fill:rgb(49, 100, 141);}</style>
+  <text x="873.5296571759202" y="670.476" id="text-suriname" style="fill:#ffffff;font-size:9.03758px;" inkscape:label="Suriname wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-suriname0" x="873.5296571759202" dy="0">Suriname</tspan></text>
+  <script type="application/ecmascript" id="script-suriname">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-suriname&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-suriname&quot;);
+        
+  </script>
+
+  <style id="style-sd">.sd{fill:rgb(30, 156, 137);}</style>
+  <text x="1528.1131960940552" y="577.993" id="text-sudan" style="fill:#ffffff;font-size:50.0536px;" inkscape:label="Sudan wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-sudan0" x="1528.1131960940552" dy="0">Sudan</tspan></text>
+  <script type="application/ecmascript" id="script-sudan">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-sudan&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-sudan&quot;);
+        
+  </script>
+
+  <style id="style-lk">.lk{fill:rgb(30, 153, 138);}</style>
+  <text x="1916.5034279682015" y="636.144" id="text-sri-lanka" style="fill:#ffffff;font-size:7.63563px;" inkscape:label="Sri Lanka wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-sri-lanka0" x="1916.5034279682015" dy="0.0">Sri</tspan><tspan sodipodi:role="line" id="tspan-sri-lanka1" x="1916.5034279682015" dy="4.976725746268657">Lanka</tspan></text>
+
+  <style id="style-es">.es{fill:rgb(98, 202, 95);}</style>
+  <text x="1286.8996286907557" y="364.861" id="text-spain" style="fill:#000000;font-size:38.0891px;" inkscape:label="Spain wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-spain0" x="1286.8996286907557" dy="0">Spain</tspan></text>
+  <script type="application/ecmascript" id="script-spain">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;Spain_mainland&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-spain&quot;);
+        
+  </script>
+
+  <style id="style-ss">.ss{fill:rgb(35, 137, 141);}</style>
+  <text x="1531.3932228458448" y="642.838" id="text-south-sudan" style="fill:#ffffff;font-size:38.2837px;" inkscape:label="South Sudan wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-south-sudan0" x="1531.3932228458448" dy="0.0">South</tspan><tspan sodipodi:role="line" id="tspan-south-sudan1" x="1531.3932228458448" dy="27.962759622713417">Sudan</tspan></text>
+
+  <style id="style-za">.za{fill:rgb(71, 192, 110);}</style>
+  <text x="1488.170432189635" y="963.085" id="text-south-africa" style="fill:#ffffff;font-size:46.3868px;" inkscape:label="South Africa wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-south-africa0" x="1488.170432189635" dy="0.0">South</tspan><tspan sodipodi:role="line" id="tspan-south-africa1" x="1488.170432189635" dy="34.040105974785305">Africa</tspan></text>
+
+  <style id="style-sb">.sb{fill:rgb(33, 167, 132);}</style>
+  <text x="2526.5113233768957" y="778.053" id="text-solomon-islands" style="fill:#ffffff;font-size:2.32585px;" inkscape:label="Solomon Islands wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-solomon-islands0" x="2526.5113233768957" dy="0.0">Solomon</tspan><tspan sodipodi:role="line" id="tspan-solomon-islands1" x="2526.5113233768957" dy="0.9943853820598005">Islands</tspan></text>
+
+  <style id="style-si">.si{fill:rgb(32, 143, 140);}</style>
+  <text x="1409.7878417630063" y="302.04" id="text-slovenia" style="fill:#ffffff;font-size:7.11982px;" inkscape:label="Slovenia wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-slovenia0" x="1409.7878417630063" dy="0">Slovenia</tspan></text>
+  <script type="application/ecmascript" id="script-slovenia">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-slovenia&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-slovenia&quot;);
+        
+  </script>
+
+  <style id="style-sk">.sk{fill:rgb(33, 167, 132);}</style>
+  <text x="1440.6117746920268" y="281.483" id="text-slovakia" style="fill:#ffffff;font-size:11.4832px;" inkscape:label="Slovakia wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-slovakia0" x="1440.6117746920268" dy="0">Slovakia</tspan></text>
+  <script type="application/ecmascript" id="script-slovakia">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-slovakia&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-slovakia&quot;);
+        
+  </script>
+
+  <style id="style-sg">.sg{fill:rgb(50, 181, 122);}</style>
+  <text x="2094.0635794832765" y="686.938" id="text-singapore" style="fill:#ffffff;font-size:1.52005px;" inkscape:label="Singapore wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-singapore0" x="2094.0635794832765" dy="0">Singapore</tspan></text>
+  <script type="application/ecmascript" id="script-singapore">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-singapore&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-singapore&quot;);
+        
+  </script>
+
+  <style id="style-sl">.sl{fill:rgb(49, 100, 141);}</style>
+  <text x="1211.0560314632708" y="629.692" id="text-sierra-leone" style="fill:#ffffff;font-size:9.98976px;" inkscape:label="Sierra Leone wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-sierra-leone0" x="1211.0560314632708" dy="0.0">Sierra</tspan><tspan sodipodi:role="line" id="tspan-sierra-leone1" x="1211.0560314632708" dy="6.742317038307605">Leone</tspan></text>
+
+  <style id="style-sc">.sc{fill:rgb(33, 167, 132);}</style>
+  <text x="1724.120724327481" y="739.533" id="text-seychelles" style="fill:#ffffff;font-size:1.25694px;" inkscape:label="Seychelles wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-seychelles0" x="1724.120724327481" dy="0">Seychelles</tspan></text>
+  <script type="application/ecmascript" id="script-seychelles">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-seychelles&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-seychelles&quot;);
+        
+  </script>
+
+  <style id="style-rs">.rs{fill:rgb(33, 167, 132);}</style>
+  <text x="1451.2006167506204" y="324.525" id="text-serbia" style="fill:#ffffff;font-size:12.5135px;" inkscape:label="Serbia wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-serbia0" x="1451.2006167506204" dy="0">Serbia</tspan></text>
+  <script type="application/ecmascript" id="script-serbia">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-serbia&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-serbia&quot;);
+        
+  </script>
+
+  <style id="style-sn">.sn{fill:rgb(33, 167, 132);}</style>
+  <text x="1191.7369608771921" y="579.381" id="text-senegal" style="fill:#ffffff;font-size:15.3482px;" inkscape:label="Senegal wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-senegal0" x="1191.7369608771921" dy="0">Senegal</tspan></text>
+  <script type="application/ecmascript" id="script-senegal">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-senegal&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-senegal&quot;);
+        
+  </script>
+
+  <style id="style-sa">.sa{fill:rgb(98, 202, 95);}</style>
+  <text x="1638.6686369138597" y="511.5" id="text-saudi-arabia" style="fill:#000000;font-size:57.3507px;" inkscape:label="Saudi Arabia wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-saudi-arabia0" x="1638.6686369138597" dy="0.0">Saudi</tspan><tspan sodipodi:role="line" id="tspan-saudi-arabia1" x="1638.6686369138597" dy="42.26304815133276">Arabia</tspan></text>
+
+  <style id="style-sm">.sm{fill:rgb(33, 167, 132);}</style>
+  <text x="1393.798133466755" y="320.526" id="text-san-marino" style="fill:#ffffff;font-size:1.38247px;" inkscape:label="San Marino wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-san-marino0" x="1393.798133466755" dy="0.0">San</tspan><tspan sodipodi:role="line" id="tspan-san-marino1" x="1393.798133466755" dy="0.2868524683338746">Marino</tspan></text>
+
+  <style id="style-ws">.ws{fill:rgb(33, 167, 132);}</style>
+  <text x="2722.491863428507" y="817.014" id="text-samoa" style="fill:#ffffff;font-size:2.49895px;" inkscape:label="Samoa wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-samoa0" x="2722.491863428507" dy="0">Samoa</tspan></text>
+  <script type="application/ecmascript" id="script-samoa">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-samoa001&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-samoa&quot;);
+        
+  </script>
+
+  <style id="style-re">.re{fill:rgb(33, 167, 132);}</style>
+  <text x="1718.0567451923587" y="882.049" id="text-réunion" style="fill:#ffffff;font-size:2.20546px;" inkscape:label="Réunion wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-réunion0" x="1718.0567451923587" dy="0">Réunion</tspan></text>
+  <script type="application/ecmascript" id="script-réunion">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-reunion&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-réunion&quot;);
+        
+  </script>
+
+  <style id="style-rw">.rw{fill:rgb(33, 167, 132);}</style>
+  <text x="1528.988897411941" y="717.795" id="text-rwanda" style="fill:#ffffff;font-size:5.5069px;" inkscape:label="Rwanda wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-rwanda0" x="1528.988897411941" dy="0">Rwanda</tspan></text>
+  <script type="application/ecmascript" id="script-rwanda">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-rwanda&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-rwanda&quot;);
+        
+  </script>
+
+  <style id="style-ro">.ro{fill:rgb(53, 183, 120);}</style>
+  <text x="1478.9235605343529" y="308.339" id="text-romania" style="fill:#ffffff;font-size:18.3822px;" inkscape:label="Romania wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-romania0" x="1478.9235605343529" dy="0">Romania</tspan></text>
+  <script type="application/ecmascript" id="script-romania">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-romania&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-romania&quot;);
+        
+  </script>
+
+  <style id="style-qa">.qa{fill:rgb(30, 154, 137);}</style>
+  <text x="1682.995854189181" y="481.532" id="text-qatar" style="fill:#ffffff;font-size:3.99434px;" inkscape:label="Qatar wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-qatar0" x="1682.995854189181" dy="0">Qatar</tspan></text>
+  <script type="application/ecmascript" id="script-qatar">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-qatar&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-qatar&quot;);
+        
+  </script>
+
+  <style id="style-pr">.pr{fill:rgb(33, 167, 132);}</style>
+  <text x="800.9581849036683" y="541.688" id="text-puerto-rico" style="fill:#ffffff;font-size:3.85045px;" inkscape:label="Puerto Rico wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-puerto-rico0" x="800.9581849036683" dy="0.0">Puerto</tspan><tspan sodipodi:role="line" id="tspan-puerto-rico1" x="800.9581849036683" dy="2.137838429418103">Rico</tspan></text>
+
+  <style id="style-pt">.pt{fill:rgb(42, 176, 126);}</style>
+  <text x="1251.2272108722564" y="363.655" id="text-portugal" style="fill:#ffffff;font-size:8.11567px;" inkscape:label="Portugal wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-portugal0" x="1251.2272108722564" dy="0">Portugal</tspan></text>
+  <script type="application/ecmascript" id="script-portugal">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;Portugal_mainland&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-portugal&quot;);
+        
+  </script>
+
+  <style id="style-pl">.pl{fill:rgb(75, 194, 108);}</style>
+  <text x="1438.3927720739543" y="259.86" id="text-poland" style="fill:#ffffff;font-size:23.8431px;" inkscape:label="Poland wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-poland0" x="1438.3927720739543" dy="0">Poland</tspan></text>
+  <script type="application/ecmascript" id="script-poland">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-poland&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-poland&quot;);
+        
+  </script>
+
+  <style id="style-pn">.pn{fill:rgb(33, 167, 132);}</style>
+  <text x="341.8086250000001" y="910.73" id="text-pitcairn" style="fill:#ffffff;font-size:1.24339px;" inkscape:label="Pitcairn wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-pitcairn0" x="341.8086250000001" dy="0">Pitcairn</tspan><tspan sodipodi:role="line" id="tspan-pitcairn1" x="341.8086250000001" dy="9">Islands</tspan></text>
+  <script type="application/ecmascript" id="script-pitcairn">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-pitcairn&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-pitcairn&quot;);
+        
+  </script>
+
+  <style id="style-ph">.ph{fill:rgb(38, 172, 129);}</style>
+  <text x="2224.495241133203" y="572.619" id="text-philippines" style="fill:#ffffff;font-size:9.0596px;" inkscape:label="Philippines wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-philippines0" x="2224.495241133203" dy="0">Philippines</tspan></text>
+  <script type="application/ecmascript" id="script-philippines">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;Philippines_Luzon&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-philippines&quot;);
+        
+  </script>
+
+  <style id="style-pe">.pe{fill:rgb(42, 176, 126);}</style>
+  <text x="734.8623055863761" y="804.39" id="text-peru" style="fill:#ffffff;font-size:52.4944px;" inkscape:label="Peru wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-peru0" x="734.8623055863761" dy="0">Peru</tspan></text>
+  <script type="application/ecmascript" id="script-peru">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-peru&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-peru&quot;);
+        
+  </script>
+
+  <style id="style-py">.py{fill:rgb(36, 133, 141);}</style>
+  <text x="866.4486063341197" y="913.289" id="text-paraguay" style="fill:#ffffff;font-size:17.7571px;" inkscape:label="Paraguay wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-paraguay0" x="866.4486063341197" dy="0">Paraguay</tspan></text>
+  <script type="application/ecmascript" id="script-paraguay">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-paraguay&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-paraguay&quot;);
+        
+  </script>
+
+  <style id="style-pg">.pg{fill:rgb(33, 167, 132);}</style>
+  <text x="2411.3799999999997" y="767.64" id="text-papua-new-guinea" style="fill:#ffffff;font-size:16.8721px;" inkscape:label="Papua New Guinea wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-papua-new-guinea0" x="2411.3799999999997" dy="0.0">Papua New</tspan><tspan sodipodi:role="line" id="tspan-papua-new-guinea1" x="2411.3799999999997" dy="11.904104399623785">Guinea</tspan></text>
+
+  <style id="style-pa">.pa{fill:rgb(44, 113, 142);}</style>
+  <text x="690.4931457472978" y="629.332" id="text-panama" style="fill:#ffffff;font-size:14.3755px;" inkscape:label="Panama wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-panama0" x="690.4931457472978" dy="0">Panama</tspan></text>
+  <script type="application/ecmascript" id="script-panama">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;Panama_mainland&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-panama&quot;);
+        
+  </script>
+
+  <style id="style-pw">.pw{fill:rgb(33, 167, 132);}</style>
+  <text x="2326.372662246865" y="633.966" id="text-palau" style="fill:#ffffff;font-size:1.46223px;" inkscape:label="Palau wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-palau0" x="2326.372662246865" dy="0">Palau</tspan></text>
+  <script type="application/ecmascript" id="script-palau">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-palau&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-palau&quot;);
+        
+  </script>
+
+  <style id="style-pk">.pk{fill:rgb(154, 216, 60);}</style>
+  <text x="1811.8695164458827" y="454.692" id="text-pakistan" style="fill:#000000;font-size:33.5329px;" inkscape:label="Pakistan wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-pakistan0" x="1811.8695164458827" dy="0">Pakistan</tspan></text>
+  <script type="application/ecmascript" id="script-pakistan">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-pakistan&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-pakistan&quot;);
+        
+  </script>
+
+  <style id="style-om">.om{fill:rgb(30, 154, 137);}</style>
+  <text x="1721.1474180981884" y="530.324" id="text-oman" style="fill:#ffffff;font-size:23.6365px;" inkscape:label="Oman wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-oman0" x="1721.1474180981884" dy="0">Oman</tspan></text>
+  <script type="application/ecmascript" id="script-oman">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-oman002&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-oman&quot;);
+        
+  </script>
+
+  <style id="style-no">.no{fill:rgb(57, 185, 118);}</style>
+  <text x="1419.4135965826727" y="168.564" id="text-norway" style="fill:#ffffff;font-size:44.5803px;" inkscape:label="Norway wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-norway0" x="1419.4135965826727" dy="0">Norway</tspan></text>
+  <script type="application/ecmascript" id="script-norway">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;Norway_mainland&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-norway&quot;);
+        
+  </script>
+
+  <style id="style-mp">.mp{fill:rgb(33, 167, 132);}</style>
+  <text x="2403.8188015818437" y="567.509" id="text-northern-mariana-islands" style="fill:#ffffff;font-size:1.06646px;" inkscape:label="Northern Mariana Islands wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-northern-mariana-islands0" x="2403.8188015818437" dy="0.0">Northern Mariana</tspan><tspan sodipodi:role="line" id="tspan-northern-mariana-islands1" x="2403.8188015818437" dy="0.049846369647986104">Islands</tspan></text>
+
+  <style id="style-mk">.mk{fill:rgb(46, 109, 142);}</style>
+  <text x="1458.5523672768613" y="340.949" id="text-north-macedonia" style="fill:#ffffff;font-size:4.80776px;" inkscape:label="North Macedonia wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-north-macedonia0" x="1458.5523672768613" dy="0.0">North</tspan><tspan sodipodi:role="line" id="tspan-north-macedonia1" x="1458.5523672768613" dy="2.855817096670592">Macedonia</tspan></text>
+
+  <style id="style-nf">.nf{fill:rgb(33, 167, 132);}</style>
+  <text x="2549.4932375932376" y="936.677" id="text-norfolk-island" style="fill:#ffffff;font-size:1.77132px;" inkscape:label="Norfolk Island wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-norfolk-island0" x="2549.4932375932376" dy="0.0">Norfolk</tspan><tspan sodipodi:role="line" id="tspan-norfolk-island1" x="2549.4932375932376" dy="0.5784870016163792">Island</tspan></text>
+
+  <style id="style-nu">.nu{fill:rgb(33, 167, 132);}</style>
+  <text x="26.27949999999983" y="866.719" id="text-niue" style="fill:#ffffff;font-size:1.41517px;" inkscape:label="Niue wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-niue0" x="26.27949999999983" dy="0">Niue</tspan></text>
+  <script type="application/ecmascript" id="script-niue">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-niue&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-niue&quot;);
+        
+  </script>
+
+  <style id="style-ng">.ng{fill:rgb(54, 184, 119);}</style>
+  <text x="1366.7661647537286" y="633.823" id="text-nigeria" style="fill:#ffffff;font-size:30.2612px;" inkscape:label="Nigeria wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-nigeria0" x="1366.7661647537286" dy="0">Nigeria</tspan></text>
+  <script type="application/ecmascript" id="script-nigeria">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;Nigeria_mainland&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-nigeria&quot;);
+        
+  </script>
+
+  <style id="style-ne">.ne{fill:rgb(35, 135, 141);}</style>
+  <text x="1372.3077565703093" y="563.37" id="text-niger" style="fill:#ffffff;font-size:51.0171px;" inkscape:label="Niger wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-niger0" x="1372.3077565703093" dy="0">Niger</tspan></text>
+  <script type="application/ecmascript" id="script-niger">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-niger&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-niger&quot;);
+        
+  </script>
+
+  <style id="style-ni">.ni{fill:rgb(40, 122, 142);}</style>
+  <text x="656.2008439375041" y="593.359" id="text-nicaragua" style="fill:#ffffff;font-size:9.46935px;" inkscape:label="Nicaragua wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-nicaragua0" x="656.2008439375041" dy="0">Nicaragua</tspan></text>
+  <script type="application/ecmascript" id="script-nicaragua">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-nicaragua&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-nicaragua&quot;);
+        
+  </script>
+
+  <style id="style-nz">.nz{fill:rgb(31, 149, 139);}</style>
+  <text x="2485.31" y="1083.89" id="text-new-zealand" style="fill:#ffffff;font-size:26.7323px;" inkscape:label="New Zealand wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-new-zealand0" x="2485.31" dy="0.0">New</tspan><tspan sodipodi:role="line" id="tspan-new-zealand1" x="2485.31" dy="19.299226390307986">Zealand</tspan></text>
+
+  <style id="style-nc">.nc{fill:rgb(33, 167, 132);}</style>
+  <text x="2541.8105799427162" y="885.529" id="text-new-caledonia" style="fill:#ffffff;font-size:5.433px;" inkscape:label="New Caledonia wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-new-caledonia0" x="2541.8105799427162" dy="0.0">New</tspan><tspan sodipodi:role="line" id="tspan-new-caledonia1" x="2541.8105799427162" dy="3.324750534568781">Caledonia</tspan></text>
+
+  <style id="style-nl">.nl{fill:rgb(53, 183, 120);}</style>
+  <text x="1336.0907853186684" y="256.985" id="text-netherlands" style="fill:#ffffff;font-size:2.17683px;" inkscape:label="Netherlands wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-netherlands0" x="1336.0907853186684" dy="0">Netherlands</tspan></text>
+  <script type="application/ecmascript" id="script-netherlands">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-netherlands007&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-netherlands&quot;);
+        
+  </script>
+
+  <style id="style-np">.np{fill:rgb(39, 125, 142);}</style>
+  <text x="1922.338174563328" y="458.574" id="text-nepal" style="fill:#ffffff;font-size:26.3658px;" inkscape:label="Nepal wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-nepal0" x="1922.338174563328" dy="0">Nepal</tspan></text>
+  <script type="application/ecmascript" id="script-nepal">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-nepal&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-nepal&quot;);
+        
+  </script>
+
+  <style id="style-nr">.nr{fill:rgb(33, 167, 132);}</style>
+  <text x="2561.117607781009" y="681.836" id="text-nauru" style="fill:#ffffff;font-size:1.49544px;" inkscape:label="Nauru wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-nauru0" x="2561.117607781009" dy="0">Nauru</tspan></text>
+  <script type="application/ecmascript" id="script-nauru">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-nauru&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-nauru&quot;);
+        
+  </script>
+
+  <style id="style-na">.na{fill:rgb(42, 119, 142);}</style>
+  <text x="1430.9027679783749" y="914.287" id="text-namibia" style="fill:#ffffff;font-size:29.526px;" inkscape:label="Namibia wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-namibia0" x="1430.9027679783749" dy="0">Namibia</tspan></text>
+  <script type="application/ecmascript" id="script-namibia">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-namibia&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-namibia&quot;);
+        
+  </script>
+
+  <style id="style-mm">.mm{fill:rgb(53, 183, 120);}</style>
+  <text x="2025.9220516983676" y="558.66" id="text-myanmar" style="fill:#ffffff;font-size:17.6837px;" inkscape:label="Myanmar wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-myanmar0" x="2025.9220516983676" dy="0">Myanmar</tspan></text>
+  <script type="application/ecmascript" id="script-myanmar">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;Myanmar_mainland&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-myanmar&quot;);
+        
+  </script>
+
+  <style id="style-mz">.mz{fill:rgb(38, 127, 142);}</style>
+  <text x="1570.1176835381361" y="884.038" id="text-mozambique" style="fill:#ffffff;font-size:16.0622px;" inkscape:label="Mozambique wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-mozambique0" x="1570.1176835381361" dy="0">Mozambique</tspan></text>
+  <script type="application/ecmascript" id="script-mozambique">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;Mozambique_mainland&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-mozambique&quot;);
+        
+  </script>
+
+  <style id="style-ma">.ma{fill:rgb(36, 170, 130);}</style>
+  <text x="1257.8935550248445" y="435.491" id="text-morocco" style="fill:#ffffff;font-size:25.6686px;" inkscape:label="Morocco wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-morocco0" x="1257.8935550248445" dy="0">Morocco</tspan></text>
+  <script type="application/ecmascript" id="script-morocco">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-morocco&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-morocco&quot;);
+        
+  </script>
+
+  <style id="style-ms">.ms{fill:rgb(33, 167, 132);}</style>
+  <text x="831.7471414425564" y="554.457" id="text-montserrat" style="fill:#ffffff;font-size:1.07601px;" inkscape:label="Montserrat wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-montserrat0" x="831.7471414425564" dy="0">Montserrat</tspan></text>
+  <script type="application/ecmascript" id="script-montserrat">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-montserrat&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-montserrat&quot;);
+        
+  </script>
+
+  <style id="style-me">.me{fill:rgb(43, 115, 142);}</style>
+  <text x="1440.6998358658477" y="331.877" id="text-montenegro" style="fill:#ffffff;font-size:3.41907px;" inkscape:label="Montenegro wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-montenegro0" x="1440.6998358658477" dy="0">Montenegro</tspan></text>
+  <script type="application/ecmascript" id="script-montenegro">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-montenegro&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-montenegro&quot;);
+        
+  </script>
+
+  <style id="style-mn">.mn{fill:rgb(35, 137, 141);}</style>
+  <text x="2007.5184543857138" y="308.996" id="text-mongolia" style="fill:#ffffff;font-size:57.3153px;" inkscape:label="Mongolia wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-mongolia0" x="2007.5184543857138" dy="0">Mongolia</tspan></text>
+  <script type="application/ecmascript" id="script-mongolia">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-mongolia&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-mongolia&quot;);
+        
+  </script>
+
+  <style id="style-mc">.mc{fill:rgb(33, 167, 132);}</style>
+  <text x="1359.0821090238958" y="320.527" id="text-monaco" style="fill:#ffffff;font-size:1.14744px;" inkscape:label="Monaco wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-monaco0" x="1359.0821090238958" dy="0">Monaco</tspan></text>
+  <script type="application/ecmascript" id="script-monaco">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-monaco&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-monaco&quot;);
+        
+  </script>
+
+  <style id="style-mx">.mx{fill:rgb(50, 181, 122);}</style>
+  <text x="551.9235075825965" y="520.304" id="text-mexico" style="fill:#ffffff;font-size:65.0882px;" inkscape:label="Mexico wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-mexico0" x="551.9235075825965" dy="0">Mexico</tspan></text>
+  <script type="application/ecmascript" id="script-mexico">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;Mexico_mainland&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-mexico&quot;);
+        
+  </script>
+
+  <style id="style-yt">.yt{fill:rgb(33, 167, 132);}</style>
+  <text x="1643.5527952866846" y="810.172" id="text-mayotte" style="fill:#ffffff;font-size:1.25421px;" inkscape:label="Mayotte wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-mayotte0" x="1643.5527952866846" dy="0">Mayotte</tspan></text>
+  <script type="application/ecmascript" id="script-mayotte">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-mayotte&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-mayotte&quot;);
+        
+  </script>
+
+  <style id="style-mu">.mu{fill:rgb(33, 167, 132);}</style>
+  <text x="1733.8755917805295" y="874.603" id="text-mauritius" style="fill:#ffffff;font-size:1.7703px;" inkscape:label="Mauritius wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-mauritius0" x="1733.8755917805295" dy="0">Mauritius</tspan></text>
+  <script type="application/ecmascript" id="script-mauritius">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-mauritius&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-mauritius&quot;);
+        
+  </script>
+
+  <style id="style-mr">.mr{fill:rgb(42, 119, 142);}</style>
+  <text x="1224.3452592381677" y="534.716" id="text-mauritania" style="fill:#ffffff;font-size:21.593px;" inkscape:label="Mauritania wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-mauritania0" x="1224.3452592381677" dy="0">Mauritania</tspan></text>
+  <script type="application/ecmascript" id="script-mauritania">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;Mauritania_mainland&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-mauritania&quot;);
+        
+  </script>
+
+  <style id="style-mq">.mq{fill:rgb(33, 167, 132);}</style>
+  <text x="839.3373993823793" y="572.601" id="text-martinique" style="fill:#ffffff;font-size:1.55775px;" inkscape:label="Martinique wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-martinique0" x="839.3373993823793" dy="0">Martinique</tspan></text>
+  <script type="application/ecmascript" id="script-martinique">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-martinique&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-martinique&quot;);
+        
+  </script>
+
+  <style id="style-mh">.mh{fill:rgb(33, 167, 132);}</style>
+  <text x="2607.593585261515" y="640.473" id="text-marshall-islands" style="fill:#ffffff;font-size:1.24087px;" inkscape:label="Marshall Islands wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-marshall-islands0" x="2607.593585261515" dy="0.0">Marshall</tspan><tspan sodipodi:role="line" id="tspan-marshall-islands1" x="2607.593585261515" dy="0.18065583634175691">Islands</tspan></text>
+
+  <style id="style-mt">.mt{fill:rgb(33, 167, 132);}</style>
+  <text x="1408.8146210330226" y="388.302" id="text-malta" style="fill:#ffffff;font-size:1.61255px;" inkscape:label="Malta wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-malta0" x="1408.8146210330226" dy="0">Malta</tspan></text>
+  <script type="application/ecmascript" id="script-malta">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-malta&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-malta&quot;);
+        
+  </script>
+
+  <style id="style-ml">.ml{fill:rgb(34, 138, 141);}</style>
+  <text x="1274.9640412520014" y="567.812" id="text-mali" style="fill:#ffffff;font-size:64.1247px;" inkscape:label="Mali wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-mali0" x="1274.9640412520014" dy="0">Mali</tspan></text>
+  <script type="application/ecmascript" id="script-mali">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-mali&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-mali&quot;);
+        
+  </script>
+
+  <style id="style-mv">.mv{fill:rgb(33, 167, 132);}</style>
+  <text x="1844.7107243274804" y="674.892" id="text-maldives" style="fill:#ffffff;font-size:1.29035px;" inkscape:label="Maldives wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-maldives0" x="1844.7107243274804" dy="0">Maldives</tspan></text>
+  <script type="application/ecmascript" id="script-maldives">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-maldives&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-maldives&quot;);
+        
+  </script>
+
+  <style id="style-my">.my{fill:rgb(44, 177, 125);}</style>
+  <text x="2174.336109656948" y="673.315" id="text-malaysia" style="fill:#ffffff;font-size:20.3456px;" inkscape:label="Malaysia wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-malaysia0" x="2174.336109656948" dy="0">Malaysia</tspan></text>
+  <script type="application/ecmascript" id="script-malaysia">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;Malaysia_Borneo&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-malaysia&quot;);
+        
+  </script>
+
+  <style id="style-mw">.mw{fill:rgb(33, 167, 132);}</style>
+  <text x="1560.7562438401176" y="824.509" id="text-malawi" style="fill:#ffffff;font-size:8.60794px;" inkscape:label="Malawi wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-malawi0" x="1560.7562438401176" dy="0">Malawi</tspan></text>
+  <script type="application/ecmascript" id="script-malawi">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-malawi&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-malawi&quot;);
+        
+  </script>
+
+  <style id="style-mg">.mg{fill:rgb(42, 117, 142);}</style>
+  <text x="1654.1275994730845" y="880.694" id="text-madagascar" style="fill:#ffffff;font-size:12.7071px;" inkscape:label="Madagascar wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-madagascar0" x="1654.1275994730845" dy="0">Madagascar</tspan></text>
+  <script type="application/ecmascript" id="script-madagascar">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;Madagascar_island&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-madagascar&quot;);
+        
+  </script>
+
+  <style id="style-lu">.lu{fill:rgb(42, 117, 142);}</style>
+  <text x="1351.0423800643737" y="270.386" id="text-luxembourg" style="fill:#ffffff;font-size:1.95745px;" inkscape:label="Luxembourg wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-luxembourg0" x="1351.0423800643737" dy="0">Luxembourg</tspan></text>
+  <script type="application/ecmascript" id="script-luxembourg">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-luxembourg&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-luxembourg&quot;);
+        
+  </script>
+
+  <style id="style-lt">.lt{fill:rgb(31, 149, 139);}</style>
+  <text x="1465.9413648645382" y="228.412" id="text-lithuania" style="fill:#ffffff;font-size:10.3857px;" inkscape:label="Lithuania wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-lithuania0" x="1465.9413648645382" dy="0">Lithuania</tspan></text>
+  <script type="application/ecmascript" id="script-lithuania">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-lithuania&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-lithuania&quot;);
+        
+  </script>
+
+  <style id="style-li">.li{fill:rgb(33, 167, 132);}</style>
+  <text x="1373.799701161363" y="291.8" id="text-liechtenstein" style="fill:#ffffff;font-size:1.16354px;" inkscape:label="Liechtenstein wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-liechtenstein0" x="1373.799701161363" dy="0">Liechtenstein</tspan></text>
+  <script type="application/ecmascript" id="script-liechtenstein">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-liechtenstein&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-liechtenstein&quot;);
+        
+  </script>
+
+  <style id="style-ly">.ly{fill:rgb(30, 156, 137);}</style>
+  <text x="1436.3627875244754" y="490.397" id="text-libya" style="fill:#ffffff;font-size:48.8634px;" inkscape:label="Libya wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-libya0" x="1436.3627875244754" dy="0">Libya</tspan></text>
+  <script type="application/ecmascript" id="script-libya">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-libya&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-libya&quot;);
+        
+  </script>
+
+  <style id="style-lr">.lr{fill:rgb(52, 94, 141);}</style>
+  <text x="1229.6533065894419" y="648.68" id="text-liberia" style="fill:#ffffff;font-size:11.3884px;" inkscape:label="Liberia wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-liberia0" x="1229.6533065894419" dy="0">Liberia</tspan></text>
+  <script type="application/ecmascript" id="script-liberia">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-liberia&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-liberia&quot;);
+        
+  </script>
+
+  <style id="style-ls">.ls{fill:rgb(33, 167, 132);}</style>
+  <text x="1510.9379191205926" y="957.876" id="text-lesotho" style="fill:#ffffff;font-size:6.48978px;" inkscape:label="Lesotho wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-lesotho0" x="1510.9379191205926" dy="0">Lesotho</tspan></text>
+  <script type="application/ecmascript" id="script-lesotho">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-lesotho&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-lesotho&quot;);
+        
+  </script>
+
+  <style id="style-lb">.lb{fill:rgb(37, 131, 141);}</style>
+  <text x="1564.3428168390183" y="407.77" id="text-lebanon" style="fill:#ffffff;font-size:3.76418px;" inkscape:label="Lebanon wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-lebanon0" x="1564.3428168390183" dy="0">Lebanon</tspan></text>
+  <script type="application/ecmascript" id="script-lebanon">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-lebanon&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-lebanon&quot;);
+        
+  </script>
+
+  <style id="style-lv">.lv{fill:rgb(34, 138, 141);}</style>
+  <text x="1470.8053267882487" y="214.281" id="text-latvia" style="fill:#ffffff;font-size:18.2615px;" inkscape:label="Latvia wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-latvia0" x="1470.8053267882487" dy="0">Latvia</tspan></text>
+  <script type="application/ecmascript" id="script-latvia">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-latvia&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-latvia&quot;);
+        
+  </script>
+
+  <style id="style-kg">.kg{fill:rgb(33, 140, 141);}</style>
+  <text x="1828.0311020247286" y="347.908" id="text-kyrgyzstan" style="fill:#ffffff;font-size:16.081px;" inkscape:label="Kyrgyzstan wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-kyrgyzstan0" x="1828.0311020247286" dy="0">Kyrgyzstan</tspan></text>
+  <script type="application/ecmascript" id="script-kyrgyzstan">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-kyrgyzstan&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-kyrgyzstan&quot;);
+        
+  </script>
+
+  <style id="style-kw">.kw{fill:rgb(30, 158, 136);}</style>
+  <text x="1652.9099999999999" y="447.367" id="text-kuwait" style="fill:#ffffff;font-size:5.66948px;" inkscape:label="Kuwait wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-kuwait0" x="1652.9099999999999" dy="0">Kuwait</tspan></text>
+  <script type="application/ecmascript" id="script-kuwait">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-kuwait002&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-kuwait&quot;);
+        
+  </script>
+
+  <style id="style-ki">.ki{fill:rgb(33, 167, 132);}</style>
+  <text x="98.05529999999997" y="682.95" id="text-kiribati" style="fill:#ffffff;font-size:1.83055px;" inkscape:label="Kiribati wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-kiribati0" x="98.05529999999997" dy="0">Kiribati</tspan></text>
+  <script type="application/ecmascript" id="script-kiribati">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-kiribati001&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-kiribati&quot;);
+        
+  </script>
+
+  <style id="style-ke">.ke{fill:rgb(30, 153, 138);}</style>
+  <text x="1589.9911458133217" y="712.179" id="text-kenya" style="fill:#ffffff;font-size:23.1525px;" inkscape:label="Kenya wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-kenya0" x="1589.9911458133217" dy="0">Kenya</tspan></text>
+  <script type="application/ecmascript" id="script-kenya">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-kenya&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-kenya&quot;);
+        
+  </script>
+
+  <style id="style-kz">.kz{fill:rgb(32, 164, 133);}</style>
+  <text x="1757.4401942293468" y="305.82" id="text-kazakhstan" style="fill:#ffffff;font-size:57.615px;" inkscape:label="Kazakhstan wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-kazakhstan0" x="1757.4401942293468" dy="0">Kazakhstan</tspan></text>
+  <script type="application/ecmascript" id="script-kazakhstan">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-kazakhstan001&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-kazakhstan&quot;);
+        
+  </script>
+
+  <style id="style-jo">.jo{fill:rgb(30, 154, 137);}</style>
+  <text x="1572.676167944481" y="433.934" id="text-jordan" style="fill:#ffffff;font-size:11.862px;" inkscape:label="Jordan wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-jordan0" x="1572.676167944481" dy="0">Jordan</tspan></text>
+  <script type="application/ecmascript" id="script-jordan">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-jordan&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-jordan&quot;);
+        
+  </script>
+
+  <style id="style-je">.je{fill:rgb(33, 167, 132);}</style>
+  <text x="1296.1508037544686" y="274.351" id="text-jersey" style="fill:#ffffff;font-size:1.36695px;" inkscape:label="Jersey wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-jersey0" x="1296.1508037544686" dy="0">Jersey</tspan></text>
+  <script type="application/ecmascript" id="script-jersey">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-jersey&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-jersey&quot;);
+        
+  </script>
+
+  <style id="style-jp">.jp{fill:rgb(181, 221, 43);}</style>
+  <text x="2283.7597985095435" y="386.164" id="text-japan" style="fill:#000000;font-size:29.4098px;" inkscape:label="Japan wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-japan0" x="2283.7597985095435" dy="0">Japan</tspan></text>
+  <script type="application/ecmascript" id="script-japan">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;Japan_Honshu&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-japan&quot;);
+        
+  </script>
+
+  <style id="style-jm">.jm{fill:rgb(33, 167, 132);}</style>
+  <text x="719.2689468366287" y="543.035" id="text-jamaica" style="fill:#ffffff;font-size:5.90056px;" inkscape:label="Jamaica wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-jamaica0" x="719.2689468366287" dy="0">Jamaica</tspan></text>
+  <script type="application/ecmascript" id="script-jamaica">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-jamaica&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-jamaica&quot;);
+        
+  </script>
+
+  <style id="style-it">.it{fill:rgb(141, 214, 68);}</style>
+  <text x="1395.098035415089" y="344.591" id="text-italy" style="fill:#000000;font-size:44.7021px;" inkscape:label="Italy wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-italy0" x="1395.098035415089" dy="0">Italy</tspan></text>
+  <script type="application/ecmascript" id="script-italy">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;Italy_mainland&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-italy&quot;);
+        
+  </script>
+
+  <style id="style-il">.il{fill:rgb(107, 205, 89);}</style>
+  <text x="1559.6405779565262" y="432.467" id="text-israel" style="fill:#000000;font-size:5.22932px;" inkscape:label="Israel wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-israel0" x="1559.6405779565262" dy="0">Israel</tspan></text>
+  <script type="application/ecmascript" id="script-israel">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-israel&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-israel&quot;);
+        
+  </script>
+
+  <style id="style-im">.im{fill:rgb(33, 167, 132);}</style>
+  <text x="1283.4820243650963" y="233.164" id="text-isle-of-man" style="fill:#ffffff;font-size:2.14365px;" inkscape:label="Isle of Man wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-isle-of-man0" x="1283.4820243650963" dy="0.0">Isle of</tspan><tspan sodipodi:role="line" id="tspan-isle-of-man1" x="1283.4820243650963" dy="0.8577351821642197">Man</tspan></text>
+
+  <style id="style-ie">.ie{fill:rgb(34, 138, 141);}</style>
+  <text x="1258.1825296143672" y="244.88" id="text-ireland" style="fill:#ffffff;font-size:11.2608px;" inkscape:label="Ireland wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-ireland0" x="1258.1825296143672" dy="0">Republic of</tspan><tspan sodipodi:role="line" id="tspan-ireland1" x="1258.1825296143672" dy="9">Ireland</tspan></text>
+  <script type="application/ecmascript" id="script-ireland">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-ireland001&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-ireland&quot;);
+        
+  </script>
+
+  <style id="style-iq">.iq{fill:rgb(54, 184, 119);}</style>
+  <text x="1622.2113000181278" y="423.172" id="text-iraq" style="fill:#ffffff;font-size:45.2905px;" inkscape:label="Iraq wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-iraq0" x="1622.2113000181278" dy="0">Iraq</tspan></text>
+  <script type="application/ecmascript" id="script-iraq">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-iraq&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-iraq&quot;);
+        
+  </script>
+
+  <style id="style-id">.id{fill:rgb(121, 209, 81);}</style>
+  <text x="2068.8094861414684" y="716.374" id="text-indonesia" style="fill:#000000;font-size:22.2535px;" inkscape:label="Indonesia wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-indonesia0" x="2068.8094861414684" dy="0">Indonesia</tspan></text>
+  <script type="application/ecmascript" id="script-indonesia">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;Indonesia_Sumatra&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-indonesia&quot;);
+        
+  </script>
+
+  <style id="style-in">.in{fill:rgb(197, 223, 33);}</style>
+  <text x="1916.2422874554109" y="549.493" id="text-india" style="fill:#000000;font-size:100.953px;" inkscape:label="India wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-india0" x="1916.2422874554109" dy="0">India</tspan></text>
+  <script type="application/ecmascript" id="script-india">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;India_mainland&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-india&quot;);
+        
+  </script>
+
+  <style id="style-is">.is{fill:rgb(68, 1, 84);}</style>
+  <text x="1210.8877573877169" y="151.498" id="text-iceland" style="fill:#ffffff;font-size:21.8362px;" inkscape:label="Iceland wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-iceland0" x="1210.8877573877169" dy="0">Iceland</tspan></text>
+  <script type="application/ecmascript" id="script-iceland">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-iceland&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-iceland&quot;);
+        
+  </script>
+
+  <style id="style-hu">.hu{fill:rgb(36, 170, 130);}</style>
+  <text x="1440.5752979623967" y="295.497" id="text-hungary" style="fill:#ffffff;font-size:13.5275px;" inkscape:label="Hungary wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-hungary0" x="1440.5752979623967" dy="0">Hungary</tspan></text>
+  <script type="application/ecmascript" id="script-hungary">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-hungary&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-hungary&quot;);
+        
+  </script>
+
+  <style id="style-hk">.hk{fill:rgb(33, 167, 132);}</style>
+  <text x="2155.473770204037" y="505.029" id="text-hong-kong" style="fill:#ffffff;font-size:2.24843px;" inkscape:label="Hong Kong wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-hong-kong0" x="2155.473770204037" dy="0.0">Hong</tspan><tspan sodipodi:role="line" id="tspan-hong-kong1" x="2155.473770204037" dy="0.9363246140845842">Kong</tspan></text>
+
+  <style id="style-hn">.hn{fill:rgb(35, 135, 141);}</style>
+  <text x="648.4280000000001" y="577.471" id="text-honduras" style="fill:#ffffff;font-size:13.0461px;" inkscape:label="Honduras wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-honduras0" x="648.4280000000001" dy="0">Honduras</tspan></text>
+  <script type="application/ecmascript" id="script-honduras">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;Honduras_mainland&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-honduras&quot;);
+        
+  </script>
+
+  <style id="style-va">.va{fill:rgb(33, 167, 132);}</style>
+  <text x="1394.3758015267176" y="337.695" id="text-holy-see" style="fill:#ffffff;font-size:1.07723px;" inkscape:label="Holy See wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-holy-see0" x="1394.3758015267176" dy="0.0">Vatican</tspan><tspan sodipodi:role="line" id="tspan-holy-see1" x="1394.3758015267176" dy="0.057924467941810345">City</tspan></text>
+
+  <style id="style-ht">.ht{fill:rgb(33, 167, 132);}</style>
+  <text x="752.0777706321444" y="537.038" id="text-haiti" style="fill:#ffffff;font-size:11.4829px;" inkscape:label="Haiti wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-haiti0" x="752.0777706321444" dy="0">Haiti</tspan></text>
+  <script type="application/ecmascript" id="script-haiti">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;Haiti_Hispaniola&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-haiti&quot;);
+        
+  </script>
+
+  <style id="style-gy">.gy{fill:rgb(33, 167, 132);}</style>
+  <text x="850.3821127802507" y="666.883" id="text-guyana" style="fill:#ffffff;font-size:12.5757px;" inkscape:label="Guyana wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-guyana0" x="850.3821127802507" dy="0">Guyana</tspan></text>
+  <script type="application/ecmascript" id="script-guyana">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-guyana&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-guyana&quot;);
+        
+  </script>
+
+  <style id="style-gw">.gw{fill:rgb(33, 167, 132);}</style>
+  <text x="1185.7376939730188" y="596.3897886300241" id="text-guinea-bissau" style="fill:#ffffff;font-size:1em;" inkscape:label="Guinea-Bissau wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-guinea-bissau0" x="1185.7376939730188" dy="0">Guinea</tspan><tspan sodipodi:role="line" id="tspan-guinea-bissau1" x="1185.7376939730188" dy="9">-</tspan><tspan sodipodi:role="line" id="tspan-guinea-bissau2" x="1185.7376939730188" dy="18">Bissau</tspan></text>
+  <script type="application/ecmascript" id="script-guinea-bissau">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;Guinea-Bissau_mainland&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-guinea-bissau&quot;);
+        
+  </script>
+
+  <style id="style-gn">.gn{fill:rgb(33, 167, 132);}</style>
+  <text x="1214.7049999999988" y="620.509" id="text-guinea" style="fill:#ffffff;font-size:19.9038px;" inkscape:label="Guinea wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-guinea0" x="1214.7049999999988" dy="0">Guinea</tspan></text>
+  <script type="application/ecmascript" id="script-guinea">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;Guinea_mainland&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-guinea&quot;);
+        
+  </script>
+
+  <style id="style-gg">.gg{fill:rgb(33, 167, 132);}</style>
+  <text x="1293.51375" y="271.845" id="text-guernsey" style="fill:#ffffff;font-size:1.13926px;" inkscape:label="Guernsey wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-guernsey0" x="1293.51375" dy="0">Guernsey</tspan></text>
+  <script type="application/ecmascript" id="script-guernsey">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-guernsey&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-guernsey&quot;);
+        
+  </script>
+
+  <style id="style-gt">.gt{fill:rgb(33, 140, 141);}</style>
+  <text x="618.3073850628765" y="567.815" id="text-guatemala" style="fill:#ffffff;font-size:8.22169px;" inkscape:label="Guatemala wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-guatemala0" x="618.3073850628765" dy="0">Guatemala</tspan></text>
+  <script type="application/ecmascript" id="script-guatemala">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-guatemala&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-guatemala&quot;);
+        
+  </script>
+
+  <style id="style-gu">.gu{fill:rgb(33, 167, 132);}</style>
+  <text x="2398.700417619051" y="582.99" id="text-guam" style="fill:#ffffff;font-size:1.68765px;" inkscape:label="Guam wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-guam0" x="2398.700417619051" dy="0">Guam</tspan></text>
+  <script type="application/ecmascript" id="script-guam">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-guam&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-guam&quot;);
+        
+  </script>
+
+  <style id="style-gp">.gp{fill:rgb(33, 167, 132);}</style>
+  <text x="837.8555" y="557.471" id="text-guadeloupe" style="fill:#ffffff;font-size:1.55029px;" inkscape:label="Guadeloupe wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-guadeloupe0" x="837.8555" dy="0">Guadeloupe</tspan></text>
+  <script type="application/ecmascript" id="script-guadeloupe">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-guadeloupe002&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-guadeloupe&quot;);
+        
+  </script>
+
+  <style id="style-gd">.gd{fill:rgb(33, 167, 132);}</style>
+  <text x="832.7293118520897" y="594.03" id="text-grenada" style="fill:#ffffff;font-size:1.32465px;" inkscape:label="Grenada wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-grenada0" x="832.7293118520897" dy="0">Grenada</tspan></text>
+  <script type="application/ecmascript" id="script-grenada">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-grenada&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-grenada&quot;);
+        
+  </script>
+
+  <style id="style-gl">.gl{fill:rgb(33, 167, 132);}</style>
+  <text x="1122.6760000000002" y="132.29" id="text-greenland" style="fill:#ffffff;font-size:73.2565px;" inkscape:label="Greenland wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-greenland0" x="1122.6760000000002" dy="0">Greenland</tspan></text>
+  <script type="application/ecmascript" id="script-greenland">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;Greenland_island&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-greenland&quot;);
+        
+  </script>
+
+  <style id="style-gr">.gr{fill:rgb(68, 190, 112);}</style>
+  <text x="1470.4950000000006" y="368.073" id="text-greece" style="fill:#ffffff;font-size:17.1318px;" inkscape:label="Greece wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-greece0" x="1470.4950000000006" dy="0">Greece</tspan></text>
+  <script type="application/ecmascript" id="script-greece">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;Greece_mainland&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-greece&quot;);
+        
+  </script>
+
+  <style id="style-gi">.gi{fill:rgb(33, 167, 132);}</style>
+  <text x="1266.7637499999996" y="386.515" id="text-gibraltar" style="fill:#ffffff;font-size:1.19444px;" inkscape:label="Gibraltar wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-gibraltar0" x="1266.7637499999996" dy="0">Gibraltar</tspan></text>
+  <script type="application/ecmascript" id="script-gibraltar">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-gibraltar&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-gibraltar&quot;);
+        
+  </script>
+
+  <style id="style-gh">.gh{fill:rgb(34, 138, 141);}</style>
+  <text x="1291.5889597924993" y="639.116" id="text-ghana" style="fill:#ffffff;font-size:13.6179px;" inkscape:label="Ghana wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-ghana0" x="1291.5889597924993" dy="0">Ghana</tspan></text>
+  <script type="application/ecmascript" id="script-ghana">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-ghana&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-ghana&quot;);
+        
+  </script>
+
+  <style id="style-de">.de{fill:rgb(116, 208, 84);}</style>
+  <text x="1380.1195657461587" y="269.13" id="text-germany" style="fill:#000000;font-size:16.7772px;" inkscape:label="Germany wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-germany0" x="1380.1195657461587" dy="0">Germany</tspan></text>
+  <script type="application/ecmascript" id="script-germany">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;Germany_mainland&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-germany&quot;);
+        
+  </script>
+
+  <style id="style-ge">.ge{fill:rgb(32, 143, 140);}</style>
+  <text x="1610.1129775192067" y="336.097" id="text-georgia" style="fill:#ffffff;font-size:16.1739px;" inkscape:label="Georgia wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-georgia0" x="1610.1129775192067" dy="0">Georgia</tspan><tspan sodipodi:role="line" id="tspan-georgia1" x="1610.1129775192067" dy="9">(country)</tspan></text>
+  <script type="application/ecmascript" id="script-georgia">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-georgia&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-georgia&quot;);
+        
+  </script>
+
+  <style id="style-gm">.gm{fill:rgb(33, 167, 132);}</style>
+  <text x="1184.6847347346813" y="583.356" id="text-gambia" style="fill:#ffffff;font-size:7.10633px;" inkscape:label="Gambia wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-gambia0" x="1184.6847347346813" dy="0">The</tspan><tspan sodipodi:role="line" id="tspan-gambia1" x="1184.6847347346813" dy="9">Gambia</tspan></text>
+  <script type="application/ecmascript" id="script-gambia">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-gambia&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-gambia&quot;);
+        
+  </script>
+
+  <style id="style-ga">.ga{fill:rgb(43, 115, 142);}</style>
+  <text x="1389.4691710870147" y="714.488" id="text-gabon" style="fill:#ffffff;font-size:17.1563px;" inkscape:label="Gabon wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-gabon0" x="1389.4691710870147" dy="0">Gabon</tspan></text>
+  <script type="application/ecmascript" id="script-gabon">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;Gabon_mainland&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-gabon&quot;);
+        
+  </script>
+
+  <style id="style-tf">.tf{fill:rgb(33, 167, 132);}</style>
+  <text x="1773.3362019207227" y="1124.25" id="text-french-southern-territories" style="fill:#ffffff;font-size:2.88561px;" inkscape:label="French Southern Territories wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-french-southern-territories0" x="1773.3362019207227" dy="0.0">French Southern and</tspan><tspan sodipodi:role="line" id="tspan-french-southern-territories1" x="1773.3362019207227" dy="1.4142102888086643">Antarctic Lands</tspan></text>
+
+  <style id="style-pf">.pf{fill:rgb(33, 167, 132);}</style>
+  <text x="175.67144419544795" y="852.119" id="text-french-polynesia" style="fill:#ffffff;font-size:1.96837px;" inkscape:label="French Polynesia wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-french-polynesia0" x="175.67144419544795" dy="0.0">French</tspan><tspan sodipodi:role="line" id="tspan-french-polynesia1" x="175.67144419544795" dy="0.7262797764103814">Polynesia</tspan></text>
+
+  <style id="style-gf">.gf{fill:rgb(33, 167, 132);}</style>
+  <text x="894.0087539673692" y="669.731" id="text-french-guiana" style="fill:#ffffff;font-size:8.68053px;" inkscape:label="French Guiana wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-french-guiana0" x="894.0087539673692" dy="0.0">French</tspan><tspan sodipodi:role="line" id="tspan-french-guiana1" x="894.0087539673692" dy="5.760397708471211">Guiana</tspan></text>
+
+  <style id="style-fr">.fr{fill:rgb(170, 219, 50);}</style>
+  <text x="1321.398001239101" y="307.803" id="text-france" style="fill:#000000;font-size:32.3826px;" inkscape:label="France wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-france0" x="1321.398001239101" dy="0">France</tspan></text>
+  <script type="application/ecmascript" id="script-france">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;France_mainland&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-france&quot;);
+        
+  </script>
+
+  <style id="style-fi">.fi{fill:rgb(35, 168, 131);}</style>
+  <text x="1470.3575963881406" y="161.472" id="text-finland" style="fill:#ffffff;font-size:22.6291px;" inkscape:label="Finland wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-finland0" x="1470.3575963881406" dy="0">Finland</tspan></text>
+  <script type="application/ecmascript" id="script-finland">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;Finland_mainland&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-finland&quot;);
+        
+  </script>
+
+  <style id="style-fj">.fj{fill:rgb(33, 167, 132);}</style>
+  <text x="2654.954666431787" y="843.244" id="text-fiji" style="fill:#ffffff;font-size:7.70651px;" inkscape:label="Fiji wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-fiji0" x="2654.954666431787" dy="0">Fiji</tspan></text>
+  <script type="application/ecmascript" id="script-fiji">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-fiji006&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-fiji&quot;);
+        
+  </script>
+
+  <style id="style-fo">.fo{fill:rgb(33, 167, 132);}</style>
+  <text x="1276.3880964410296" y="169.134" id="text-faroe-islands" style="fill:#ffffff;font-size:1.76319px;" inkscape:label="Faroe Islands wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-faroe-islands0" x="1276.3880964410296" dy="0.0">Faroe</tspan><tspan sodipodi:role="line" id="tspan-faroe-islands1" x="1276.3880964410296" dy="0.5723888314374354">Islands</tspan></text>
+
+  <style id="style-fk">.fk{fill:rgb(33, 167, 132);}</style>
+  <text x="927.355" y="1145.86" id="text-falkland-islands-malvinas" style="fill:#ffffff;font-size:2.74405px;" inkscape:label="Falkland Islands (Malvinas) wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-falkland-islands-malvinas0" x="927.355" dy="0.0">Falkland</tspan><tspan sodipodi:role="line" id="tspan-falkland-islands-malvinas1" x="927.355" dy="1.308036370315944">Islands</tspan></text>
+
+  <style id="style-et">.et{fill:rgb(32, 164, 133);}</style>
+  <text x="1602.510157273982" y="635.981" id="text-ethiopia" style="fill:#ffffff;font-size:33.5735px;" inkscape:label="Ethiopia wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-ethiopia0" x="1602.510157273982" dy="0">Ethiopia</tspan></text>
+  <script type="application/ecmascript" id="script-ethiopia">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-ethiopia&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-ethiopia&quot;);
+        
+  </script>
+
+  <style id="style-sz">.sz{fill:rgb(33, 167, 132);}</style>
+  <text x="1536.5842166658044" y="930.558" id="text-eswatini" style="fill:#ffffff;font-size:3.93049px;" inkscape:label="Eswatini wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-eswatini0" x="1536.5842166658044" dy="0">Eswatini</tspan></text>
+  <script type="application/ecmascript" id="script-eswatini">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-eswatini&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-eswatini&quot;);
+        
+  </script>
+
+  <style id="style-ee">.ee{fill:rgb(35, 135, 141);}</style>
+  <text x="1474.195" y="200.131" id="text-estonia" style="fill:#ffffff;font-size:10.2586px;" inkscape:label="Estonia wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-estonia0" x="1474.195" dy="0">Estonia</tspan></text>
+  <script type="application/ecmascript" id="script-estonia">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;Estonia_mainland&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-estonia&quot;);
+        
+  </script>
+
+  <style id="style-er">.er{fill:rgb(42, 119, 142);}</style>
+  <text x="1602.6461753394537" y="575.299" id="text-eritrea" style="fill:#ffffff;font-size:19.1172px;" inkscape:label="Eritrea wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-eritrea0" x="1602.6461753394537" dy="0">Eritrea</tspan></text>
+  <script type="application/ecmascript" id="script-eritrea">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;Eritrea_mainland&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-eritrea&quot;);
+        
+  </script>
+
+  <style id="style-gq">.gq{fill:rgb(33, 167, 132);}</style>
+  <text x="1379.4984199126313" y="685.974" id="text-equatorial-guinea" style="fill:#ffffff;font-size:4.5529px;" inkscape:label="Equatorial Guinea wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-equatorial-guinea0" x="1379.4984199126313" dy="0.0">Equatorial</tspan><tspan sodipodi:role="line" id="tspan-equatorial-guinea1" x="1379.4984199126313" dy="2.664673788521022">Guinea</tspan></text>
+
+  <style id="style-sv">.sv{fill:rgb(42, 119, 142);}</style>
+  <text x="627.5477453191071" y="581.126" id="text-el-salvador" style="fill:#ffffff;font-size:6.02644px;" inkscape:label="El Salvador wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-el-salvador0" x="627.5477453191071" dy="0.0">El</tspan><tspan sodipodi:role="line" id="tspan-el-salvador1" x="627.5477453191071" dy="3.769829283193049">Salvador</tspan></text>
+
+  <style id="style-eg">.eg{fill:rgb(136, 213, 71);}</style>
+  <text x="1523.4466658185497" y="482.003" id="text-egypt" style="fill:#000000;font-size:34.9221px;" inkscape:label="Egypt wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-egypt0" x="1523.4466658185497" dy="0">Egypt</tspan></text>
+  <script type="application/ecmascript" id="script-egypt">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-egypt&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-egypt&quot;);
+        
+  </script>
+
+  <style id="style-ec">.ec{fill:rgb(31, 162, 134);}</style>
+  <text x="703.7935" y="723.068" id="text-ecuador" style="fill:#ffffff;font-size:13.7202px;" inkscape:label="Ecuador wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-ecuador0" x="703.7935" dy="0">Ecuador</tspan></text>
+  <script type="application/ecmascript" id="script-ecuador">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;Ecuador_mainland&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-ecuador&quot;);
+        
+  </script>
+
+  <style id="style-do">.do{fill:rgb(40, 123, 142);}</style>
+  <text x="773.619729521575" y="539.633" id="text-dominican-republic" style="fill:#ffffff;font-size:7.00643px;" inkscape:label="Dominican Republic wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-dominican-republic0" x="773.619729521575" dy="0.0">Dominican</tspan><tspan sodipodi:role="line" id="tspan-dominican-republic1" x="773.619729521575" dy="4.504819768063275">Republic</tspan></text>
+
+  <style id="style-dm">.dm{fill:rgb(33, 167, 132);}</style>
+  <text x="837.2558899889805" y="565.83" id="text-dominica" style="fill:#ffffff;font-size:1.42573px;" inkscape:label="Dominica wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-dominica0" x="837.2558899889805" dy="0">Dominica</tspan></text>
+  <script type="application/ecmascript" id="script-dominica">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-dominica&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-dominica&quot;);
+        
+  </script>
+
+  <style id="style-dj">.dj{fill:rgb(33, 167, 132);}</style>
+  <text x="1624.3056452376502" y="598.753" id="text-djibouti" style="fill:#ffffff;font-size:4.59981px;" inkscape:label="Djibouti wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-djibouti0" x="1624.3056452376502" dy="0">Djibouti</tspan></text>
+  <script type="application/ecmascript" id="script-djibouti">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-djibouti&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-djibouti&quot;);
+        
+  </script>
+
+  <style id="style-dk">.dk{fill:rgb(36, 170, 130);}</style>
+  <text x="1373.808464147958" y="221.667" id="text-denmark" style="fill:#ffffff;font-size:5.6935px;" inkscape:label="Denmark wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-denmark0" x="1373.808464147958" dy="0">Denmark</tspan></text>
+  <script type="application/ecmascript" id="script-denmark">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;Denmark_mainland&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-denmark&quot;);
+        
+  </script>
+
+  <style id="style-ci">.ci{fill:rgb(33, 167, 132);}</style>
+  <text x="1258.429639166739" y="642.381" id="text-côte-d-ivoire" style="fill:#ffffff;font-size:16.2202px;" inkscape:label="Côte d'Ivoire wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-côte-d-ivoire0" x="1258.429639166739" dy="0.0">Ivory</tspan><tspan sodipodi:role="line" id="tspan-côte-d-ivoire1" x="1258.429639166739" dy="11.415181413112666">Coast</tspan></text>
+
+  <style id="style-cz">.cz{fill:rgb(50, 181, 122);}</style>
+  <text x="1412.5052039680654" y="272.71" id="text-czechia" style="fill:#ffffff;font-size:14.9727px;" inkscape:label="Czechia wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-czechia0" x="1412.5052039680654" dy="0">Czech</tspan><tspan sodipodi:role="line" id="tspan-czechia1" x="1412.5052039680654" dy="9">Republic</tspan></text>
+  <script type="application/ecmascript" id="script-czechia">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-czech-republic&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-czechia&quot;);
+        
+  </script>
+
+  <style id="style-cy">.cy{fill:rgb(33, 167, 132);}</style>
+  <text x="1544.4112945002569" y="396.269" id="text-cyprus" style="fill:#ffffff;font-size:6.63391px;" inkscape:label="Cyprus wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-cyprus0" x="1544.4112945002569" dy="0">Cyprus</tspan></text>
+  <script type="application/ecmascript" id="script-cyprus">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-cyprus&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-cyprus&quot;);
+        
+  </script>
+
+  <style id="style-cw">.cw{fill:rgb(33, 167, 132);}</style>
+  <text x="777.3794996060248" y="593.478" id="text-curaçao" style="fill:#ffffff;font-size:1.88535px;" inkscape:label="Curaçao wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-curaçao0" x="777.3794996060248" dy="0">Curaçao</tspan></text>
+  <script type="application/ecmascript" id="script-curaçao">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-curacao&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-curaçao&quot;);
+        
+  </script>
+
+  <style id="style-cu">.cu{fill:rgb(30, 160, 135);}</style>
+  <text x="706.0729617443291" y="517.262" id="text-cuba" style="fill:#ffffff;font-size:28.3857px;" inkscape:label="Cuba wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-cuba0" x="706.0729617443291" dy="0">Cuba</tspan></text>
+  <script type="application/ecmascript" id="script-cuba">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;Cuba_island&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-cuba&quot;);
+        
+  </script>
+
+  <style id="style-hr">.hr{fill:rgb(33, 167, 132);}</style>
+  <text x="1420.9996708496449" y="317.18" id="text-croatia" style="fill:#ffffff;font-size:14.4752px;" inkscape:label="Croatia wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-croatia0" x="1420.9996708496449" dy="0">Croatia</tspan></text>
+  <script type="application/ecmascript" id="script-croatia">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-croatia001&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-croatia&quot;);
+        
+  </script>
+
+  <style id="style-cr">.cr{fill:rgb(33, 167, 132);}</style>
+  <text x="660.3686242246135" y="619.985" id="text-costa-rica" style="fill:#ffffff;font-size:11.5401px;" inkscape:label="Costa Rica wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-costa-rica0" x="660.3686242246135" dy="0.0">Costa</tspan><tspan sodipodi:role="line" id="tspan-costa-rica1" x="660.3686242246135" dy="7.905105910041842">Rica</tspan></text>
+
+  <style id="style-ck">.ck{fill:rgb(33, 167, 132);}</style>
+  <text x="100.80825000000002" y="882.73" id="text-cook-islands" style="fill:#ffffff;font-size:1.27776px;" inkscape:label="Cook Islands wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-cook-islands0" x="100.80825000000002" dy="0.0">Cook</tspan><tspan sodipodi:role="line" id="tspan-cook-islands1" x="100.80825000000002" dy="0.20832188792657702">Islands</tspan></text>
+
+  <style id="style-km">.km{fill:rgb(33, 167, 132);}</style>
+  <text x="1630.2574086998243" y="800.216" id="text-comoros" style="fill:#ffffff;font-size:1.52447px;" inkscape:label="Comoros wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-comoros0" x="1630.2574086998243" dy="0">Comoros</tspan></text>
+  <script type="application/ecmascript" id="script-comoros">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;Comoros_Grande_Comore&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-comoros&quot;);
+        
+  </script>
+
+  <style id="style-co">.co{fill:rgb(50, 181, 122);}</style>
+  <text x="742.8287414552566" y="687.208" id="text-colombia" style="fill:#ffffff;font-size:24.2886px;" inkscape:label="Colombia wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-colombia0" x="742.8287414552566" dy="0">Colombia</tspan></text>
+  <script type="application/ecmascript" id="script-colombia">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-colombia&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-colombia&quot;);
+        
+  </script>
+
+  <style id="style-cn">.cn{fill:rgb(253, 231, 36);}</style>
+  <text x="2022.9916520457004" y="428.283" id="text-china" style="fill:#000000;font-size:161.716px;" inkscape:label="China wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-china0" x="2022.9916520457004" dy="0">China</tspan></text>
+  <script type="application/ecmascript" id="script-china">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-china-people-s-republic-of001&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-china&quot;);
+        
+  </script>
+
+  <style id="style-cl">.cl{fill:rgb(38, 172, 129);}</style>
+  <text x="818.2365000000004" y="1057.7" id="text-chile" style="fill:#ffffff;font-size:44.061px;" inkscape:label="Chile wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-chile0" x="818.2365000000004" dy="0">Chile</tspan></text>
+  <script type="application/ecmascript" id="script-chile">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-chile154&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-chile&quot;);
+        
+  </script>
+
+  <style id="style-td">.td{fill:rgb(32, 143, 140);}</style>
+  <text x="1442.358703678845" y="587.635" id="text-chad" style="fill:#ffffff;font-size:37.6119px;" inkscape:label="Chad wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-chad0" x="1442.358703678845" dy="0">Chad</tspan></text>
+  <script type="application/ecmascript" id="script-chad">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-chad&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-chad&quot;);
+        
+  </script>
+
+  <style id="style-cf">.cf{fill:rgb(45, 111, 142);}</style>
+  <text x="1456.9003835458952" y="654.041" id="text-central-african-republic" style="fill:#ffffff;font-size:16.9215px;" inkscape:label="Central African Republic wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-central-african-republic0" x="1456.9003835458952" dy="0.0">Central African</tspan><tspan sodipodi:role="line" id="tspan-central-african-republic1" x="1456.9003835458952" dy="11.941140018736826">Republic</tspan></text>
+
+  <style id="style-ky">.ky{fill:rgb(33, 167, 132);}</style>
+  <text x="690.8194907407781" y="531.62" id="text-cayman-islands" style="fill:#ffffff;font-size:1.40901px;" inkscape:label="Cayman Islands wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-cayman-islands0" x="690.8194907407781" dy="0.0">Cayman</tspan><tspan sodipodi:role="line" id="tspan-cayman-islands1" x="690.8194907407781" dy="0.30675848599137934">Islands</tspan></text>
+
+  <style id="style-ca">.ca{fill:rgb(83, 197, 103);}</style>
+  <text x="704.6994462103239" y="255.784" id="text-canada" style="fill:#000000;font-size:162.308px;" inkscape:label="Canada wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-canada0" x="704.6994462103239" dy="0">Canada</tspan></text>
+  <script type="application/ecmascript" id="script-canada">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;Canada_mainland&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-canada&quot;);
+        
+  </script>
+
+  <style id="style-cm">.cm{fill:rgb(35, 135, 141);}</style>
+  <text x="1397.9968903774375" y="651.294" id="text-cameroon" style="fill:#ffffff;font-size:14.8656px;" inkscape:label="Cameroon wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-cameroon0" x="1397.9968903774375" dy="0">Cameroon</tspan></text>
+  <script type="application/ecmascript" id="script-cameroon">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-cameroon&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-cameroon&quot;);
+        
+  </script>
+
+  <style id="style-kh">.kh{fill:rgb(34, 138, 141);}</style>
+  <text x="2097.2825965025368" y="595.836" id="text-cambodia" style="fill:#ffffff;font-size:10.7984px;" inkscape:label="Cambodia wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-cambodia0" x="2097.2825965025368" dy="0">Cambodia</tspan></text>
+  <script type="application/ecmascript" id="script-cambodia">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;Cambodia_mainland&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-cambodia&quot;);
+        
+  </script>
+
+  <style id="style-bi">.bi{fill:rgb(33, 167, 132);}</style>
+  <text x="1529.1960475257547" y="730.82" id="text-burundi" style="fill:#ffffff;font-size:5.13364px;" inkscape:label="Burundi wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-burundi0" x="1529.1960475257547" dy="0">Burundi</tspan></text>
+  <script type="application/ecmascript" id="script-burundi">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-burundi&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-burundi&quot;);
+        
+  </script>
+
+  <style id="style-bf">.bf{fill:rgb(43, 115, 142);}</style>
+  <text x="1287.8524047985345" y="600.832" id="text-burkina-faso" style="fill:#ffffff;font-size:18.9848px;" inkscape:label="Burkina Faso wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-burkina-faso0" x="1287.8524047985345" dy="0.0">Burkina</tspan><tspan sodipodi:role="line" id="tspan-burkina-faso1" x="1287.8524047985345" dy="13.488570749890368">Faso</tspan></text>
+
+  <style id="style-bg">.bg{fill:rgb(32, 164, 133);}</style>
+  <text x="1482.5185221796446" y="333.319" id="text-bulgaria" style="fill:#ffffff;font-size:13.0766px;" inkscape:label="Bulgaria wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-bulgaria0" x="1482.5185221796446" dy="0">Bulgaria</tspan></text>
+  <script type="application/ecmascript" id="script-bulgaria">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-bulgaria&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-bulgaria&quot;);
+        
+  </script>
+
+  <style id="style-io">.io{fill:rgb(33, 167, 132);}</style>
+  <text x="1841.9988015818428" y="761.52" id="text-british-indian-ocean-territory" style="fill:#ffffff;font-size:1.05744px;" inkscape:label="British Indian Ocean Territory wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-british-indian-ocean-territory0" x="1841.9988015818428" dy="0.0">British Indian Ocean</tspan><tspan sodipodi:role="line" id="tspan-british-indian-ocean-territory1" x="1841.9988015818428" dy="0.04308017669476845">Territory</tspan></text>
+
+  <style id="style-br">.br{fill:rgb(144, 214, 67);}</style>
+  <text x="886.1296088955669" y="877.828" id="text-brazil" style="fill:#000000;font-size:118.558px;" inkscape:label="Brazil wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-brazil0" x="886.1296088955669" dy="0">Brazil</tspan></text>
+  <script type="application/ecmascript" id="script-brazil">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;Brazil_mainland&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-brazil&quot;);
+        
+  </script>
+
+  <style id="style-bw">.bw{fill:rgb(35, 135, 141);}</style>
+  <text x="1480.3023807407276" y="904.923" id="text-botswana" style="fill:#ffffff;font-size:18.3021px;" inkscape:label="Botswana wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-botswana0" x="1480.3023807407276" dy="0">Botswana</tspan></text>
+  <script type="application/ecmascript" id="script-botswana">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-botswana&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-botswana&quot;);
+        
+  </script>
+
+  <style id="style-bt">.bt{fill:rgb(71, 37, 117);}</style>
+  <text x="1971.5060777069716" y="463.045" id="text-bhutan" style="fill:#ffffff;font-size:9.28739px;" inkscape:label="Bhutan wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-bhutan0" x="1971.5060777069716" dy="0">Bhutan</tspan></text>
+  <script type="application/ecmascript" id="script-bhutan">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-bhutan&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-bhutan&quot;);
+        
+  </script>
+
+  <style id="style-bm">.bm{fill:rgb(33, 167, 132);}</style>
+  <text x="832.232277343071" y="419.31" id="text-bermuda" style="fill:#ffffff;font-size:1.2114px;" inkscape:label="Bermuda wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-bermuda0" x="832.232277343071" dy="0">Bermuda</tspan></text>
+  <script type="application/ecmascript" id="script-bermuda">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-bermuda&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-bermuda&quot;);
+        
+  </script>
+
+  <style id="style-bj">.bj{fill:rgb(33, 167, 132);}</style>
+  <text x="1318.6993778556753" y="626.933" id="text-benin" style="fill:#ffffff;font-size:10.3047px;" inkscape:label="Benin wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-benin0" x="1318.6993778556753" dy="0">Benin</tspan></text>
+  <script type="application/ecmascript" id="script-benin">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-benin&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-benin&quot;);
+        
+  </script>
+
+  <style id="style-bz">.bz{fill:rgb(33, 167, 132);}</style>
+  <text x="632.4979788659514" y="553.6" id="text-belize" style="fill:#ffffff;font-size:5.12731px;" inkscape:label="Belize wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-belize0" x="632.4979788659514" dy="0">Belize</tspan></text>
+  <script type="application/ecmascript" id="script-belize">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;Belize_mainland&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-belize&quot;);
+        
+  </script>
+
+  <style id="style-be">.be{fill:rgb(31, 162, 134);}</style>
+  <text x="1341.6420513438113" y="266.257" id="text-belgium" style="fill:#ffffff;font-size:8.15514px;" inkscape:label="Belgium wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-belgium0" x="1341.6420513438113" dy="0">Belgium</tspan></text>
+  <script type="application/ecmascript" id="script-belgium">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-belgium&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-belgium&quot;);
+        
+  </script>
+
+  <style id="style-by">.by{fill:rgb(38, 172, 129);}</style>
+  <text x="1493.531261004812" y="243.654" id="text-belarus" style="fill:#ffffff;font-size:20.556px;" inkscape:label="Belarus wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-belarus0" x="1493.531261004812" dy="0">Belarus</tspan></text>
+  <script type="application/ecmascript" id="script-belarus">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-belarus&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-belarus&quot;);
+        
+  </script>
+
+  <style id="style-bb">.bb{fill:rgb(33, 167, 132);}</style>
+  <text x="849.3875035230446" y="584.91" id="text-barbados" style="fill:#ffffff;font-size:1.37387px;" inkscape:label="Barbados wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-barbados0" x="849.3875035230446" dy="0">Barbados</tspan></text>
+  <script type="application/ecmascript" id="script-barbados">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-barbados&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-barbados&quot;);
+        
+  </script>
+
+  <style id="style-bd">.bd{fill:rgb(47, 179, 123);}</style>
+  <text x="1976.3437018582526" y="501.917" id="text-bangladesh" style="fill:#ffffff;font-size:9.27721px;" inkscape:label="Bangladesh wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-bangladesh0" x="1976.3437018582526" dy="0">Bangladesh</tspan></text>
+  <script type="application/ecmascript" id="script-bangladesh">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;Bangladesh_mainland&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-bangladesh&quot;);
+        
+  </script>
+
+  <style id="style-bh">.bh{fill:rgb(34, 138, 141);}</style>
+  <text x="1677.6736603200545" y="474.175" id="text-bahrain" style="fill:#ffffff;font-size:1.39813px;" inkscape:label="Bahrain wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-bahrain0" x="1677.6736603200545" dy="0">Bahrain</tspan></text>
+  <script type="application/ecmascript" id="script-bahrain">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-bahrain&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-bahrain&quot;);
+        
+  </script>
+
+  <style id="style-bs">.bs{fill:rgb(33, 167, 132);}</style>
+  <text x="728.8529883785875" y="471.623" id="text-bahamas" style="fill:#ffffff;font-size:2.52875px;" inkscape:label="Bahamas wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-bahamas0" x="728.8529883785875" dy="0">The</tspan><tspan sodipodi:role="line" id="tspan-bahamas1" x="728.8529883785875" dy="9">Bahamas</tspan></text>
+  <script type="application/ecmascript" id="script-bahamas">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-bahamas007&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-bahamas&quot;);
+        
+  </script>
+
+  <style id="style-az">.az{fill:rgb(32, 165, 133);}</style>
+  <text x="1641.5050000000008" y="356.16" id="text-azerbaijan" style="fill:#ffffff;font-size:9.68722px;" inkscape:label="Azerbaijan wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-azerbaijan0" x="1641.5050000000008" dy="0">Azerbaijan</tspan></text>
+  <script type="application/ecmascript" id="script-azerbaijan">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-azerbaijan001&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-azerbaijan&quot;);
+        
+  </script>
+
+  <style id="style-at">.at{fill:rgb(36, 170, 130);}</style>
+  <text x="1404.815935952122" y="290.649" id="text-austria" style="fill:#ffffff;font-size:17.8375px;" inkscape:label="Austria wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-austria0" x="1404.815935952122" dy="0">Austria</tspan></text>
+  <script type="application/ecmascript" id="script-austria">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-austria&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-austria&quot;);
+        
+  </script>
+
+  <style id="style-au">.au{fill:rgb(116, 208, 84);}</style>
+  <text x="2287.5486068486093" y="955.206" id="text-australia" style="fill:#000000;font-size:81.1745px;" inkscape:label="Australia wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-australia0" x="2287.5486068486093" dy="0">Australia</tspan></text>
+  <script type="application/ecmascript" id="script-australia">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;Australia_mainland&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-australia&quot;);
+        
+  </script>
+
+  <style id="style-aw">.aw{fill:rgb(33, 167, 132);}</style>
+  <text x="770.0558900049559" y="590.7" id="text-aruba" style="fill:#ffffff;font-size:1.4695px;" inkscape:label="Aruba wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-aruba0" x="770.0558900049559" dy="0">Aruba</tspan></text>
+  <script type="application/ecmascript" id="script-aruba">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-aruba&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-aruba&quot;);
+        
+  </script>
+
+  <style id="style-am">.am{fill:rgb(34, 138, 141);}</style>
+  <text x="1622.5663490553209" y="355.436" id="text-armenia" style="fill:#ffffff;font-size:7.90591px;" inkscape:label="Armenia wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-armenia0" x="1622.5663490553209" dy="0">Armenia</tspan></text>
+  <script type="application/ecmascript" id="script-armenia">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-armenia&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-armenia&quot;);
+        
+  </script>
+
+  <style id="style-ar">.ar{fill:rgb(53, 183, 120);}</style>
+  <text x="846.7338646665379" y="1061.94" id="text-argentina" style="fill:#ffffff;font-size:29.452px;" inkscape:label="Argentina wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-argentina0" x="846.7338646665379" dy="0">Argentina</tspan></text>
+  <script type="application/ecmascript" id="script-argentina">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-argentina001&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-argentina&quot;);
+        
+  </script>
+
+  <style id="style-aq">.aq{fill:rgb(33, 167, 132);}</style>
+  <text x="1392.0348701431037" y="1343.04" id="text-antarctica" style="fill:#ffffff;font-size:151.51px;" inkscape:label="Antarctica wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-antarctica0" x="1392.0348701431037" dy="0">Antarctica</tspan></text>
+  <script type="application/ecmascript" id="script-antarctica">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;Antarctica_mainland&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-antarctica&quot;);
+        
+  </script>
+
+  <style id="style-ai">.ai{fill:rgb(33, 167, 132);}</style>
+  <text x="826.6137666943146" y="541.11" id="text-anguilla" style="fill:#ffffff;font-size:1.39799px;" inkscape:label="Anguilla wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-anguilla0" x="826.6137666943146" dy="0">Anguilla</tspan></text>
+  <script type="application/ecmascript" id="script-anguilla">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-anguilla&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-anguilla&quot;);
+        
+  </script>
+
+  <style id="style-ao">.ao{fill:rgb(32, 164, 133);}</style>
+  <text x="1436.988885972506" y="819.264" id="text-angola" style="fill:#ffffff;font-size:31.6012px;" inkscape:label="Angola wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-angola0" x="1436.988885972506" dy="0">Angola</tspan></text>
+  <script type="application/ecmascript" id="script-angola">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-angola001&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-angola&quot;);
+        
+  </script>
+
+  <style id="style-ad">.ad{fill:rgb(33, 167, 132);}</style>
+  <text x="1318.4824695713426" y="331.098" id="text-andorra" style="fill:#ffffff;font-size:1.66655px;" inkscape:label="Andorra wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-andorra0" x="1318.4824695713426" dy="0">Andorra</tspan></text>
+  <script type="application/ecmascript" id="script-andorra">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-andorra&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-andorra&quot;);
+        
+  </script>
+
+  <style id="style-as">.as{fill:rgb(33, 167, 132);}</style>
+  <text x="2734.8144404761906" y="822.602" id="text-american-samoa" style="fill:#ffffff;font-size:1.24832px;" inkscape:label="American Samoa wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-american-samoa0" x="2734.8144404761906" dy="0.0">American</tspan><tspan sodipodi:role="line" id="tspan-american-samoa1" x="2734.8144404761906" dy="0.18623949579831933">Samoa</tspan></text>
+
+  <style id="style-dz">.dz{fill:rgb(64, 189, 114);}</style>
+  <text x="1322.6257817404344" y="481.969" id="text-algeria" style="fill:#ffffff;font-size:49.9911px;" inkscape:label="Algeria wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-algeria0" x="1322.6257817404344" dy="0">Algeria</tspan></text>
+  <script type="application/ecmascript" id="script-algeria">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-algeria&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-algeria&quot;);
+        
+  </script>
+
+  <style id="style-al">.al{fill:rgb(38, 129, 142);}</style>
+  <text x="1447.4027188417401" y="346.999" id="text-albania" style="fill:#ffffff;font-size:4.83237px;" inkscape:label="Albania wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-albania0" x="1447.4027188417401" dy="0">Albania</tspan></text>
+  <script type="application/ecmascript" id="script-albania">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-albania&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-albania&quot;);
+        
+  </script>
+
+  <style id="style-af">.af{fill:rgb(39, 125, 142);}</style>
+  <text x="1782.169888331421" y="418.021" id="text-afghanistan" style="fill:#ffffff;font-size:20.5571px;" inkscape:label="Afghanistan wikipedia title" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-afghanistan0" x="1782.169888331421" dy="0">Afghanistan</tspan></text>
+  <script type="application/ecmascript" id="script-afghanistan">
+		
+		// Get path size
+		var groupNode = document.getElementById(&quot;path-afghanistan&quot;);
+		var pathBB = groupNode.getBBox();
+		
+		// Scale the font size and line height of the text
+		scaleTextNode(pathBB, &quot;text-afghanistan&quot;);
+        
+  </script>
+

@@ -28,20 +28,6 @@ import xml
 import xml.etree.ElementTree as et
 warnings.filterwarnings("ignore")
 
-import storage
-s = storage.Storage()
-
-# Handy list of the different types of encodings
-encoding_types_list = ['ascii', 'cp037', 'cp437', 'cp863', 'utf_32', 'utf_32_be', 'utf_32_le', 'utf_16', 'utf_16_be', 'utf_16_le', 'utf_7',
-                       'utf_8', 'utf_8_sig', 'latin1', 'iso8859-1']
-encoding_errors_list = ['ignore', 'replace', 'xmlcharrefreplace']
-decoding_types_list = encoding_types_list.copy()
-decoding_errors_list = encoding_errors_list.copy()
-s.encoding_type = encoding_types_list[0]
-s.encoding_error = encoding_errors_list[2]
-s.decoding_type = decoding_types_list[11]
-s.decoding_error = decoding_errors_list[0]
-
 class ChoroplethUtilities(object):
     """This class implements the core of the utility functions
     needed to create SVG choropleths or labels of the United States.
@@ -57,31 +43,49 @@ class ChoroplethUtilities(object):
     Examples
     --------
     
-    %run ../load_magic/storage.py
-    s = Storage()
     import sys
     sys.path.insert(1, '../py')
-    import choropleth_utils
+    from storage import Storage
+    from choropleth_utils import ChoroplethUtilities
     
-    afghanistan_provinces_df = s.load_object('afghanistan_provinces_df')
-    c = choropleth_utils.ChoroplethUtilities(iso_3166_2_code='af', one_country_df=afghanistan_provinces_df)
+    self.s = Storage()
+    afghanistan_provinces_df = self.s.load_object('afghanistan_provinces_df')
+    c = ChoroplethUtilities(iso_3166_2_code='af', one_country_df=afghanistan_provinces_df,
+                            self.s=self.s)
     """
     
-    def __init__(self, iso_3166_2_code=None, one_country_df=None, all_countries_df=None):
+    def __init__(self, iso_3166_2_code=None, one_country_df=None, all_countries_df=None,
+                 s=None, verbose=False):
         if iso_3166_2_code is None:
             self.iso_3166_2_code = 'us'
         else:
             self.iso_3166_2_code = iso_3166_2_code.lower()
+        if s is None:
+            from storage import Storage
+            self.s = Storage()
+        else:
+            self.s = s
+        self.s.encoding_type = self.s.encoding_types_list[0]
+        self.s.encoding_error = self.s.encoding_errors_list[2]
+        self.s.decoding_type = self.s.decoding_types_list[11]
+        self.s.decoding_error = self.s.decoding_errors_list[0]
         if one_country_df is None:
-            self.one_country_df = s.load_object('us_stats_df')
+            self.one_country_df = self.s.load_object('us_stats_df')
         else:
             self.one_country_df = one_country_df
         if all_countries_df is None:
-            self.all_countries_df = s.load_object('all_countries_df')
+            self.all_countries_df = self.s.load_object('all_countries_df')
         else:
             self.all_countries_df = all_countries_df
+        
+        # Create preferences dictionary
+        self.settings_dict = {}
         mask_series = (self.all_countries_df.index == self.iso_3166_2_code.upper())
-        self.settings_dict = self.all_countries_df[mask_series].to_dict(orient='records')[0]
+        rows_list = self.all_countries_df[mask_series].to_dict(orient='records')
+        if rows_list:
+            self.settings_dict = rows_list[0]
+        elif self.s.pickle_exists('choropleth_settings_dict'):
+            self.settings_dict = self.s.load_object('choropleth_settings_dict')
         
         # Define the SVG parts
         font_size = self.settings_dict.get('font_size', 12)
@@ -103,7 +107,7 @@ class ChoroplethUtilities(object):
                                                           'vector-effect': 'none', 'fill-opacity': '1', 'stroke-miterlimit': '4',
                                                           'stroke-dasharray': 'none', 'stroke-dashoffset': '0'})
         self.l_str = '<path style="{}" d="{{}}" id="path-{{}}" inkscape:connector-curvature="0" inkscape:label="{{}}" />'.format(';'.join(self.label_line_style_list))
-        self.label_line_file_path = os.path.join(s.saves_folder, 'xml', '{}_districts_label_line.xml'.format(self.iso_3166_2_code))
+        self.label_line_file_path = os.path.join(self.s.saves_folder, 'xml', '{}_districts_label_line.xml'.format(self.iso_3166_2_code))
         self.svg_suffix = '\n</svg>'
         self.regex_sub_str = self.svg_suffix.strip()
         self.svg_regex = re.compile(self.regex_sub_str)
@@ -111,7 +115,7 @@ class ChoroplethUtilities(object):
             self.copy_file_name = 'us - Copy.svg'
         elif self.iso_3166_2_code == 'af':
             self.copy_file_name = 'Afghanistan - Copy.svg'
-        self.copy_file_path = os.path.join(s.data_folder, 'svg', self.copy_file_name)
+        self.copy_file_path = os.path.join(self.s.data_folder, 'svg', self.copy_file_name)
         if ('svg_width' not in self.all_countries_df.columns) or ('svg_height' not in self.all_countries_df.columns):
             raise Exception('svg_width and svg_height must be in your all_countries_df')
         self.svg_width = self.settings_dict['svg_width']
@@ -184,7 +188,7 @@ class ChoroplethUtilities(object):
         self.fill_style_prefix = 'stroke-width:1.0;fill:{};'
         self.fill_style_str = self.fill_style_prefix.format(self.get_fill_color(self.html_style_str))
         self.district_path_str = '<path id="{}" d="{}" data-id="{}" data-name="{}" style="{}" inkscape:connector-curvature="0" />'
-        self.svg_dir = os.path.abspath(os.path.join(s.saves_folder, 'svg'))
+        self.svg_dir = os.path.abspath(os.path.join(self.s.saves_folder, 'svg'))
         os.makedirs(name=self.svg_dir, exist_ok=True)
         
         # Unused XML bits for making your own colorbar
@@ -232,7 +236,7 @@ class ChoroplethUtilities(object):
        style="stroke-linecap:butt;stroke-linejoin:round"
        inkscape:label="Colorbar">{}{}
     </g>'''
-        self.gradient_file_path = os.path.join(s.data_folder, 'txt', 'gradient.txt')
+        self.gradient_file_path = os.path.join(self.s.data_folder, 'txt', 'gradient.txt')
         with open(self.gradient_file_path, 'r') as f:
             self.gradient_str = f.read()
         self.matplotlib_axis_str = '''
@@ -327,14 +331,14 @@ class ChoroplethUtilities(object):
 
 
     def trim_d_path(self, file_path):
-        with open(file_path, 'r', encoding=s.encoding_type, errors='ignore') as f:
+        with open(file_path, 'r', encoding=self.s.encoding_type, errors='ignore') as f:
             xml_str = f.read()
             d_regex = re.compile('d="([^"\r\n]+)[\r\n]+')
             while d_regex.search(xml_str):
                 xml_str = d_regex.sub(r'd="\g<1>', xml_str)
             with open(file_path, 'w') as f:
-                print(xml_str.strip().encode(s.encoding_type, errors=s.encoding_error).decode(encoding=s.decoding_type,
-                                                                                              errors=s.decoding_error), file=f)
+                print(xml_str.strip().encode(self.s.encoding_type, errors=self.s.encoding_error).decode(encoding=self.s.decoding_type,
+                                                                                              errors=self.s.decoding_error), file=f)
     
     
     
@@ -402,7 +406,7 @@ class ChoroplethUtilities(object):
     
     
     def get_tfidf_lists(self):
-        self.suggestion_list_dict = s.load_object('suggestion_list_dict')
+        self.suggestion_list_dict = self.s.load_object('suggestion_list_dict')
         
         # Get your list of lists of strings
         corpus = list(self.suggestion_list_dict.values())
@@ -492,7 +496,7 @@ class ChoroplethUtilities(object):
                                 path_str = et.tostring(path_element, encoding='unicode')
                                 # path_str = re.sub(r'\bns\d+:', '', path_str)
                                 # print(path_str)
-                                path_strs_list.append(re.sub(r'>\s+<', '><', path_str))
+                                path_strs_list.append(re.sub(r'>\self.s+<', '><', path_str))
         # for path_str in path_strs_list:
             # print()
             # print(path_str)
@@ -587,7 +591,7 @@ class ChoroplethUtilities(object):
     
     
     def get_column_description(self, column_name):
-        self.column_description_dict = s.load_object('column_description_dict')
+        self.column_description_dict = self.s.load_object('column_description_dict')
         if column_name in self.column_description_dict:
             column_description = self.column_description_dict[column_name]
         else:
@@ -600,7 +604,7 @@ class ChoroplethUtilities(object):
                 descr_list.append(word[0].upper()+word[1:])
             column_description = ' '.join(descr_list)
             self.column_description_dict[column_name] = column_description
-            s.store_objects(column_description_dict=self.column_description_dict)
+            self.s.store_objects(column_description_dict=self.column_description_dict)
         
         return column_description
     
@@ -668,7 +672,7 @@ class ChoroplethUtilities(object):
                 file_name = 'index_districts_text.xml'
             else:
                 file_name = '{}_districts_text.xml'.format(string_column_name)
-            text_file_path = os.path.join(s.saves_folder, 'xml', file_name)
+            text_file_path = os.path.join(self.s.saves_folder, 'xml', file_name)
         
         # Wipe out any preruns
         with open(text_file_path, 'w') as f:
@@ -742,13 +746,13 @@ class ChoroplethUtilities(object):
         
   </script>'''
             with open(text_file_path, 'a') as f:
-                print(text_str.encode(s.encoding_type, errors=s.encoding_error).decode(encoding=s.decoding_type,
-                                                                                       errors=s.decoding_error), file=f)
+                print(text_str.encode(self.s.encoding_type, errors=self.s.encoding_error).decode(encoding=self.s.decoding_type,
+                                                                                       errors=self.s.decoding_error), file=f)
 
         return text_file_path
 
     def create_svg_file_beginning(self, svg_file_name):
-        svg_file_path = os.path.join(s.saves_folder, 'svg', svg_file_name)
+        svg_file_path = os.path.join(self.s.saves_folder, 'svg', svg_file_name)
         if not os.path.exists(svg_file_path):
             copyfile(self.copy_file_path, svg_file_path)
         with open(svg_file_path, 'w') as f:
@@ -799,7 +803,7 @@ class ChoroplethUtilities(object):
         
         # Build the SVG file from scratch
         if string_column_name is None:
-            svg_file_name = '{}_Index_{}.svg'.format(self.iso_3166_2_code.upper(), numeric_column_name)
+            svg_file_name = f'{self.iso_3166_2_code.upper()}_Index_{numeric_column_name}.svg'
         else:
             svg_file_name = '{}_{}_{}.svg'.format(self.iso_3166_2_code.upper(), numeric_column_name, re.sub(r'[:]+', '_', string_column_name))
         svg_file_path = self.create_svg_file_beginning(svg_file_name)
@@ -1001,14 +1005,14 @@ class ChoroplethUtilities(object):
         districts_file_path = c.create_us_google_suggest_labeled_map(cu_str='first')
         """
         if os.path.exists(self.copy_file_path) and os.path.exists(self.label_line_file_path):
-            districts_file_path = os.path.join(s.saves_folder, 'svg', '{}_{}.svg'.format(self.iso_3166_2_code.upper(), cu_str.upper()))
+            districts_file_path = os.path.join(self.s.saves_folder, 'svg', '{}_{}.svg'.format(self.iso_3166_2_code.upper(), cu_str.upper()))
             if os.path.exists(districts_file_path):
                 os.remove(districts_file_path)
             copyfile(self.copy_file_path, districts_file_path)
             with open(districts_file_path, 'r') as f:
                 xml_str = f.read()
             if self.svg_regex.search(xml_str):
-                text_file_path = os.path.join(s.saves_folder, 'xml', '{}_districts_text.xml'.format(cu_str))
+                text_file_path = os.path.join(self.s.saves_folder, 'xml', '{}_districts_text.xml'.format(cu_str))
                 with open(text_file_path, 'w') as f:
                     print('', file=f)
                 cap_str = cu_str[:1].upper()+cu_str[1:]
@@ -1032,8 +1036,8 @@ class ChoroplethUtilities(object):
                     style_str = ';'.join(self.text_style_list)
                     text_str = f'<text x="{x}" y="{y}" id="text-{text_id}" style="{style_str}" inkscape:label="{label}">{tspan_str}</text>'
                     with open(text_file_path, 'a') as f:
-                        print(text_str.encode(s.encoding_type, errors=s.encoding_error).decode(encoding=s.decoding_type,
-                                                                                               errors=s.decoding_error), file=f)
+                        print(text_str.encode(self.s.encoding_type, errors=self.s.encoding_error).decode(encoding=self.s.decoding_type,
+                                                                                               errors=self.s.decoding_error), file=f)
                 with open(text_file_path, 'r') as f:
                     text_str = f.read()
                     with open(self.label_line_file_path, 'r') as f:
@@ -1069,8 +1073,8 @@ class ChoroplethUtilities(object):
             label = '{} Label Line'.format(district_name)
             label_line_str = self.l_str.format(row_series['label_line_d'], label_id, label)
             with open(self.label_line_file_path, 'a') as f:
-                print(label_line_str.encode(s.encoding_type, errors=s.encoding_error).decode(encoding=s.decoding_type,
-                                                                                             errors=s.decoding_error), file=f)
+                print(label_line_str.encode(self.s.encoding_type, errors=self.s.encoding_error).decode(encoding=self.s.decoding_type,
+                                                                                             errors=self.s.decoding_error), file=f)
     
     
     
@@ -1149,7 +1153,7 @@ class ChoroplethUtilities(object):
     
     def clean_up_district_unique_dict(self):
         sorted_d, reverse_sorted_d = self.get_tfidf_lists()
-        self.district_unique_dict = s.load_object('district_unique_dict')
+        self.district_unique_dict = self.s.load_object('district_unique_dict')
         while len(self.district_unique_dict.keys()) < len(self.suggestion_list_dict):
             for (key_word, idf) in reverse_sorted_d:
                 if len(self.district_unique_dict.keys()) == len(self.suggestion_list_dict):
@@ -1162,13 +1166,13 @@ class ChoroplethUtilities(object):
                             if key_word in ngram:
                                 self.district_unique_dict[district] = ngram
                                 break
-        s.store_objects(district_unique_dict=self.district_unique_dict)
+        self.s.store_objects(district_unique_dict=self.district_unique_dict)
     
     
     
     def clean_up_district_common_dict(self):
         sorted_d, reverse_sorted_d = self.get_tfidf_lists()
-        self.district_common_dict = s.load_object('district_common_dict')
+        self.district_common_dict = self.s.load_object('district_common_dict')
         while len(self.district_common_dict.keys()) < len(self.suggestion_list_dict):
             for (key_word, idf) in sorted_d:
                 if len(self.district_common_dict.keys()) == len(self.suggestion_list_dict):
@@ -1181,7 +1185,7 @@ class ChoroplethUtilities(object):
                             if key_word in ngram:
                                 self.district_common_dict[district] = ngram
                                 break
-        s.store_objects(district_common_dict=self.district_common_dict)
+        self.s.store_objects(district_common_dict=self.district_common_dict)
     
     
     
@@ -1189,7 +1193,7 @@ class ChoroplethUtilities(object):
         district_first_dict = {}
         for district, dropdown_list in self.suggestion_list_dict.items():
             district_first_dict[district] = dropdown_list[0]
-        s.store_objects(district_first_dict=district_first_dict)
+        self.s.store_objects(district_first_dict=district_first_dict)
         
         return district_first_dict
     
@@ -1204,7 +1208,7 @@ class ChoroplethUtilities(object):
                 dropdown_list = [st[value_length:] for st in dropdown_list]
                 self.suggestion_list_dict[district] = dropdown_list
         if(set(self.one_country_df.index.tolist()) - set(self.suggestion_list_dict) == set()):
-            s.store_objects(suggestion_list_dict=self.suggestion_list_dict)
+            self.s.store_objects(suggestion_list_dict=self.suggestion_list_dict)
         for old_key in self.suggestion_list_dict.keys():
             new_key = re.sub(r'\xa0', r'', old_key)
             self.suggestion_list_dict[new_key] = self.suggestion_list_dict.pop(old_key)
@@ -1243,7 +1247,7 @@ class ChoroplethUtilities(object):
                 self.one_country_df[column_name] = pd.to_numeric(self.one_country_df[column_name], errors='raise', downcast='float')
             except Exception as e:
                 print('The {} column get this error: {}'.format(column_name, str(e).strip()))
-        s.store_objects(one_country_df=self.one_country_df)
+        self.s.store_objects(one_country_df=self.one_country_df)
     
     
     
@@ -1255,3 +1259,60 @@ class ChoroplethUtilities(object):
         df = pd.DataFrame(rows_list).rename(columns={'style': 'element_style', 'd': 'outline_d'})
         
         return df
+    
+    
+    
+    def get_greatest_area(self, g_soup):
+        path_id = path_obj = None
+        path_tuples_list = [(path_soup['id'], path_soup['d']) for path_soup in g_soup.find_all(self.has_no_limitxx)]
+        
+        # Find the path object with the greatest area
+        import svgpathtools
+        if len(path_tuples_list) > 1:
+            path_objs_list = [(path_id, svgpathtools.parse_path(pathdef=d_path, current_pos=0j)) for (path_id, d_path) in path_tuples_list]
+            closed_path_objs_list = []
+            for (path_id, path_obj) in path_objs_list:
+                if (not path_obj.iscontinuous()) or (not path_obj.isclosed()):
+                    (xmin, xmax, ymin, ymax) = path_obj.bbox()
+                    d_path = f'M {xmin},{ymin} H {xmax} V {ymax} H {xmin} V {ymin} Z'
+                    path_obj = svgpathtools.parse_path(pathdef=d_path, current_pos=0j)
+                path_tuple = (path_id, path_obj)
+                closed_path_objs_list.append(path_tuple)
+            (path_id, path_obj) = sorted(closed_path_objs_list, key=lambda x: x[1].area())[-1]
+        else:
+            for (path_id, d_path) in path_tuples_list:
+                path_obj = svgpathtools.parse_path(pathdef=d_path, current_pos=0j)
+        
+        return path_id, path_obj
+    
+    
+    
+    def has_no_limitxx(self, tag_obj):
+        result_bool = False
+        if (tag_obj.name == 'path'):
+            if ('d' in tag_obj.attrs):
+                if ('class' not in tag_obj.attrs) or ('limitxx' not in tag_obj['class']):
+                    result_bool = True
+        
+        return result_bool
+    
+    
+    
+    def path_to_poly(self, inpath):
+        '''Convert paths to polygons'''
+        points = []
+        from svgpathtools import Line
+        for path in inpath:
+            if isinstance(path, Line):
+                points.append([path.end.real, path.end.imag])
+            else:
+                num_segments = math.ceil(path.length() / 1.0)
+                for seg_i in range(int(num_segments + 1)):
+                    xy_list = [
+                        path.point(seg_i / num_segments).real,
+                        path.point(seg_i / num_segments).imag
+                        ]
+                    points.append(xy_list)
+        from shapely.geometry import Polygon
+
+        return Polygon(points)

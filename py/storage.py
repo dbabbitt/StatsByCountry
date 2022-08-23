@@ -53,6 +53,19 @@ class Storage(object):
         
         # Handy list of the different types of encodings
         self.encoding_type = ['latin1', 'iso8859-1', 'utf-8'][2]
+
+        # Handy list of the different types of encodings
+        self.encoding_types_list = ['ascii', 'cp037', 'cp437', 'cp863', 'utf_32',
+                                    'utf_32_be', 'utf_32_le', 'utf_16', 'utf_16_be',
+                                    'utf_16_le', 'utf_7', 'utf_8', 'utf_8_sig',
+                                    'latin1', 'iso8859-1', 'utf-8']
+        self.encoding_errors_list = ['ignore', 'replace', 'xmlcharrefreplace']
+        self.decoding_types_list = self.encoding_types_list.copy()
+        self.decoding_errors_list = self.encoding_errors_list.copy()
+        self.encoding_type = self.encoding_types_list[15]
+        self.encoding_error = self.encoding_errors_list[2]
+        self.decoding_type = self.decoding_types_list[15]
+        self.decoding_error = self.decoding_errors_list[0]
     
     def csv_exists(self, csv_name):
         csv_path = os.path.join(self.saves_csv_folder, '{}.csv'.format(csv_name))

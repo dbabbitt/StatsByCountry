@@ -1,7 +1,7 @@
 
 
-  <style id="style-wyoming">.wyoming{fill:rgb(255, 127, 14);}</style>
-  <text x="408.9788513183594" y="191.26553344726562" id="text-wyoming" style="fill:#000000;font-size:12.0;" inkscape:label="Wyoming State Region" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-wyoming0" x="408.9788513183594" dy="0">West</tspan></text>
+  <style id="style-wyoming">.wyoming{fill:rgb(57, 84, 139);}</style>
+  <text x="408.9788513183594" y="191.26553344726562" id="text-wyoming" style="fill:#ffffff;font-size:12.0;" inkscape:label="Wyoming State Region" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-wyoming0" x="408.9788513183594" dy="0">West</tspan></text>
   <script type="application/ecmascript" id="script-wyoming">
 		
 		// Get path size
@@ -13,7 +13,7 @@
         
   </script>
 
-  <style id="style-wisconsin">.wisconsin{fill:rgb(214, 39, 40);}</style>
+  <style id="style-wisconsin">.wisconsin{fill:rgb(31, 163, 134);}</style>
   <text x="661.4596557617188" y="153.29937744140625" id="text-wisconsin" style="fill:#ffffff;font-size:12.0;" inkscape:label="Wisconsin State Region" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-wisconsin0" x="661.4596557617188" dy="0">Midwest</tspan></text>
   <script type="application/ecmascript" id="script-wisconsin">
 		
@@ -26,8 +26,8 @@
         
   </script>
 
-  <style id="style-west-virginia">.west-virginia{fill:rgb(31, 119, 180);}</style>
-  <text x="830.541015625" y="242.49905395507812" id="text-west-virginia" style="fill:#ffffff;font-size:12.0;" inkscape:label="West Virginia State Region" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-west-virginia0" x="830.541015625" dy="0">South</tspan></text>
+  <style id="style-west-virginia">.west-virginia{fill:rgb(121, 209, 81);}</style>
+  <text x="830.541015625" y="242.49905395507812" id="text-west-virginia" style="fill:#000000;font-size:12.0;" inkscape:label="West Virginia State Region" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-west-virginia0" x="830.541015625" dy="0">South</tspan></text>
   <script type="application/ecmascript" id="script-west-virginia">
 		
 		// Get path size
@@ -39,8 +39,8 @@
         
   </script>
 
-  <style id="style-washington">.washington{fill:rgb(255, 127, 14);}</style>
-  <text x="245.27381896972656" y="78.79137420654297" id="text-washington" style="fill:#000000;font-size:12.0;" inkscape:label="Washington State Region" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-washington0" x="245.27381896972656" dy="0">West</tspan></text>
+  <style id="style-washington">.washington{fill:rgb(71, 15, 98);}</style>
+  <text x="245.27381896972656" y="78.79137420654297" id="text-washington" style="fill:#ffffff;font-size:12.0;" inkscape:label="Washington State Region" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-washington0" x="245.27381896972656" dy="0">West</tspan></text>
   <script type="application/ecmascript" id="script-washington">
 		
 		// Get path size
@@ -52,8 +52,8 @@
         
   </script>
 
-  <style id="style-virginia">.virginia{fill:rgb(31, 119, 180);}</style>
-  <text x="867.4775390625" y="257.4370422363281" id="text-virginia" style="fill:#ffffff;font-size:12.0;" inkscape:label="Virginia State Region" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-virginia0" x="867.4775390625" dy="0">South</tspan></text>
+  <style id="style-virginia">.virginia{fill:rgb(149, 215, 63);}</style>
+  <text x="867.4775390625" y="257.4370422363281" id="text-virginia" style="fill:#000000;font-size:12.0;" inkscape:label="Virginia State Region" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-virginia0" x="867.4775390625" dy="0">South</tspan></text>
   <script type="application/ecmascript" id="script-virginia">
 		
 		// Get path size
@@ -78,8 +78,8 @@
         
   </script>
 
-  <style id="style-utah">.utah{fill:rgb(255, 127, 14);}</style>
-  <text x="340.6334228515625" y="256.7130126953125" id="text-utah" style="fill:#000000;font-size:12.0;" inkscape:label="Utah State Region" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-utah0" x="340.6334228515625" dy="0">West</tspan></text>
+  <style id="style-utah">.utah{fill:rgb(69, 54, 129);}</style>
+  <text x="340.6334228515625" y="256.7130126953125" id="text-utah" style="fill:#ffffff;font-size:12.0;" inkscape:label="Utah State Region" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-utah0" x="340.6334228515625" dy="0">West</tspan></text>
   <script type="application/ecmascript" id="script-utah">
 		
 		// Get path size
@@ -91,7 +91,7 @@
         
   </script>
 
-  <style id="style-texas">.texas{fill:rgb(31, 119, 180);}</style>
+  <style id="style-texas">.texas{fill:rgb(39, 124, 142);}</style>
   <text x="540.0236206054688" y="433.9912109375" id="text-texas" style="fill:#ffffff;font-size:12.0;" inkscape:label="Texas State Region" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-texas0" x="540.0236206054688" dy="0">South</tspan></text>
   <script type="application/ecmascript" id="script-texas">
 		
@@ -104,7 +104,7 @@
         
   </script>
 
-  <style id="style-tennessee">.tennessee{fill:rgb(31, 119, 180);}</style>
+  <style id="style-tennessee">.tennessee{fill:rgb(59, 186, 117);}</style>
   <text x="744.5364379882812" y="328.1961669921875" id="text-tennessee" style="fill:#ffffff;font-size:10.0;" inkscape:label="Tennessee State Region" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-tennessee0" x="744.5364379882812" dy="0">South</tspan></text>
   <script type="application/ecmascript" id="script-tennessee">
 		
@@ -117,7 +117,7 @@
         
   </script>
 
-  <style id="style-south-dakota">.south-dakota{fill:rgb(214, 39, 40);}</style>
+  <style id="style-south-dakota">.south-dakota{fill:rgb(41, 120, 142);}</style>
   <text x="517.3457641601562" y="167.97604370117188" id="text-south-dakota" style="fill:#ffffff;font-size:12.0;" inkscape:label="South Dakota State Region" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-south-dakota0" x="517.3457641601562" dy="0">Midwest</tspan></text>
   <script type="application/ecmascript" id="script-south-dakota">
 		
@@ -130,8 +130,8 @@
         
   </script>
 
-  <style id="style-south-carolina">.south-carolina{fill:rgb(31, 119, 180);}</style>
-  <text x="843.3272094726562" y="345.96466064453125" id="text-south-carolina" style="fill:#ffffff;font-size:12.0;" inkscape:label="South Carolina State Region" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-south-carolina0" x="843.3272094726562" dy="0">South</tspan></text>
+  <style id="style-south-carolina">.south-carolina{fill:rgb(134, 212, 73);}</style>
+  <text x="843.3272094726562" y="345.96466064453125" id="text-south-carolina" style="fill:#000000;font-size:12.0;" inkscape:label="South Carolina State Region" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-south-carolina0" x="843.3272094726562" dy="0">South</tspan></text>
   <script type="application/ecmascript" id="script-south-carolina">
 		
 		// Get path size
@@ -156,8 +156,8 @@
         
   </script>
 
-  <style id="style-pennsylvania">.pennsylvania{fill:rgb(44, 160, 44);}</style>
-  <text x="856.097412109375" y="189.2136993408203" id="text-pennsylvania" style="fill:#ffffff;font-size:12.0;" inkscape:label="Pennsylvania State Region" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-pennsylvania0" x="856.097412109375" dy="0">Northeast</tspan></text>
+  <style id="style-pennsylvania">.pennsylvania{fill:rgb(134, 212, 73);}</style>
+  <text x="856.097412109375" y="189.2136993408203" id="text-pennsylvania" style="fill:#000000;font-size:12.0;" inkscape:label="Pennsylvania State Region" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-pennsylvania0" x="856.097412109375" dy="0">Northeast</tspan></text>
   <script type="application/ecmascript" id="script-pennsylvania">
 		
 		// Get path size
@@ -169,8 +169,8 @@
         
   </script>
 
-  <style id="style-oregon">.oregon{fill:rgb(255, 127, 14);}</style>
-  <text x="221.30357360839844" y="139.91429138183594" id="text-oregon" style="fill:#000000;font-size:12.0;" inkscape:label="Oregon State Region" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-oregon0" x="221.30357360839844" dy="0">West</tspan></text>
+  <style id="style-oregon">.oregon{fill:rgb(69, 8, 91);}</style>
+  <text x="221.30357360839844" y="139.91429138183594" id="text-oregon" style="fill:#ffffff;font-size:12.0;" inkscape:label="Oregon State Region" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-oregon0" x="221.30357360839844" dy="0">West</tspan></text>
   <script type="application/ecmascript" id="script-oregon">
 		
 		// Get path size
@@ -182,7 +182,7 @@
         
   </script>
 
-  <style id="style-oklahoma">.oklahoma{fill:rgb(31, 119, 180);}</style>
+  <style id="style-oklahoma">.oklahoma{fill:rgb(36, 134, 141);}</style>
   <text x="566.3180541992188" y="347.5689697265625" id="text-oklahoma" style="fill:#ffffff;font-size:12.0;" inkscape:label="Oklahoma State Region" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-oklahoma0" x="566.3180541992188" dy="0">South</tspan></text>
   <script type="application/ecmascript" id="script-oklahoma">
 		
@@ -195,8 +195,8 @@
         
   </script>
 
-  <style id="style-ohio">.ohio{fill:rgb(214, 39, 40);}</style>
-  <text x="784.0713500976562" y="224.19021606445312" id="text-ohio" style="fill:#ffffff;font-size:12.0;" inkscape:label="Ohio State Region" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-ohio0" x="784.0713500976562" dy="0">Midwest</tspan></text>
+  <style id="style-ohio">.ohio{fill:rgb(87, 198, 101);}</style>
+  <text x="784.0713500976562" y="224.19021606445312" id="text-ohio" style="fill:#000000;font-size:12.0;" inkscape:label="Ohio State Region" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-ohio0" x="784.0713500976562" dy="0">Midwest</tspan></text>
   <script type="application/ecmascript" id="script-ohio">
 		
 		// Get path size
@@ -208,7 +208,7 @@
         
   </script>
 
-  <style id="style-north-dakota">.north-dakota{fill:rgb(214, 39, 40);}</style>
+  <style id="style-north-dakota">.north-dakota{fill:rgb(43, 115, 142);}</style>
   <text x="514.116455078125" y="111.24363708496094" id="text-north-dakota" style="fill:#ffffff;font-size:12.0;" inkscape:label="North Dakota State Region" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-north-dakota0" x="514.116455078125" dy="0">Midwest</tspan></text>
   <script type="application/ecmascript" id="script-north-dakota">
 		
@@ -221,8 +221,8 @@
         
   </script>
 
-  <style id="style-north-carolina">.north-carolina{fill:rgb(31, 119, 180);}</style>
-  <text x="866.1985473632812" y="301.4194641113281" id="text-north-carolina" style="fill:#ffffff;font-size:12.0;" inkscape:label="North Carolina State Region" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-north-carolina0" x="866.1985473632812" dy="0">South</tspan></text>
+  <style id="style-north-carolina">.north-carolina{fill:rgb(149, 215, 63);}</style>
+  <text x="866.1985473632812" y="301.4194641113281" id="text-north-carolina" style="fill:#000000;font-size:12.0;" inkscape:label="North Carolina State Region" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-north-carolina0" x="866.1985473632812" dy="0">South</tspan></text>
   <script type="application/ecmascript" id="script-north-carolina">
 		
 		// Get path size
@@ -234,8 +234,8 @@
         
   </script>
 
-  <style id="style-new-york">.new-york{fill:rgb(44, 160, 44);}</style>
-  <text x="880.1045532226562" y="154.17367553710938" id="text-new-york" style="fill:#ffffff;font-size:12.0;" inkscape:label="New York State Region" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-new-york0" x="880.1045532226562" dy="0">Northeast</tspan></text>
+  <style id="style-new-york">.new-york{fill:rgb(162, 218, 55);}</style>
+  <text x="880.1045532226562" y="154.17367553710938" id="text-new-york" style="fill:#000000;font-size:12.0;" inkscape:label="New York State Region" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-new-york0" x="880.1045532226562" dy="0">Northeast</tspan></text>
   <script type="application/ecmascript" id="script-new-york">
 		
 		// Get path size
@@ -247,8 +247,8 @@
         
   </script>
 
-  <style id="style-new-mexico">.new-mexico{fill:rgb(255, 127, 14);}</style>
-  <text x="418.8934326171875" y="371.0360412597656" id="text-new-mexico" style="fill:#000000;font-size:12.0;" inkscape:label="New Mexico State Region" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-new-mexico0" x="418.8934326171875" dy="0">West</tspan></text>
+  <style id="style-new-mexico">.new-mexico{fill:rgb(57, 84, 139);}</style>
+  <text x="418.8934326171875" y="371.0360412597656" id="text-new-mexico" style="fill:#ffffff;font-size:12.0;" inkscape:label="New Mexico State Region" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-new-mexico0" x="418.8934326171875" dy="0">West</tspan></text>
   <script type="application/ecmascript" id="script-new-mexico">
 		
 		// Get path size
@@ -286,8 +286,8 @@
         
   </script>
 
-  <style id="style-nevada">.nevada{fill:rgb(255, 127, 14);}</style>
-  <text x="257.3663635253906" y="239.53660583496094" id="text-nevada" style="fill:#000000;font-size:12.0;" inkscape:label="Nevada State Region" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-nevada0" x="257.3663635253906" dy="0">West</tspan></text>
+  <style id="style-nevada">.nevada{fill:rgb(71, 22, 105);}</style>
+  <text x="257.3663635253906" y="239.53660583496094" id="text-nevada" style="fill:#ffffff;font-size:12.0;" inkscape:label="Nevada State Region" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-nevada0" x="257.3663635253906" dy="0">West</tspan></text>
   <script type="application/ecmascript" id="script-nevada">
 		
 		// Get path size
@@ -299,7 +299,7 @@
         
   </script>
 
-  <style id="style-nebraska">.nebraska{fill:rgb(214, 39, 40);}</style>
+  <style id="style-nebraska">.nebraska{fill:rgb(41, 120, 142);}</style>
   <text x="524.7603759765625" y="231.70228576660156" id="text-nebraska" style="fill:#ffffff;font-size:12.0;" inkscape:label="Nebraska State Region" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-nebraska0" x="524.7603759765625" dy="0">Midwest</tspan></text>
   <script type="application/ecmascript" id="script-nebraska">
 		
@@ -312,8 +312,8 @@
         
   </script>
 
-  <style id="style-montana">.montana{fill:rgb(255, 127, 14);}</style>
-  <text x="391.8310546875" y="106.26010131835938" id="text-montana" style="fill:#000000;font-size:12.0;" inkscape:label="Montana State Region" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-montana0" x="391.8310546875" dy="0">West</tspan></text>
+  <style id="style-montana">.montana{fill:rgb(60, 78, 138);}</style>
+  <text x="391.8310546875" y="106.26010131835938" id="text-montana" style="fill:#ffffff;font-size:12.0;" inkscape:label="Montana State Region" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-montana0" x="391.8310546875" dy="0">West</tspan></text>
   <script type="application/ecmascript" id="script-montana">
 		
 		// Get path size
@@ -325,7 +325,7 @@
         
   </script>
 
-  <style id="style-missouri">.missouri{fill:rgb(214, 39, 40);}</style>
+  <style id="style-missouri">.missouri{fill:rgb(30, 153, 138);}</style>
   <text x="639.5698852539062" y="289.0379943847656" id="text-missouri" style="fill:#ffffff;font-size:12.0;" inkscape:label="Missouri State Region" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-missouri0" x="639.5698852539062" dy="0">Midwest</tspan></text>
   <script type="application/ecmascript" id="script-missouri">
 		
@@ -338,7 +338,7 @@
         
   </script>
 
-  <style id="style-mississippi">.mississippi{fill:rgb(31, 119, 180);}</style>
+  <style id="style-mississippi">.mississippi{fill:rgb(38, 172, 129);}</style>
   <text x="697.7506103515625" y="422.3154296875" id="text-mississippi" style="fill:#ffffff;font-size:12.0;" inkscape:label="Mississippi State Region" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-mississippi0" x="697.7506103515625" dy="0">South</tspan></text>
   <script type="application/ecmascript" id="script-mississippi">
 		
@@ -351,7 +351,7 @@
         
   </script>
 
-  <style id="style-minnesota">.minnesota{fill:rgb(214, 39, 40);}</style>
+  <style id="style-minnesota">.minnesota{fill:rgb(32, 144, 140);}</style>
   <text x="599.1307373046875" y="112.43512725830078" id="text-minnesota" style="fill:#ffffff;font-size:12.0;" inkscape:label="Minnesota State Region" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-minnesota0" x="599.1307373046875" dy="0">Midwest</tspan></text>
   <script type="application/ecmascript" id="script-minnesota">
 		
@@ -364,7 +364,7 @@
         
   </script>
 
-  <style id="style-michigan">.michigan{fill:rgb(214, 39, 40);}</style>
+  <style id="style-michigan">.michigan{fill:rgb(59, 186, 117);}</style>
   <text x="745.2725830078125" y="174.73953247070312" id="text-michigan" style="fill:#ffffff;font-size:12.0;" inkscape:label="Michigan State Region" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-michigan0" x="745.2725830078125" dy="0">Midwest</tspan></text>
   <script type="application/ecmascript" id="script-michigan">
 		
@@ -377,8 +377,8 @@
         
   </script>
 
-  <style id="style-massachusetts">.massachusetts{fill:rgb(44, 160, 44);}</style>
-  <text x="937.329833984375" y="140.91110229492188" id="text-massachusetts" style="fill:#ffffff;font-size:12.0;" inkscape:label="Massachusetts State Region" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-massachusetts0" x="937.329833984375" dy="0">Northeast</tspan></text>
+  <style id="style-massachusetts">.massachusetts{fill:rgb(215, 226, 25);}</style>
+  <text x="937.329833984375" y="140.91110229492188" id="text-massachusetts" style="fill:#000000;font-size:12.0;" inkscape:label="Massachusetts State Region" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-massachusetts0" x="937.329833984375" dy="0">Northeast</tspan></text>
   <script type="application/ecmascript" id="script-massachusetts">
 		
 		// Get path size
@@ -403,8 +403,8 @@
         
   </script>
 
-  <style id="style-maine">.maine{fill:rgb(44, 160, 44);}</style>
-  <text x="953.9833374023438" y="67.32627868652344" id="text-maine" style="fill:#ffffff;font-size:12.0;" inkscape:label="Maine State Region" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-maine0" x="953.9833374023438" dy="0">Northeast</tspan></text>
+  <style id="style-maine">.maine{fill:rgb(228, 227, 24);}</style>
+  <text x="953.9833374023438" y="67.32627868652344" id="text-maine" style="fill:#000000;font-size:12.0;" inkscape:label="Maine State Region" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-maine0" x="953.9833374023438" dy="0">Northeast</tspan></text>
   <script type="application/ecmascript" id="script-maine">
 		
 		// Get path size
@@ -416,7 +416,7 @@
         
   </script>
 
-  <style id="style-louisiana">.louisiana{fill:rgb(31, 119, 180);}</style>
+  <style id="style-louisiana">.louisiana{fill:rgb(30, 158, 136);}</style>
   <text x="649.512939453125" y="410.2768859863281" id="text-louisiana" style="fill:#ffffff;font-size:12.0;" inkscape:label="Louisiana State Region" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-louisiana0" x="649.512939453125" dy="0">South</tspan></text>
   <script type="application/ecmascript" id="script-louisiana">
 		
@@ -429,7 +429,7 @@
         
   </script>
 
-  <style id="style-kentucky">.kentucky{fill:rgb(31, 119, 180);}</style>
+  <style id="style-kentucky">.kentucky{fill:rgb(68, 190, 112);}</style>
   <text x="760.8612670898438" y="284.5969543457031" id="text-kentucky" style="fill:#ffffff;font-size:12.0;" inkscape:label="Kentucky State Region" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-kentucky0" x="760.8612670898438" dy="0">South</tspan></text>
   <script type="application/ecmascript" id="script-kentucky">
 		
@@ -442,7 +442,7 @@
         
   </script>
 
-  <style id="style-kansas">.kansas{fill:rgb(214, 39, 40);}</style>
+  <style id="style-kansas">.kansas{fill:rgb(39, 124, 142);}</style>
   <text x="541.6953125" y="289.33709716796875" id="text-kansas" style="fill:#ffffff;font-size:12.0;" inkscape:label="Kansas State Region" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-kansas0" x="541.6953125" dy="0">Midwest</tspan></text>
   <script type="application/ecmascript" id="script-kansas">
 		
@@ -455,7 +455,7 @@
         
   </script>
 
-  <style id="style-iowa">.iowa{fill:rgb(214, 39, 40);}</style>
+  <style id="style-iowa">.iowa{fill:rgb(31, 149, 139);}</style>
   <text x="620.4613647460938" y="213.45132446289062" id="text-iowa" style="fill:#ffffff;font-size:12.0;" inkscape:label="Iowa State Region" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-iowa0" x="620.4613647460938" dy="0">Midwest</tspan></text>
   <script type="application/ecmascript" id="script-iowa">
 		
@@ -468,7 +468,7 @@
         
   </script>
 
-  <style id="style-indiana">.indiana{fill:rgb(214, 39, 40);}</style>
+  <style id="style-indiana">.indiana{fill:rgb(59, 186, 117);}</style>
   <text x="736.7445068359375" y="262.5254211425781" id="text-indiana" style="fill:#ffffff;font-size:10.0;" inkscape:label="Indiana State Region" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-indiana0" x="736.7445068359375" dy="0">Midwest</tspan></text>
   <script type="application/ecmascript" id="script-indiana">
 		
@@ -481,7 +481,7 @@
         
   </script>
 
-  <style id="style-illinois">.illinois{fill:rgb(214, 39, 40);}</style>
+  <style id="style-illinois">.illinois{fill:rgb(38, 172, 129);}</style>
   <text x="687.9576416015625" y="247.8595733642578" id="text-illinois" style="fill:#ffffff;font-size:12.0;" inkscape:label="Illinois State Region" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-illinois0" x="687.9576416015625" dy="0">Midwest</tspan></text>
   <script type="application/ecmascript" id="script-illinois">
 		
@@ -494,8 +494,8 @@
         
   </script>
 
-  <style id="style-idaho">.idaho{fill:rgb(255, 127, 14);}</style>
-  <text x="314.79205322265625" y="167.07046508789062" id="text-idaho" style="fill:#000000;font-size:12.0;" inkscape:label="Idaho State Region" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-idaho0" x="314.79205322265625" dy="0">West</tspan></text>
+  <style id="style-idaho">.idaho{fill:rgb(70, 48, 125);}</style>
+  <text x="314.79205322265625" y="167.07046508789062" id="text-idaho" style="fill:#ffffff;font-size:12.0;" inkscape:label="Idaho State Region" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-idaho0" x="314.79205322265625" dy="0">West</tspan></text>
   <script type="application/ecmascript" id="script-idaho">
 		
 		// Get path size
@@ -520,8 +520,8 @@
         
   </script>
 
-  <style id="style-georgia">.georgia{fill:rgb(31, 119, 180);}</style>
-  <text x="812.7996826171875" y="386.42352294921875" id="text-georgia" style="fill:#ffffff;font-size:12.0;" inkscape:label="Georgia State Region" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-georgia0" x="812.7996826171875" dy="0">South</tspan></text>
+  <style id="style-georgia">.georgia{fill:rgb(109, 206, 88);}</style>
+  <text x="812.7996826171875" y="386.42352294921875" id="text-georgia" style="fill:#000000;font-size:12.0;" inkscape:label="Georgia State Region" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-georgia0" x="812.7996826171875" dy="0">South</tspan></text>
   <script type="application/ecmascript" id="script-georgia">
 		
 		// Get path size
@@ -533,8 +533,8 @@
         
   </script>
 
-  <style id="style-florida">.florida{fill:rgb(31, 119, 180);}</style>
-  <text x="829.0050659179688" y="431.70281982421875" id="text-florida" style="fill:#ffffff;font-size:12.0;" inkscape:label="Florida State Region" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-florida0" x="829.0050659179688" dy="0">South</tspan></text>
+  <style id="style-florida">.florida{fill:rgb(121, 209, 81);}</style>
+  <text x="829.0050659179688" y="431.70281982421875" id="text-florida" style="fill:#000000;font-size:12.0;" inkscape:label="Florida State Region" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-florida0" x="829.0050659179688" dy="0">South</tspan></text>
   <script type="application/ecmascript" id="script-florida">
 		
 		// Get path size
@@ -572,8 +572,8 @@
         
   </script>
 
-  <style id="style-colorado">.colorado{fill:rgb(255, 127, 14);}</style>
-  <text x="432.7596130371094" y="280.0089111328125" id="text-colorado" style="fill:#000000;font-size:12.0;" inkscape:label="Colorado State Region" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-colorado0" x="432.7596130371094" dy="0">West</tspan></text>
+  <style id="style-colorado">.colorado{fill:rgb(55, 89, 140);}</style>
+  <text x="432.7596130371094" y="280.0089111328125" id="text-colorado" style="fill:#ffffff;font-size:12.0;" inkscape:label="Colorado State Region" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-colorado0" x="432.7596130371094" dy="0">West</tspan></text>
   <script type="application/ecmascript" id="script-colorado">
 		
 		// Get path size
@@ -585,8 +585,8 @@
         
   </script>
 
-  <style id="style-california">.california{fill:rgb(255, 127, 14);}</style>
-  <text x="204.72113037109375" y="287.0751647949219" id="text-california" style="fill:#000000;font-size:12.0;" inkscape:label="California State Region" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-california0" x="204.72113037109375" dy="0">West</tspan></text>
+  <style id="style-california">.california{fill:rgb(68, 1, 84);}</style>
+  <text x="204.72113037109375" y="287.0751647949219" id="text-california" style="fill:#ffffff;font-size:12.0;" inkscape:label="California State Region" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-california0" x="204.72113037109375" dy="0">West</tspan></text>
   <script type="application/ecmascript" id="script-california">
 		
 		// Get path size
@@ -598,7 +598,7 @@
         
   </script>
 
-  <style id="style-arkansas">.arkansas{fill:rgb(31, 119, 180);}</style>
+  <style id="style-arkansas">.arkansas{fill:rgb(30, 158, 136);}</style>
   <text x="649.2536010742188" y="342.4818115234375" id="text-arkansas" style="fill:#ffffff;font-size:12.0;" inkscape:label="Arkansas State Region" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-arkansas0" x="649.2536010742188" dy="0">South</tspan></text>
   <script type="application/ecmascript" id="script-arkansas">
 		
@@ -611,8 +611,8 @@
         
   </script>
 
-  <style id="style-arizona">.arizona{fill:rgb(255, 127, 14);}</style>
-  <text x="326.0997619628906" y="353.33734130859375" id="text-arizona" style="fill:#000000;font-size:12.0;" inkscape:label="Arizona State Region" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-arizona0" x="326.0997619628906" dy="0">West</tspan></text>
+  <style id="style-arizona">.arizona{fill:rgb(70, 48, 125);}</style>
+  <text x="326.0997619628906" y="353.33734130859375" id="text-arizona" style="fill:#ffffff;font-size:12.0;" inkscape:label="Arizona State Region" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-arizona0" x="326.0997619628906" dy="0">West</tspan></text>
   <script type="application/ecmascript" id="script-arizona">
 		
 		// Get path size
@@ -624,8 +624,8 @@
         
   </script>
 
-  <style id="style-alaska">.alaska{fill:rgb(255, 127, 14);}</style>
-  <text x="220.50682067871094" y="492.661376953125" id="text-alaska" style="fill:#000000;font-size:12.0;" inkscape:label="Alaska State Region" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-alaska0" x="220.50682067871094" dy="0">West</tspan></text>
+  <style id="style-alaska">.alaska{fill:rgb(69, 8, 91);}</style>
+  <text x="220.50682067871094" y="492.661376953125" id="text-alaska" style="fill:#ffffff;font-size:12.0;" inkscape:label="Alaska State Region" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-alaska0" x="220.50682067871094" dy="0">West</tspan></text>
   <script type="application/ecmascript" id="script-alaska">
 		
 		// Get path size
@@ -637,7 +637,7 @@
         
   </script>
 
-  <style id="style-alabama">.alabama{fill:rgb(31, 119, 180);}</style>
+  <style id="style-alabama">.alabama{fill:rgb(59, 186, 117);}</style>
   <text x="748.1443481445312" y="392.44476318359375" id="text-alabama" style="fill:#ffffff;font-size:12.0;" inkscape:label="Alabama State Region" dominant-baseline="text-after-edge" text-anchor="middle"><tspan sodipodi:role="line" id="tspan-alabama0" x="748.1443481445312" dy="0">South</tspan></text>
   <script type="application/ecmascript" id="script-alabama">
 		
