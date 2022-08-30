@@ -16,7 +16,7 @@ from IPython.display import set_matplotlib_formats
 set_matplotlib_formats('retina')
 
 from cycler import cycler
-from matplotlib.pyplot import figure, xlabel, ylabel, annotate, cm
+from matplotlib.pyplot import figure, xlabel, ylabel, annotate, cm, subplots
 from numpy import linspace, logical_and, logical_not, isinf, isnan
 from os import path, makedirs, remove
 from random import choice
@@ -409,9 +409,165 @@ class StatsChartingUtilities(object):
         """
         ax.plot(index, values, c='k', zorder=1, alpha=.25)
         ax.scatter(index, values, s=30, lw=.5, c=c, edgecolors='k', zorder=2)
-
+    
     def get_inf_nan_mask(self, x_list, y_list):
         x_mask = logical_and(logical_not(isinf(x_list)), logical_not(isnan(x_list)))
         y_mask = logical_and(logical_not(isinf(y_list)), logical_not(isnan(y_list)))
         
         return logical_and(x_mask, y_mask)
+    
+    def get_fontsize(self, rect_width, label_length):
+        """Get the widest text size that will fit in the rectangle width,
+        given the count of characters in the label.
+
+        Parameters
+        ----------
+        rect_width : float
+            width in pixels of the rectangle
+        label_length : int
+            count of characters in the label.
+
+        Returns
+        -------
+        float
+            font size
+        """
+        # Based on Wyoming:
+        # f(4.701557080830737, 7) = 10.0
+        
+        return 14.888684492506771 * (rect_width / label_length)
+    
+    def get_text_rgba(self, backround_rgba):
+        """Get the color most contrasting with the background.
+
+        Parameters
+        ----------
+        backround_rgba
+            RGBA tuple of floats in the range of zero to one.
+
+        Returns
+        -------
+        tuple
+            RGBA tuple of floats in the range of zero to one
+        """
+        
+        from math import sqrt
+        
+        text_rgba = (0.0, 0.0, 0.0, 1.0)
+        if backround_rgba != (1.0, 1.0, 1.0, 1.0):
+            text_colors_list = []
+            for from_color in [(1.0, 1.0, 1.0, 1.0), (0.0, 0.0, 0.0, 1.0)]:
+                green_diff = from_color[0] - backround_rgba[0]
+                blue_diff = from_color[1] - backround_rgba[1]
+                red_diff = from_color[2] - backround_rgba[2]
+                color_distance = sqrt(green_diff**2 + blue_diff**2 + red_diff**2)
+                color_tuple = (color_distance, from_color)
+                text_colors_list.append(color_tuple)
+            text_rgba = sorted(text_colors_list, key=lambda x: x[0])[-1][1]
+        
+        return text_rgba
+    
+    def draw_text(self, ax, s, r, c, va, text_kwargs):
+        """Drawing text with Matplotlib.
+
+        Parameters
+        ----------
+        ax
+            Matplotlib Axes instance
+        s : str
+            The text
+        r : dict
+            keyword arguments that describe the rectangle
+        c : tuple
+            RGBA color tuple of floats in the range of zero to one
+        va : str
+            {'center', 'top', 'bottom', 'baseline', 'center_baseline'} passed to matplotlib.Axes.text for vertical alignment
+        text_kwargs : dict
+            keyword arguments passed to matplotlib.Axes.text.
+        """
+        
+        # Get text position and draw text
+        x = r['x'] + (r['dx'] / 2)
+        y = r['y'] + (r['dy'] / 2)
+        text_obj = ax.text(x=x, y=y, s=s, va=va, ha='center', **text_kwargs)
+
+        if not (('color' in text_kwargs) or ('c' in text_kwargs)):
+
+            # Set text color to the highest contrast between black and white
+            text_rgba = self.get_text_rgba(c)
+            text_obj.set_color(text_rgba)
+
+        if not (('fontsize' in text_kwargs) or ('size' in text_kwargs)):
+
+            # Set text size to the widest that will fit in the rectangle
+            fontsize = self.get_fontsize(r['dx'], len(s))
+            text_obj.set_fontsize(fontsize)
+    
+    def plot_treemap_layout(self, values_list, colors_list, labels_list, ax, verbose=False):
+        """Plotting with Matplotlib.
+
+        Parameters
+        ----------
+        values_list
+            sizes input for squarify
+        colors_list
+            list of rgba tuples (see Matplotlib documentation for details)
+        labels_list
+            list of label texts
+        ax
+            Matplotlib Axes instance
+        """
+        
+        # Get the list of rectangles
+        from squarify import normalize_sizes, squarify
+        rects_list = squarify(normalize_sizes(values_list, 100, 100), 0, 0, 100, 100)
+        
+        # Draw the rectangles as horizontal bars with the bottom at y
+        lefts_list = [rect['x'] for rect in rects_list]
+        bottoms_list = [rect['y'] for rect in rects_list]
+        widths_list = [rect['dx'] for rect in rects_list]
+        heights_list = [rect['dy'] for rect in rects_list]
+        ax.bar(x=lefts_list, height=heights_list, width=widths_list, bottom=bottoms_list,
+               color=colors_list, label=labels_list, align='edge')
+        
+        # Draw the labels in the centers of the rectangles
+        for label_str, rect, color_tuple in zip(labels_list, rects_list, colors_list):
+            self.draw_text(ax, label_str, rect, color_tuple, 'center', text_kwargs={})
+        
+        ax.set_xlim(0, 100)
+        ax.set_ylim(0, 100)
+        ax.axes.xaxis.set_visible(False)
+        ax.axes.yaxis.set_visible(False)
+    
+    def create_colored_labeled_treemap(self, df, size_column_name, color_column_name, fig_wdth=18, cmap=None, verbose=False):
+        """Plotting Treemap layouts with Matplotlib.
+
+        Parameters
+        ----------
+        df : pandas.DataFrame
+            contains the size and color columns and the index labels needed to make the treemap
+        size_column_name : str
+            column that determines the relative sizes of the rectangles
+        color_column_name : str
+            column that determines the relative colors of the rectangles
+        fig_wdth: float
+            width and height of the figure in inches
+        cmap : matplotlib.colors.ListedColormap
+            color map used to map the `color_column_name` floats
+        verbose : boolean
+            prints debug information, if any
+        """
+        columns_list = [size_column_name, color_column_name]
+        
+        # Values must be sorted descending (and positive, obviously)
+        df = df[columns_list].dropna().sort_values(size_column_name, ascending=False)
+        color_column_series = df[color_column_name]
+        
+        fig, ax = subplots(figsize=(fig_wdth, fig_wdth))
+        if cmap is None:
+            from matplotlib.cm import get_cmap
+            cmap = get_cmap()
+        colors_list = [cmap(i) for i in color_column_series]
+        AxesSubplot_obj = self.plot_treemap_layout(values_list=df[size_column_name].tolist(),
+                                                   colors_list=colors_list, labels_list=df.index,
+                                                   ax=ax, verbose=verbose)
