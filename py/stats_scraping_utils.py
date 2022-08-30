@@ -308,32 +308,23 @@ class StatsScrapingUtilities(object):
                                'Wyoming']
         self.us_stats_df = self.s.load_object('us_stats_df')
         self.column_description_dict = self.s.load_object('column_description_dict')
-        self.us_states_abbreviation_dict = {
-                                            'Alabama': 'AL', 'Alaska': 'AK', 'Arizona': 'AZ',
-                                            'Arkansas': 'AR', 'California': 'CA',
-                                            'Colorado': 'CO', 'Connecticut': 'CT',
-                                            'Delaware': 'DE', 'District of Columbia': 'DC',
-                                            'Florida': 'FL', 'Georgia': 'GA', 'Hawaii': 'HI',
-                                            'Idaho': 'ID', 'Illinois': 'IL',
-                                            'Indiana': 'IN', 'Iowa': 'IA', 'Kansas': 'KS',
-                                            'Kentucky': 'KY', 'Louisiana': 'LA',
-                                            'Maine': 'ME', 'Maryland': 'MD',
-                                            'Massachusetts': 'MA', 'Michigan': 'MI',
-                                            'Minnesota': 'MN', 'Mississippi': 'MS',
-                                            'Missouri': 'MO', 'Montana': 'MT',
-                                            'Nebraska': 'NE', 'Nevada': 'NV',
-                                            'New Hampshire': 'NH', 'New Jersey': 'NJ',
-                                            'New Mexico': 'NM', 'New York': 'NY',
-                                            'North Carolina': 'NC', 'North Dakota': 'ND',
-                                            'Ohio': 'OH', 'Oklahoma': 'OK', 'Oregon': 'OR',
-                                            'Pennsylvania': 'PA', 'Rhode Island': 'RI',
-                                            'South Carolina': 'SC', 'South Dakota': 'SD',
-                                            'Tennessee': 'TN', 'Texas': 'TX', 'Utah': 'UT',
-                                            'Vermont': 'VT', 'Virginia': 'VA',
-                                            'Washington': 'WA', 'West Virginia': 'WV',
-                                            'Wisconsin': 'WI', 'Wyoming': 'WY',
-                                            'American Samoa': 'AS', 'Guam': 'GU',
-                                            'Northern Mariana Islands': 'MP',
+        self.us_states_abbreviation_dict = {'Alabama': 'AL', 'Alaska': 'AK', 'Arizona': 'AZ', 'Arkansas': 'AR',
+                                            'California': 'CA', 'Colorado': 'CO', 'Connecticut': 'CT',
+                                            'Delaware': 'DE', 'District of Columbia': 'DC', 'Florida': 'FL',
+                                            'Georgia': 'GA', 'Hawaii': 'HI', 'Idaho': 'ID', 'Illinois': 'IL',
+                                            'Indiana': 'IN', 'Iowa': 'IA', 'Kansas': 'KS', 'Kentucky': 'KY',
+                                            'Louisiana': 'LA', 'Maine': 'ME', 'Maryland': 'MD',
+                                            'Massachusetts': 'MA', 'Michigan': 'MI', 'Minnesota': 'MN',
+                                            'Mississippi': 'MS', 'Missouri': 'MO', 'Montana': 'MT',
+                                            'Nebraska': 'NE', 'Nevada': 'NV', 'New Hampshire': 'NH',
+                                            'New Jersey': 'NJ', 'New Mexico': 'NM', 'New York': 'NY',
+                                            'North Carolina': 'NC', 'North Dakota': 'ND', 'Ohio': 'OH',
+                                            'Oklahoma': 'OK', 'Oregon': 'OR', 'Pennsylvania': 'PA',
+                                            'Rhode Island': 'RI', 'South Carolina': 'SC', 'South Dakota': 'SD',
+                                            'Tennessee': 'TN', 'Texas': 'TX', 'Utah': 'UT', 'Vermont': 'VT',
+                                            'Virginia': 'VA', 'Washington': 'WA', 'West Virginia': 'WV',
+                                            'Wisconsin': 'WI', 'Wyoming': 'WY', 'American Samoa': 'AS',
+                                            'Guam': 'GU', 'Northern Mariana Islands': 'MP',
                                             'Puerto Rico': 'PR', 'Virgin Islands': 'VI'
                                            }
     
@@ -697,6 +688,49 @@ class StatsScrapingUtilities(object):
         self.us_stats_df[st_col_name] = self.us_stats_df.index.map(lambda x: states_dict.get(x, states_min))
         self.column_description_dict[st_col_name] = st_col_explanation
         self.s.store_objects(us_stats_df=self.us_stats_df, column_description_dict=self.column_description_dict)
+    
+    
+    
+    def get_max_rsquared_adj(self, df, columns_list, verbose=False):
+        if verbose:
+            t0 = time.time()
+        rows_list = []
+        n = len(columns_list)
+        import statsmodels.api as sm
+        for i in range(n-1):
+            first_column = columns_list[i]
+            first_series = df[first_column]
+            max_similarity = 0.0
+            max_column = first_column
+            for j in range(i+1, n):
+                second_column = columns_list[j]
+                second_series = df[second_column]
+                
+                # Assume the first column is never identical to the second column
+                X, y = first_series.values.reshape(-1, 1), second_series.values.reshape(-1, 1)
+                #this_similarity = abs(first_series.cov(second_series))
+                
+                # Compute with statsmodels, by adding intercept manually
+                X1 = sm.add_constant(X)
+                result = sm.OLS(y, X1).fit()
+                this_similarity = abs(result.rsquared_adj)
+                
+                if this_similarity > max_similarity:
+                    max_similarity = this_similarity
+                    max_column = second_column
 
+            # Get input row in dictionary format; key = col_name
+            row_dict = {}
+            row_dict['first_column'] = first_column
+            row_dict['second_column'] = max_column
+            row_dict['max_similarity'] = max_similarity
 
-      
+            rows_list.append(row_dict)
+
+        column_list = ['first_column', 'second_column', 'max_similarity']
+        column_similarities_df = pd.DataFrame(rows_list, columns=column_list)
+        if verbose:
+            t1 = time.time()
+            print(t1-t0, time.ctime(t1))
+
+        return column_similarities_df
