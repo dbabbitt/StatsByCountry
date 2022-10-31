@@ -50,7 +50,7 @@ def first_order_linear_scatterplot(df, xname, yname,
                                    aspect_ratio=FACEBOOK_ASPECT_RATIO,
                                    least_x_xytext=(40, -10), most_x_xytext=(-150, 55),
                                    least_y_xytext=(-200, -10), most_y_xytext=(45, 0),
-                                   reference_xytext=(-75, 25), color_list=None):
+                                   reference_xytext=(-75, 25), color_list=None, verbose=False):
     '''
     Create a first order (linear) scatter plot assuming the data frame
     has a index called Country or something
@@ -59,7 +59,7 @@ def first_order_linear_scatterplot(df, xname, yname,
     fig_height = fig_width/aspect_ratio
     fig = plt.figure(figsize=(fig_width, fig_height))
     ax = fig.add_subplot(111, autoscale_on=True)
-    line_kws = dict(c='k', zorder=1, alpha=.25)
+    line_kws = dict(color='k', zorder=1, alpha=.25)
     if color_list is None:
         scatter_kws = dict(s=30, lw=.5, edgecolors='k', zorder=2)
     else:
@@ -78,12 +78,17 @@ def first_order_linear_scatterplot(df, xname, yname,
                                   connectionstyle='arc3,rad=0'))
     
     xdata = df[xname].values
-    least_x = xdata.min()
-    most_x = xdata.max()
+    mask_series = df[xname].isnull()
+    least_x = df[xname][~mask_series].min()
+    most_x = df[xname][~mask_series].max()
     
     ydata = df[yname].values
-    most_y = ydata.max()
-    least_y = ydata.min()
+    mask_series = df[yname].isnull()
+    most_y = df[yname][~mask_series].max()
+    least_y = df[yname][~mask_series].min()
+    
+    if verbose:
+        print(f'least_x = {least_x};  most_x = {most_x};  least_y = {least_y};  most_y = {most_y}')
     
     least_x_tried = most_x_tried = least_y_tried = most_y_tried = False
     for label, x, y in zip(df.index, xdata, ydata):
@@ -104,8 +109,9 @@ def first_order_linear_scatterplot(df, xname, yname,
                                       xy=(x, y), xytext=most_y_xytext, **kwargs)
             most_y_tried = True
         elif (label == idx_reference):
-            annotation = plt.annotate('{} ({})'.format(label, annot_reference),
-                                      xy=(x, y), xytext=reference_xytext, **kwargs)
+            if annot_reference:
+                label = f'{label} ({annot_reference})'
+            annotation = plt.annotate(label, xy=(x, y), xytext=reference_xytext, **kwargs)
     title_obj = fig.suptitle(t=title, x=0.5, y=0.91)
     
     # Get r squared value

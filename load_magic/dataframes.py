@@ -75,10 +75,12 @@ def get_page_tables(tables_url_or_filepath, verbose=True):
 
 
 def get_column_descriptions(df, column_list=None):
-    
     if column_list is None:
         column_list = df.columns
-    g = df.columns.to_series().groupby(df.dtypes).groups
+    
+    # Use the strings of the dtypes to avoid unimplemented type errors
+    g = df.columns.to_series().groupby(df.dtypes.map(lambda x: str(x))).groups
+    
     rows_list = []
     for dtype, dtype_column_list in g.items():
         for column_name in dtype_column_list:
@@ -90,7 +92,7 @@ def get_column_descriptions(df, column_list=None):
                 # Get input row in dictionary format; key = col_name
                 row_dict = {}
                 row_dict['column_name'] = column_name
-                row_dict['dtype'] = str(dtype)
+                row_dict['dtype'] = dtype
                 row_dict['count_nulls'] = null_mask_series.sum()
                 row_dict['count_blanks'] = blank_mask_series.sum()
                 
@@ -204,3 +206,12 @@ def get_max_rsquared_adj(df, columns_list, verbose=False):
         print(t1-t0, time.ctime(t1))
 
     return column_similarities_df
+
+def clean_numerics(df, columns_list=None, verbose=False):
+    if columns_list is None:
+        columns_list = df.columns
+    for cn in columns_list:
+        df[cn] = df[cn].map(lambda x: re.sub(r'[^0-9\.]+', '', str(x)))
+        df[cn] = pd.to_numeric(df[cn], errors='coerce', downcast='integer')
+    
+    return df
