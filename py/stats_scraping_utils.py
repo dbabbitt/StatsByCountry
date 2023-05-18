@@ -306,8 +306,8 @@ class StatsScrapingUtilities(object):
                                'South Dakota', 'Tennessee', 'Texas', 'Utah', 'Vermont',
                                'Virginia', 'Washington', 'West Virginia', 'Wisconsin',
                                'Wyoming']
-        self.us_stats_df = self.s.load_object('us_stats_df')
-        self.column_description_dict = self.s.load_object('column_description_dict')
+        if s.pickle_exists('us_stats_df'): self.us_stats_df = self.s.load_object('us_stats_df')
+        if s.pickle_exists('column_description_dict'): self.column_description_dict = self.s.load_object('column_description_dict')
         self.us_states_abbreviation_dict = {'Alabama': 'AL', 'Alaska': 'AK', 'Arizona': 'AZ', 'Arkansas': 'AR',
                                             'California': 'CA', 'Colorado': 'CO', 'Connecticut': 'CT',
                                             'Delaware': 'DE', 'District of Columbia': 'DC', 'Florida': 'FL',
