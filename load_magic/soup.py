@@ -40,14 +40,14 @@ def get_page_soup(page_url_or_filepath, verbose=True):
     
     return page_soup
 
-def get_wiki_tables(tables_url_or_filepath, verbose=True):
+def get_wiki_tables(wikipedia_url, verbose=True):
     table_dfs_list = []
     try:
-        table_dfs_list = get_page_tables(tables_url_or_filepath, verbose=verbose)
+        table_dfs_list = get_page_tables(wikipedia_url, verbose=verbose)
     except ValueError as e:
         if verbose:
             print(str(e).strip())
-        page_soup = get_page_soup(tables_url_or_filepath, verbose=verbose)
+        page_soup = get_page_soup(wikipedia_url, verbose=verbose)
         table_soups_list = page_soup.find_all('table', attrs={'class': 'wikitable'})
         table_dfs_list = []
         for table_soup in table_soups_list:

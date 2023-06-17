@@ -1,6 +1,6 @@
 
 # This should by imported something like this in your notebook:
-# %run ../../load_magic/charts.py
+# %run ../load_magic/charts.py
 #
 
 from cycler import cycler
@@ -41,16 +41,11 @@ def r(string_list=colormaps_list):
 
     return random.choice(string_list)
 
-def first_order_linear_scatterplot(df, xname, yname,
-                                   xlabel_str='Overall Capitalism (explanatory variable)',
-                                   ylabel_str='World Bank Gini % (response variable)',
-                                   x_adj='capitalist', y_adj='unequal',
-                                   title='"Wealth inequality is huge in the capitalist societies"',
-                                   idx_reference='United States', annot_reference='most evil',
-                                   aspect_ratio=FACEBOOK_ASPECT_RATIO,
-                                   least_x_xytext=(40, -10), most_x_xytext=(-150, 55),
-                                   least_y_xytext=(-200, -10), most_y_xytext=(45, 0),
-                                   reference_xytext=(-75, 25), color_list=None, verbose=False):
+def first_order_linear_scatterplot(
+    df, xname, yname, xlabel_str='Overall Capitalism (explanatory variable)', ylabel_str='World Bank Gini % (response variable)', x_adj='capitalist', y_adj='unequal',
+    title='"Wealth inequality is huge in the capitalist societies"', idx_reference='United States', annot_reference='most evil', aspect_ratio=FACEBOOK_ASPECT_RATIO,
+    least_x_xytext=(40, -10), most_x_xytext=(-150, 55), least_y_xytext=(-200, -10), most_y_xytext=(45, 0), reference_xytext=(-75, 25), color_list=None, verbose=False
+):
     '''
     Create a first order (linear) scatter plot assuming the data frame
     has a index called Country or something
@@ -128,7 +123,7 @@ def first_order_linear_scatterplot(df, xname, yname,
     s_str = r'$r^2=' + coefficient_of_determination_statement + ',\ p' + pvalue_statement + '$'
     text_tuple = ax.text(0.75, 0.9, s_str, alpha=0.5, transform=ax.transAxes, fontsize='x-large')
     
-    return fig
+    return None
 
 def save_fig_as_various(fig, chart_name, dir_names_list=['pgf', 'png', 'svg'], verbose=False):
     """
