@@ -552,6 +552,7 @@ class StatsScrapingUtilities(object):
         assert countries_df[mask_series].shape[0] == 0, "You've duplicated some country names"
         
         mask_series = countries_df[country_name_column].isin(countries_set)
+        assert countries_df[country_value_column].dtype == np.dtype('int64'), "You have the make the country values integers"
         country_tuples_list = [(r[country_name_column], r[country_value_column]) for i, r in countries_df[mask_series].iterrows()]
         
         if states_set is None:
@@ -571,6 +572,8 @@ class StatsScrapingUtilities(object):
                 cn_col_explanation = country_value_column.replace('_', ' ')
             print()
             explanations_list = []
+            # print(state_tuples_list)
+            # print(country_tuples_list)
         for country_tuple in country_tuples_list:
             candidate_tuple = sorted([s for s in state_tuples_list], key=lambda x: abs(x[1] - country_tuple[1]))[0]
             state_name = candidate_tuple[0]

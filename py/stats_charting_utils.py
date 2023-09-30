@@ -185,41 +185,77 @@ class StatsChartingUtilities(object):
             width_inches = height_inches * self.twitter_aspect_ratio
             size_inches_tuple = (width_inches, height_inches)
         male_0_to_4_column_name = f'AGE04_MALE_{year}PE'
+        if male_0_to_4_column_name not in sample1_df.columns: male_0_to_4_column_name = f'AGE04_MALE'
         male_5_to_9_column_name = f'AGE59_MALE_{year}PE'
+        if male_5_to_9_column_name not in sample1_df.columns: male_5_to_9_column_name = f'AGE59_MALE'
         male_10_to_14_column_name = f'AGE1014_MALE_{year}PE'
+        if male_10_to_14_column_name not in sample1_df.columns: male_10_to_14_column_name = f'AGE1014_MALE'
         male_15_to_19_column_name = f'AGE1519_MALE_{year}PE'
+        if male_15_to_19_column_name not in sample1_df.columns: male_15_to_19_column_name = f'AGE1519_MALE'
         male_20_to_24_column_name = f'AGE2024_MALE_{year}PE'
+        if male_20_to_24_column_name not in sample1_df.columns: male_20_to_24_column_name = f'AGE2024_MALE'
         male_25_to_29_column_name = f'AGE2529_MALE_{year}PE'
+        if male_25_to_29_column_name not in sample1_df.columns: male_25_to_29_column_name = f'AGE2529_MALE'
         male_30_to_34_column_name = f'AGE3034_MALE_{year}PE'
+        if male_30_to_34_column_name not in sample1_df.columns: male_30_to_34_column_name = f'AGE3034_MALE'
         male_35_to_39_column_name = f'AGE3539_MALE_{year}PE'
+        if male_35_to_39_column_name not in sample1_df.columns: male_35_to_39_column_name = f'AGE3539_MALE'
         male_40_to_44_column_name = f'AGE4044_MALE_{year}PE'
+        if male_40_to_44_column_name not in sample1_df.columns: male_40_to_44_column_name = f'AGE4044_MALE'
         male_45_to_49_column_name = f'AGE4549_MALE_{year}PE'
+        if male_45_to_49_column_name not in sample1_df.columns: male_45_to_49_column_name = f'AGE4549_MALE'
         male_50_to_54_column_name = f'AGE5054_MALE_{year}PE'
+        if male_50_to_54_column_name not in sample1_df.columns: male_50_to_54_column_name = f'AGE5054_MALE'
         male_55_to_59_column_name = f'AGE5559_MALE_{year}PE'
+        if male_55_to_59_column_name not in sample1_df.columns: male_55_to_59_column_name = f'AGE5559_MALE'
         male_60_to_64_column_name = f'AGE6064_MALE_{year}PE'
+        if male_60_to_64_column_name not in sample1_df.columns: male_60_to_64_column_name = f'AGE6064_MALE'
         male_65_to_69_column_name = f'AGE6569_MALE_{year}PE'
+        if male_65_to_69_column_name not in sample1_df.columns: male_65_to_69_column_name = f'AGE6569_MALE'
         male_70_to_74_column_name = f'AGE7074_MALE_{year}PE'
+        if male_70_to_74_column_name not in sample1_df.columns: male_70_to_74_column_name = f'AGE7074_MALE'
         male_75_to_79_column_name = f'AGE7579_MALE_{year}PE'
+        if male_75_to_79_column_name not in sample1_df.columns: male_75_to_79_column_name = f'AGE7579_MALE'
         male_80_to_84_column_name = f'AGE8084_MALE_{year}PE'
+        if male_80_to_84_column_name not in sample1_df.columns: male_80_to_84_column_name = f'AGE8084_MALE'
         male_85_years_and_over_column_name = f'AGE85PLUS_MALE_{year}PE'
+        if male_85_years_and_over_column_name not in sample1_df.columns: male_85_years_and_over_column_name = f'AGE85PLUS_MALE'
         female_0_to_4_column_name = f'AGE04_FEM_{year}PE'
+        if female_0_to_4_column_name not in sample1_df.columns: female_0_to_4_column_name = f'AGE04_FEM'
         female_5_to_9_column_name = f'AGE59_FEM_{year}PE'
+        if female_5_to_9_column_name not in sample1_df.columns: female_5_to_9_column_name = f'AGE59_FEM'
         female_10_to_14_column_name = f'AGE1014_FEM_{year}PE'
+        if female_10_to_14_column_name not in sample1_df.columns: female_10_to_14_column_name = f'AGE1014_FEM'
         female_15_to_19_column_name = f'AGE1519_FEM_{year}PE'
+        if female_15_to_19_column_name not in sample1_df.columns: female_15_to_19_column_name = f'AGE1519_FEM'
         female_20_to_24_column_name = f'AGE2024_FEM_{year}PE'
+        if female_20_to_24_column_name not in sample1_df.columns: female_20_to_24_column_name = f'AGE2024_FEM'
         female_25_to_29_column_name = f'AGE2529_FEM_{year}PE'
+        if female_25_to_29_column_name not in sample1_df.columns: female_25_to_29_column_name = f'AGE2529_FEM'
         female_30_to_34_column_name = f'AGE3034_FEM_{year}PE'
+        if female_30_to_34_column_name not in sample1_df.columns: female_30_to_34_column_name = f'AGE3034_FEM'
         female_35_to_39_column_name = f'AGE3539_FEM_{year}PE'
+        if female_35_to_39_column_name not in sample1_df.columns: female_35_to_39_column_name = f'AGE3539_FEM'
         female_40_to_44_column_name = f'AGE4044_FEM_{year}PE'
+        if female_40_to_44_column_name not in sample1_df.columns: female_40_to_44_column_name = f'AGE4044_FEM'
         female_45_to_49_column_name = f'AGE4549_FEM_{year}PE'
+        if female_45_to_49_column_name not in sample1_df.columns: female_45_to_49_column_name = f'AGE4549_FEM'
         female_50_to_54_column_name = f'AGE5054_FEM_{year}PE'
+        if female_50_to_54_column_name not in sample1_df.columns: female_50_to_54_column_name = f'AGE5054_FEM'
         female_55_to_59_column_name = f'AGE5559_FEM_{year}PE'
+        if female_55_to_59_column_name not in sample1_df.columns: female_55_to_59_column_name = f'AGE5559_FEM'
         female_60_to_64_column_name = f'AGE6064_FEM_{year}PE'
+        if female_60_to_64_column_name not in sample1_df.columns: female_60_to_64_column_name = f'AGE6064_FEM'
         female_65_to_69_column_name = f'AGE6569_FEM_{year}PE'
+        if female_65_to_69_column_name not in sample1_df.columns: female_65_to_69_column_name = f'AGE6569_FEM'
         female_70_to_74_column_name = f'AGE7074_FEM_{year}PE'
+        if female_70_to_74_column_name not in sample1_df.columns: female_70_to_74_column_name = f'AGE7074_FEM'
         female_75_to_79_column_name = f'AGE7579_FEM_{year}PE'
+        if female_75_to_79_column_name not in sample1_df.columns: female_75_to_79_column_name = f'AGE7579_FEM'
         female_80_to_84_column_name = f'AGE8084_FEM_{year}PE'
+        if female_80_to_84_column_name not in sample1_df.columns: female_80_to_84_column_name = f'AGE8084_FEM'
         female_85_years_and_over_column_name = f'AGE85PLUS_FEM_{year}PE'
+        if female_85_years_and_over_column_name not in sample1_df.columns: female_85_years_and_over_column_name = f'AGE85PLUS_FEM'
         
         # Create dataframe
         import pandas as pd
@@ -288,10 +324,10 @@ class StatsChartingUtilities(object):
         fig.patch.set_facecolor('xkcd:light grey')
         plt.figtext(.5, .925, plot_title, fontsize=15, ha='center')
 
-        # Define male and female bars
-        male_ax.barh(y, df.Male, align='center', color='royalblue')
+        # Define male and female bars: "xkcd:baby pink" instead of "lightpink", "xkcd:baby blue" instead of "royalblue"
+        male_ax.barh(y, df.Male, align='center', color='xkcd:baby blue')
         male_ax.set(title='Males')
-        female_ax.barh(y, df.Female, align='center', color='lightpink')
+        female_ax.barh(y, df.Female, align='center', color='xkcd:baby pink')
         female_ax.set(title='Females')
 
         # Adjust grid parameters and specify labels for y-axis
