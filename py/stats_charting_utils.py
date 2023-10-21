@@ -319,7 +319,9 @@ class StatsChartingUtilities(object):
         plt.subplots_adjust(wspace=0, hspace=0)
 
         # Specify background color and plot title
-        plot_title = f'Population Pyramid, {sample1_df[county_column_name].squeeze()}, '
+        plot_title = f'Population Pyramid, '
+        county_name = sample1_df[county_column_name].squeeze()
+        if county_name: plot_title += f'{county_name}, '
         plot_title += f'{sample1_df[state_column_name].squeeze()}, {year}'
         fig.patch.set_facecolor('xkcd:light grey')
         plt.figtext(.5, .925, plot_title, fontsize=15, ha='center')

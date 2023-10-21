@@ -8,6 +8,7 @@ data/svg/Koppen-Geiger_Map_World_future.svg
 data/svg/Koppen-Geiger_Map_World_present.svg
 saves/maps/Spain_languages-en.svg
 data/csv/U.S._Homicide_Reports,_1980-2014_Homicides_between_1980_and_2014.csv
+data/txt/idbsingleyear.txt
 
 # Ignore wierd files
 *.pdf
