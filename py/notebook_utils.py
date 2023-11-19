@@ -218,7 +218,7 @@ class NotebookUtilities(object):
         
         # Handle special cases where noun_list is None or not a list
         if (noun_list is None): return ''
-        if (type(noun_list) != list): noun_list = list(noun_list)
+        if not isinstance(noun_list, list): noun_list = list(noun_list)
         
         # If there are more than two nouns in the list, join the last two nouns with `and_or`
         # Otherwise, join all of the nouns with `and_or`
@@ -230,8 +230,8 @@ class NotebookUtilities(object):
         elif (len(noun_list) == 1): list_str = noun_list[0]
         else: list_str = ''
         
-        # Print verbose output if requested
-        if verbose: print(f'Conjunctified noun list: {list_str}')
+        # Print debug output if requested
+        if verbose: print(f'noun_list="{noun_list}", and_or="{and_or}", list_str="{list_str}"')
         
         # Return the conjuncted noun list
         return list_str
@@ -839,6 +839,18 @@ class NotebookUtilities(object):
             print(f'Consolidate these duplicate definitions and add the refactored one to {util_path} (and delete the definitions).')
 
     
+    def delete_ipynb_checkpoint_folders(self, github_folder=None):
+        
+        # Set the GitHub folder path if not provided
+        if github_folder is None: github_folder = osp.dirname(osp.abspath(osp.curdir))
+        
+        import shutil
+        for sub_directory, directories_list, files_list in os.walk(github_folder):
+            if '.ipynb_checkpoints' in directories_list:
+                folder_path = os.path.join(sub_directory, '.ipynb_checkpoints')
+                shutil.rmtree(folder_path)
+
+    
     ### Storage Functions ###
 
     
@@ -1429,13 +1441,13 @@ class NotebookUtilities(object):
         """
         table_dfs_list = []
         try:
-
+            
             # Get the BeautifulSoup object for the Wikipedia page
             page_soup = self.get_page_soup(tables_url_or_filepath, verbose=verbose)
-
+            
             # Find all the tables on the Wikipedia page
             table_soups_list = page_soup.find_all('table', attrs={'class': 'wikitable'})
-
+            
             # Recursively get the DataFrames for all the tables on the Wikipedia page
             table_dfs_list = []
             for table_soup in table_soups_list: table_dfs_list += self.get_page_tables(str(table_soup), verbose=False)
@@ -1779,6 +1791,9 @@ class NotebookUtilities(object):
         Returns:
             pandas.DataFrame: The modified DataFrame with the new column representing the modal value.
         """
+        
+        # Ensure that all columns are in the data frame
+        columns_list = list(set(df.columns).intersection(set(columns_list)))
         
         # Create a mask series indicating rows with unique values across the specified columns
         mask_series = (df[columns_list].apply(Series.nunique, axis='columns') == 1)
