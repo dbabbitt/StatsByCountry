@@ -7,8 +7,10 @@
 
 
 
+from html import escape
 from math import sqrt
 from matplotlib import cm
+from os import path as osp
 from shutil import copyfile
 from sklearn.feature_extraction.text import TfidfVectorizer
 from xml.etree.ElementTree import Element
@@ -26,8 +28,8 @@ import warnings
 import webcolors
 import xml
 import xml.etree.ElementTree as et
-warnings.filterwarnings("ignore")
 
+warnings.filterwarnings("ignore")
 class ChoroplethUtilities(object):
     """This class implements the core of the utility functions
     needed to create SVG choropleths or labels of the United States.
@@ -48,10 +50,10 @@ class ChoroplethUtilities(object):
     from storage import Storage
     from choropleth_utils import ChoroplethUtilities
     
-    self.s = Storage()
-    afghanistan_provinces_df = self.s.load_object('afghanistan_provinces_df')
+    s = Storage()
+    afghanistan_provinces_df = s.load_object('afghanistan_provinces_df')
     c = ChoroplethUtilities(iso_3166_2_code='af', one_country_df=afghanistan_provinces_df,
-                            self.s=self.s)
+                            s=s)
     """
     
     def __init__(self, iso_3166_2_code=None, one_country_df=None, all_countries_df=None,
@@ -342,17 +344,6 @@ class ChoroplethUtilities(object):
     
     
     
-    def conjunctify_nouns(self, noun_list):
-        if len(noun_list) > 2:
-            list_str = ', and '.join([', '.join(noun_list[:-1])] + [noun_list[-1]])
-        elif len(noun_list) == 2:
-            list_str = ' and '.join(noun_list)
-        elif len(noun_list) == 1:
-            list_str = noun_list[0]
-        else:
-            list_str = ''
-        
-        return list_str
     
     
     
@@ -460,7 +451,7 @@ class ChoroplethUtilities(object):
 
         # Build and save legend for further manipulation
         legend_obj = pylab.legend(artists_list, labels_list, loc='upper left')
-        file_path = os.path.join(self.svg_dir, 'legend.svg')
+        file_path = osp.join(self.svg_dir, 'legend.svg')
         plt.savefig(file_path)
         plt.close(fig)
 
@@ -496,7 +487,7 @@ class ChoroplethUtilities(object):
                                 path_str = et.tostring(path_element, encoding='unicode')
                                 # path_str = re.sub(r'\bns\d+:', '', path_str)
                                 # print(path_str)
-                                path_strs_list.append(re.sub(r'>\self.s+<', '><', path_str))
+                                path_strs_list.append(re.sub(r'>\s+<', '><', path_str))
         # for path_str in path_strs_list:
             # print()
             # print(path_str)
@@ -553,7 +544,7 @@ class ChoroplethUtilities(object):
     
     def get_colorbar_xml(self, column_name, cmap='viridis', min=None, max=None):
         cb1 = self.show_colorbar(column_name, cmap=cmap, min=min, max=max)
-        file_path = os.path.join(self.svg_dir, 'colorbar.svg')
+        file_path = osp.join(self.svg_dir, 'colorbar.svg')
         
         # Trim the colorbar xml
         self.trim_d_path(file_path)
@@ -653,9 +644,9 @@ class ChoroplethUtilities(object):
         return attributes_set
 
     def possibly_raise_exceptions(self, one_country_df):
-        if not os.path.exists(self.copy_file_path):
+        if not osp.exists(self.copy_file_path):
             raise Exception('{} does not exist'.format(self.copy_file_path))
-        if not os.path.exists(self.label_line_file_path):
+        if not osp.exists(self.label_line_file_path):
             raise Exception('{} does not exist'.format(self.label_line_file_path))
         if 'district_abbreviation' not in one_country_df.columns:
             raise Exception('one_country_df needs to have the district_abbreviation column')
@@ -681,7 +672,6 @@ class ChoroplethUtilities(object):
         mask_series = one_country_df['centroid_id'].isnull()
         if string_column_name is not None:
             mask_series = mask_series | one_country_df[string_column_name].isnull()
-        from html import escape
         for district_name, row_series in one_country_df[~mask_series].sort_index(axis='index', ascending=False).iterrows():
             text_id = self.indexize_string(district_name)
             centroid_id = row_series.centroid_id
@@ -753,7 +743,7 @@ class ChoroplethUtilities(object):
 
     def create_svg_file_beginning(self, svg_file_name):
         svg_file_path = os.path.join(self.s.saves_folder, 'svg', svg_file_name)
-        if not os.path.exists(svg_file_path):
+        if not osp.exists(svg_file_path):
             copyfile(self.copy_file_path, svg_file_path)
         with open(svg_file_path, 'w') as f:
             attributes_set = self.add_docname(set(self.svg_attributes_list), svg_file_name)
@@ -918,6 +908,38 @@ class ChoroplethUtilities(object):
     
     
     
+    def edit_and_display_svg(self, numeric_column_name, string_column_name=None, verbose=False):
+        text_editor_path = r'C:\Program Files\Notepad++\notepad++.exe'
+        if string_column_name is None:
+            svg_file_path = osp.abspath(self.create_country_colored_map(
+                numeric_column_name,
+                one_country_df=self.one_country_df,
+                cmap='viridis',
+                min=None,
+                max=None,
+            ))
+        else:
+            svg_file_path = osp.abspath(self.create_country_colored_labeled_map(
+                numeric_column_name,
+                string_column_name=string_column_name,
+                one_country_df=self.one_country_df,
+                cmap='viridis',
+            ))
+        if verbose: print(f'Opening {svg_file_path} in Notepad++')
+        import subprocess
+        Popen_obj = subprocess.Popen([text_editor_path, svg_file_path], creationflags=subprocess.CREATE_NEW_PROCESS_GROUP)
+        inkscape_path = r'C:\Program Files\Inkscape\bin\inkscape.exe'
+        png_file_path = svg_file_path.replace('svg', 'png')
+        os.makedirs(osp.dirname(png_file_path), exist_ok=True)
+        if verbose: print(f'Creating {png_file_path}')
+        return_value = subprocess.call([inkscape_path, svg_file_path, f'--export-filename={png_file_path}'])
+        common_prefix = osp.commonprefix([png_file_path, os.getcwd()])
+        relative_path = osp.join(*png_file_path.split(common_prefix)[1:])
+        from IPython.display import HTML
+        display(HTML('<img src="../' + relative_path.replace(os.sep, '/') + '" style="width:50%"/>'))
+    
+    
+    
     def create_country_labeled_map(self, string_column_name=None, one_country_df=None, cmap='viridis', colors_dict=None, colors_keyed_to_district_abbreviation=False):
         """
         one_country_df must have district names as an index, the district_abbreviation, outline_d, text_x and
@@ -1004,9 +1026,9 @@ class ChoroplethUtilities(object):
         districts_file_path = c.create_us_google_suggest_labeled_map(cu_str='common')
         districts_file_path = c.create_us_google_suggest_labeled_map(cu_str='first')
         """
-        if os.path.exists(self.copy_file_path) and os.path.exists(self.label_line_file_path):
+        if osp.exists(self.copy_file_path) and osp.exists(self.label_line_file_path):
             districts_file_path = os.path.join(self.s.saves_folder, 'svg', '{}_{}.svg'.format(self.iso_3166_2_code.upper(), cu_str.upper()))
-            if os.path.exists(districts_file_path):
+            if osp.exists(districts_file_path):
                 os.remove(districts_file_path)
             copyfile(self.copy_file_path, districts_file_path)
             with open(districts_file_path, 'r') as f:
@@ -1018,7 +1040,6 @@ class ChoroplethUtilities(object):
                 cap_str = cu_str[:1].upper()+cu_str[1:]
                 column_name = 'Google_Suggest_{}'.format(cap_str)
                 mask_series = self.one_country_df[column_name].isnull()
-                from html import escape
                 for district_name, row_series in self.one_country_df[~mask_series].sort_index(axis='index', ascending=False).iterrows():
                     text_id = self.indexize_string(district_name)
                     label = '{} Google {} Suggestion'.format(district_name, cap_str)
