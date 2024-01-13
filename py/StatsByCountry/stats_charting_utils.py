@@ -10,11 +10,8 @@
 """
 StatsChartingUtilities: A set of utility functions common to stats visualization
 """
-
-# Use the following only if you are on a high definition device
+from . import nu
 from IPython.display import set_matplotlib_formats
-set_matplotlib_formats('retina')
-
 from cycler import cycler
 from matplotlib.pyplot import figure, xlabel, ylabel, annotate, cm, subplots
 from numpy import linspace, logical_and, logical_not, isinf, isnan
@@ -23,34 +20,22 @@ from random import choice
 from scipy.stats import pearsonr
 from seaborn import regplot
 import warnings
-warnings.filterwarnings('ignore')
 
+set_matplotlib_formats('retina')
+warnings.filterwarnings('ignore')
 class StatsChartingUtilities(object):
     """
     This class implements the core of the utility functions
     needed to visualize statistical content.
     
-    Examples
-    --------
-    
-    import sys
-    
-    # Insert at 1, 0 is the script path (or '' in REPL)
-    sys.path.insert(1, '../py')
-    
-    from storage import Storage
-    from stats_charting_utils import StatsChartingUtilities
-    
-    s = Storage()
-    scu = StatsChartingUtilities(s=s)
+    Examples:
+        import sys
+        sys.path.insert(1, '../py')
+        from stats_charting_utils import StatsChartingUtilities
+        scu = StatsChartingUtilities()
     """
     
-    def __init__(self, s=None, verbose=False):
-        if s is None:
-            from storage import Storage
-            self.s = Storage()
-        else:
-            self.s = s
+    def __init__(self, verbose=False):
         
         # Colormaps and ascpect ratios
         self.colormaps_list = ['Accent', 'Accent_r', 'Blues', 'Blues_r', 'BrBG', 'BrBG_r', 'BuGn', 'BuGn_r',
@@ -78,111 +63,20 @@ class StatsChartingUtilities(object):
                                'tab20b_r', 'tab20c', 'tab20c_r', 'terrain', 'terrain_r', 'twilight',
                                'twilight_r', 'twilight_shifted', 'twilight_shifted_r', 'viridis', 'viridis_r',
                                'vlag', 'vlag_r', 'winter', 'winter_r']
-        self.facebook_aspect_ratio = 1.91
-        self.twitter_aspect_ratio = 16/9
 
     def r(self, string_list=None):
         if string_list is None:
             string_list = self.colormaps_list
 
         return choice(string_list)
-
-    def first_order_linear_scatterplot(self, df, xname, yname,
-                                       xlabel_str='Overall Capitalism (explanatory variable)',
-                                       ylabel_str='World Bank Gini % (response variable)',
-                                       x_adj='capitalist', y_adj='unequal',
-                                       title='"Wealth inequality is huge in the capitalist societies"',
-                                       idx_reference='United States', annot_reference='most evil',
-                                       aspect_ratio=None,
-                                       least_x_xytext=(40, -10), most_x_xytext=(-150, 55),
-                                       least_y_xytext=(-200, -10), most_y_xytext=(45, 0),
-                                       reference_xytext=(-75, 25), color_list=None, verbose=False):
-        '''
-        Create a first order (linear) scatter plot assuming the data frame
-        has a index called Country or something
-        '''
-        if aspect_ratio is None:
-            aspect_ratio = self.facebook_aspect_ratio
-        df = df[[xname, yname]].dropna()
-        fig_width = 18
-        fig_height = fig_width/aspect_ratio
-        fig = figure(figsize=(fig_width, fig_height))
-        ax = fig.add_subplot(111, autoscale_on=True)
-        line_kws = dict(color='k', zorder=1, alpha=.25)
-        if color_list is None:
-            scatter_kws = dict(s=30, lw=.5, edgecolors='k', zorder=2)
-        else:
-            scatter_kws = dict(s=30, lw=.5, edgecolors='k', zorder=2, color=color_list)
-        merge_axes_subplot = regplot(x=xname, y=yname, scatter=True, data=df, ax=ax,
-                                     scatter_kws=scatter_kws, line_kws=line_kws)
-        if not xlabel_str.endswith(' (explanatory variable)'):
-            xlabel_str = '{} (explanatory variable)'.format(xlabel_str)
-        xlabel_text = xlabel(xlabel_str)
-        if not ylabel_str.endswith(' (response variable)'):
-            ylabel_str = '{} (response variable)'.format(ylabel_str)
-        ylabel_text = ylabel(ylabel_str)
-        kwargs = dict(textcoords='offset points', ha='left', va='bottom',
-                      bbox=dict(boxstyle='round,pad=0.5', fc='yellow', alpha=0.5),
-                      arrowprops=dict(arrowstyle='->',
-                                      connectionstyle='arc3,rad=0'))
-        
-        xdata = df[xname].values
-        least_x = xdata.min()
-        most_x = xdata.max()
-        
-        ydata = df[yname].values
-        most_y = ydata.max()
-        least_y = ydata.min()
-        
-        least_x_tried = most_x_tried = least_y_tried = most_y_tried = False
-        if verbose:
-            print(least_x, most_x, most_y, least_y)
-        for label, x, y in zip(df.index, xdata, ydata):
-            if verbose:
-                print(label, x, y)
-            if (x == least_x) and not least_x_tried:
-                annotation = annotate('{} (least {})'.format(label, x_adj),
-                                      xy=(x, y), xytext=least_x_xytext, **kwargs)
-                least_x_tried = True
-            elif (x == most_x) and not most_x_tried:
-                annotation = annotate('{} (most {})'.format(label, x_adj),
-                                      xy=(x, y), xytext=most_x_xytext, **kwargs)
-                most_x_tried = True
-            elif (y == least_y) and not least_y_tried:
-                annotation = annotate('{} (least {})'.format(label, y_adj),
-                                      xy=(x, y), xytext=least_y_xytext, **kwargs)
-                least_y_tried = True
-            elif (y == most_y) and not most_y_tried:
-                annotation = annotate('{} (most {})'.format(label, y_adj),
-                                      xy=(x, y), xytext=most_y_xytext, **kwargs)
-                most_y_tried = True
-            elif (label == idx_reference):
-                annotation = annotate('{} ({})'.format(label, annot_reference),
-                                      xy=(x, y), xytext=reference_xytext, **kwargs)
-        title_obj = fig.suptitle(t=title, x=0.5, y=0.91)
-        
-        # Get r squared value
-        inf_nan_mask = self.get_inf_nan_mask(xdata, ydata)
-        pearsonr_tuple = pearsonr(xdata[inf_nan_mask], ydata[inf_nan_mask])
-        pearson_r = pearsonr_tuple[0]
-        pearsonr_statement = str('%.2f' % pearson_r)
-        coefficient_of_determination_statement = str('%.2f' % pearson_r**2)
-        p_value = pearsonr_tuple[1]
-        if p_value < 0.0001:
-            pvalue_statement = '<0.0001'
-        else:
-            pvalue_statement = '=' + str('%.4f' % p_value)
-        s_str = r'$r^2=' + coefficient_of_determination_statement + ',\ p' + pvalue_statement + '$'
-        text_tuple = ax.text(0.75, 0.9, s_str, alpha=0.5, transform=ax.transAxes, fontsize='x-large')
-        
-        return fig
     
-    def population_pyramid(self, sample1_df, year=2019, county_column_name='County_Name',
+    @staticmethod
+    def population_pyramid(sample1_df, year=2019, county_column_name='County_Name',
                            state_column_name='State_Name', show=True, size_inches_tuple=None,
                            male_xticks_list=None, female_xticks_list=None, verbose=False):
         if size_inches_tuple is None:
             height_inches = 6
-            width_inches = height_inches * self.twitter_aspect_ratio
+            width_inches = height_inches * nu.twitter_aspect_ratio
             size_inches_tuple = (width_inches, height_inches)
         male_0_to_4_column_name = f'AGE04_MALE_{year}PE'
         if male_0_to_4_column_name not in sample1_df.columns: male_0_to_4_column_name = f'AGE04_MALE'
@@ -326,7 +220,7 @@ class StatsChartingUtilities(object):
         fig.patch.set_facecolor('xkcd:light grey')
         plt.figtext(.5, .925, plot_title, fontsize=15, ha='center')
 
-        # Define male and female bars: "xkcd:baby pink" instead of "lightpink", "xkcd:baby blue" instead of "royalblue"
+        # Define male and female bars
         male_ax.barh(y, df.Male, align='center', color='xkcd:baby blue')
         male_ax.set(title='Males')
         female_ax.barh(y, df.Female, align='center', color='xkcd:baby pink')
@@ -348,18 +242,19 @@ class StatsChartingUtilities(object):
         
         return fig
 
-    def save_fig_as_various(self, fig, chart_name, dir_names_list=['pgf', 'png', 'svg'],
+    @staticmethod
+    def save_fig_as_various(fig, chart_name, dir_names_list=['pgf', 'png', 'svg'],
                             size_inches_tuple=None, verbose=False):
         """
         scu.save_fig_as_various(fig, 'relative_search_strength_of_unprecedented', verbose=True)
         """
         if size_inches_tuple is None:
             height_inches = 6
-            width_inches = height_inches * self.twitter_aspect_ratio
+            width_inches = height_inches * nu.twitter_aspect_ratio
             size_inches_tuple = (width_inches, height_inches)
         for dir_name in dir_names_list:
             try:
-                dir_path = path.join(self.s.saves_folder, dir_name)
+                dir_path = path.join(nu.saves_folder, dir_name)
                 makedirs(name=dir_path, exist_ok=True)
                 file_path = path.join(dir_path, f'{chart_name}.{dir_name}')
                 if path.exists(file_path):
@@ -369,12 +264,13 @@ class StatsChartingUtilities(object):
                 fig.set_size_inches(size_inches_tuple[0], size_inches_tuple[1])
                 fig.savefig(file_path, dpi=100)#, bbox_inches='tight'
             except Exception as e:
-                print(f'{dir_name} got a {e.__class__} error: {str(e).strip()}')
+                print(f'{dir_name} got a {e.__class__.__name__} error: {str(e).strip()}')
     
-    def make_a_movie(self, movie_prefix, file_names_list, max_width=None, verbose=True):
+    @staticmethod
+    def make_a_movie(movie_prefix, file_names_list, max_width=None, verbose=True):
         
         # Get the maximum width of the images
-        png_dir = path.join(self.s.saves_folder, 'png')
+        png_dir = path.join(nu.saves_folder, 'png')
         import imageio
         if max_width is None:
             max_width = 0
@@ -410,7 +306,7 @@ class StatsChartingUtilities(object):
                 images_list.append(imageio.imread(file_path))
         
         # Get movie file path
-        gif_dir = path.join(self.s.saves_folder, 'gif')
+        gif_dir = path.join(nu.saves_folder, 'gif')
         makedirs(name=gif_dir, exist_ok=True)
         gif_file_path = path.join(gif_dir, f'{movie_prefix}_movie.gif')
         
@@ -420,25 +316,8 @@ class StatsChartingUtilities(object):
             print(f'Saving movie to {path.abspath(gif_file_path)}')
         imageio.mimsave(gif_file_path, images_list, **kwargs)
 
-    def get_color_cycler(self, n):
-        """
-        color_cycler = scu.get_color_cycler(len(possible_cause_list))
-        for possible_cause, face_color_dict in zip(possible_cause_list, color_cycler()):
-            face_color = face_color_dict['color']
-        """
-        color_cycler = None
-        if n < 9:
-            color_cycler = cycler('color', cm.Accent(linspace(0, 1, n)))
-        elif n < 11:
-            color_cycler = cycler('color', cm.tab10(linspace(0, 1, n)))
-        elif n < 13:
-            color_cycler = cycler('color', cm.Paired(linspace(0, 1, n)))
-        else:
-            color_cycler = cycler('color', cm.tab20(linspace(0, 1, n)))
-        
-        return color_cycler
-
-    def ball_and_chain(self, ax, index, values, c):
+    @staticmethod
+    def ball_and_chain(ax, index, values, c):
         """
         colormap = scu.r()
         cmap = mpl.cm.get_cmap(colormap)
@@ -448,34 +327,28 @@ class StatsChartingUtilities(object):
         ax.plot(index, values, c='k', zorder=1, alpha=.25)
         ax.scatter(index, values, s=30, lw=.5, c=c, edgecolors='k', zorder=2)
     
-    def get_inf_nan_mask(self, x_list, y_list):
-        x_mask = logical_and(logical_not(isinf(x_list)), logical_not(isnan(x_list)))
-        y_mask = logical_and(logical_not(isinf(y_list)), logical_not(isnan(y_list)))
-        
-        return logical_and(x_mask, y_mask)
-    
-    def get_fontsize(self, rect_width, label_length):
-        """Get the widest text size that will fit in the rectangle width,
+    @staticmethod
+    def get_fontsize(rect_width, label_length):
+        """
+        Get the widest text size that will fit in the rectangle width,
         given the count of characters in the label.
 
-        Parameters
-        ----------
-        rect_width : float
-            width in pixels of the rectangle
-        label_length : int
-            count of characters in the label.
-
-        Returns
-        -------
-        float
-            font size
-        """
-        # Based on Wyoming:
-        # f(4.701557080830737, 7) = 10.0
+        Parameters:
+            rect_width (float): width in pixels of the rectangle
+            label_length (int): count of characters in the label.
         
-        return 14.888684492506771 * (rect_width / label_length)
+        Returns:
+            float: font size
+        
+        Note:
+            Based on Wyoming: f(4.701557080830737, 7) = 10.0
+        """
+        fontsize = 14.888684492506771 * (rect_width / label_length)
+        
+        return fontsize
     
-    def get_text_rgba(self, backround_rgba):
+    @staticmethod
+    def get_text_rgba(backround_rgba):
         """Get the color most contrasting with the background.
 
         Parameters
@@ -505,39 +378,34 @@ class StatsChartingUtilities(object):
         
         return text_rgba
     
+    
+    
     def draw_text(self, ax, s, r, c, va, text_kwargs):
-        """Drawing text with Matplotlib.
-
-        Parameters
-        ----------
-        ax
-            Matplotlib Axes instance
-        s : str
-            The text
-        r : dict
-            keyword arguments that describe the rectangle
-        c : tuple
-            RGBA color tuple of floats in the range of zero to one
-        va : str
-            {'center', 'top', 'bottom', 'baseline', 'center_baseline'} passed to matplotlib.Axes.text for vertical alignment
-        text_kwargs : dict
-            keyword arguments passed to matplotlib.Axes.text.
+        """
+        Drawing text with Matplotlib.
+    
+        Parameters:
+            ax: Matplotlib Axes instance
+            s (str): The text
+            r (dict): keyword arguments that describe the rectangle
+            c (tuple): RGBA color tuple of floats in the range of zero to one
+            va (str): {'center', 'top', 'bottom', 'baseline', 'center_baseline'}
+                      passed to matplotlib.Axes.text for vertical alignment
+            text_kwargs (dict): keyword arguments passed to matplotlib.Axes.text.
         """
         
         # Get text position and draw text
         x = r['x'] + (r['dx'] / 2)
         y = r['y'] + (r['dy'] / 2)
         text_obj = ax.text(x=x, y=y, s=s, va=va, ha='center', **text_kwargs)
-
+        
+        # Set text color to the highest contrast between black and white
         if not (('color' in text_kwargs) or ('c' in text_kwargs)):
-
-            # Set text color to the highest contrast between black and white
             text_rgba = self.get_text_rgba(c)
             text_obj.set_color(text_rgba)
-
+        
+        # Set text size to the widest that will fit in the rectangle
         if not (('fontsize' in text_kwargs) or ('size' in text_kwargs)):
-
-            # Set text size to the widest that will fit in the rectangle
             fontsize = self.get_fontsize(r['dx'], len(s))
             text_obj.set_fontsize(fontsize)
     
