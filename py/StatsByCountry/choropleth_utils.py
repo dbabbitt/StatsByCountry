@@ -59,16 +59,27 @@ class ChoroplethUtilities(object):
         else: self.iso_3166_2_code = iso_3166_2_code.lower()
         if one_country_df is None: self.one_country_df = nu.load_object('us_stats_df')
         else: self.one_country_df = one_country_df
-        if all_countries_df is None: self.all_countries_df = nu.load_object('all_countries_df')
+        self.all_countries_df = None
+        if all_countries_df is None:
+            if nu.pickle_exists('all_countries_df'):
+                try:
+                    self.all_countries_df = nu.load_object('all_countries_df')
+                except:
+                    pass
         else: self.all_countries_df = all_countries_df
         
         # Create preferences dictionary
         self.settings_dict = {}
-        mask_series = (self.all_countries_df.index == self.iso_3166_2_code.upper())
-        rows_list = self.all_countries_df[mask_series].to_dict(orient='records')
+        rows_list = []
+        if not self.all_countries_df is None:
+            mask_series = (self.all_countries_df.index == self.iso_3166_2_code.upper())
+            rows_list = self.all_countries_df[mask_series].to_dict(orient='records')
         if rows_list: self.settings_dict = rows_list[0]
         elif nu.pickle_exists('choropleth_settings_dict'):
-            self.settings_dict = nu.load_object('choropleth_settings_dict')
+            try:
+                self.settings_dict = nu.load_object('choropleth_settings_dict')
+            except:
+                pass
         
         # Define the SVG parts
         font_size = self.settings_dict.get('font_size', 12)
@@ -102,10 +113,11 @@ class ChoroplethUtilities(object):
         if self.iso_3166_2_code == 'us': self.copy_file_name = 'us - Copy.svg'
         elif self.iso_3166_2_code == 'af': self.copy_file_name = 'Afghanistan - Copy.svg'
         self.copy_file_path = osp.join(nu.data_folder, 'svg', self.copy_file_name)
-        if ('svg_width' not in self.all_countries_df.columns) or ('svg_height' not in self.all_countries_df.columns):
-            raise Exception('svg_width and svg_height must be in your all_countries_df')
-        self.svg_width = self.settings_dict['svg_width']
-        self.svg_height = self.settings_dict['svg_height']
+        if not self.all_countries_df is None:
+            if ('svg_width' not in self.all_countries_df.columns) or ('svg_height' not in self.all_countries_df.columns):
+                raise Exception('svg_width and svg_height must be in your all_countries_df')
+        self.svg_width = self.settings_dict.get('svg_width', 100)
+        self.svg_height = self.settings_dict.get('svg_height', 100)
         inkscape_cx = self.settings_dict.get('inkscape_cx', 341.81217)
         if str(inkscape_cx) == 'nan': inkscape_cx = 341.81217
         inkscape_cy = self.settings_dict.get('inkscape_cy', 167.65197)
@@ -224,6 +236,7 @@ class ChoroplethUtilities(object):
        inkscape:label="Colorbar">{}{}
     </g>'''
         self.gradient_file_path = osp.join(nu.data_folder, 'txt', 'gradient.txt')
+        # print(self.gradient_file_path)
         with open(self.gradient_file_path, 'r') as f:
             self.gradient_str = f.read()
         self.matplotlib_axis_str = '''
