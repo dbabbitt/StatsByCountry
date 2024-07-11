@@ -62,7 +62,7 @@ class NotebookUtilities(object):
         import sys
         import os.path as osp
         sys.path.insert(1, osp.abspath('../py'))
-        from StatsByUSState import nu
+        from StatsByCountry import nu
     """
     
     def __init__(self, data_folder_path=None, saves_folder_path=None, verbose=False):
@@ -2684,7 +2684,7 @@ class NotebookUtilities(object):
         if (X_train.shape[0] == 0) or (y_train.shape[0] == 0): return np.array([], dtype=bool)
         
         # Create a mask across the X_train and y_train columns (notnull checking for both inf and NaN values)
-        mask_series = concat([y_train, X_train], axis='columns').applymap(notnull).all(axis='columns')
+        mask_series = concat([DataFrame(y_train), DataFrame(X_train)], axis='columns').applymap(notnull).all(axis='columns')
         
         # Return the mask indicating which elements of both X_train and y_train are not inf or nan
         return mask_series
@@ -4211,8 +4211,8 @@ class NotebookUtilities(object):
         line_kws = dict(color='k', zorder=1, alpha=.25)
         
         # Set scatter plot properties, including color list if provided
-        if color_list is None: scatter_kws = dict(s=30, lw=.5, edgecolors='k', zorder=2)
-        else: scatter_kws = dict(s=30, lw=.5, edgecolors='k', zorder=2, color=color_list)
+        if color_list is None: scatter_kws = dict(s=30, linewidths=.5, edgecolors='k', zorder=2)
+        else: scatter_kws = dict(s=30, linewidths=.5, edgecolors='k', zorder=2, color=color_list)
         
         # Create the scatter plot with regression line
         merge_axes_subplot = sns.regplot(x=xname, y=yname, scatter=True, data=df, ax=ax,
