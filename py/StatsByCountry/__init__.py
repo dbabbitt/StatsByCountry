@@ -28,4 +28,5 @@ scu = StatsChartingUtilities()
 from .stats_scraping_utils import StatsScrapingUtilities
 ssu = StatsScrapingUtilities()
 
+# print(f"from StatsByCountry import ({', '.join(dir())})")
 # print(r'\b(' + '|'.join(dir()) + r')\b')
