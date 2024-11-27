@@ -1,0 +1,73 @@
+Region,Country,pixel_x,pixel_y,Based_Rational_Values,Surviving_Flourishing_Values,Cluster
+Africa,Burkina Faso,367,661,-1.31,-0.45,2
+Africa,Ghana,407,775,-1.92,-0.24,2
+Africa,Mali,388,674,-1.38,-0.34,2
+Africa,Nigeria,476,666,-1.34,0.13,2
+Africa,Ruanda,322,689,-1.46,-0.69,2
+Africa,S. Africa,365,677,-1.4,-0.46,2
+Africa,Tanzania,430,758,-1.83,-0.12,2
+Africa,Uganda,441,647,-1.24,-0.06,2
+Catholic Europe,Belgium,666,279,0.72,1.14,0
+Catholic Europe,Croatia,514,398,0.09,0.33,0
+Catholic Europe,Czech Rep.,527,182,1.23,0.4,7
+Catholic Europe,France,666,319,0.51,1.14,0
+Catholic Europe,Italy,568,386,0.15,0.62,0
+Catholic Europe,Luxembourg,666,334,0.43,1.14,0
+Catholic Europe,Poland,432,558,-0.77,-0.11,1
+Catholic Europe,Slovakia,378,288,0.67,-0.39,7
+Catholic Europe,Slovenia,523,276,0.73,0.38,7
+Catholic Europe,Spain,556,396,0.1,0.55,0
+Confucian,China,256,264,0.8,-1.04,1
+Confucian,Hong Kong,277,187,1.21,-0.93,4
+Confucian,Japan,513,46,1.96,0.32,4
+Confucian,S. Korea,227,296,0.63,-1.2,1
+Confucian,Taiwan,241,195,1.16,-1.12,4
+English Speaking,Australia,781,373,0.22,1.75,5
+English Speaking,Britain,767,401,0.07,1.68,5
+English Speaking,Canada,809,460,-0.24,1.9,5
+English Speaking,Ireland,675,583,-0.9,1.19,5
+English Speaking,N. Ireland,643,474,-0.32,1.02,5
+English Speaking,New Zealand,800,412,0.01,1.85,5
+English Speaking,USA,784,564,-0.8,1.77,5
+Islamic,Algeria,342,704,-1.54,-0.59,5
+Islamic,Bangladesh,273,639,-1.2,-0.95,3
+Islamic,Egypt,353,721,-1.63,-0.53,5
+Islamic,Ethiopia,384,534,-0.64,-0.36,8
+Islamic,Indonesia,309,516,-0.54,-0.76,8
+Islamic,Iran,375,641,-1.21,-0.41,3
+Islamic,Iraq,147,488,-0.39,-1.62,8
+Islamic,Jordan,266,715,-1.6,-0.99,3
+Islamic,Morocco,256,721,-1.63,-1.04,3
+Islamic,Pakistan,227,679,-1.41,-1.2,3
+Islamic,Turkey,393,573,-0.85,-0.31,8
+Islamic,Zambia,344,557,-0.76,-0.57,8
+Islamic,Zimbabwe,206,693,-1.48,-1.31,3
+Latin America,Argentina,527,535,-0.64,0.4,0
+Latin America,Brazil,571,596,-0.97,0.63,6
+Latin America,Chile,456,582,-0.89,0.02,6
+Latin America,Colombia,570,762,-1.85,0.63,6
+Latin America,El Salvador,555,785,-1.97,0.55,6
+Latin America,Guatemala,426,730,-1.68,-0.14,2
+Latin America,Mexico,648,688,-1.46,1.04,6
+Latin America,Peru,509,699,-1.52,0.3,6
+Latin America,Puerto Rico,665,786,-1.98,1.13,6
+Latin America,Uruguay,627,482,-0.36,0.93,0
+Latin America,Venezuela,537,712,-1.59,0.45,6
+Orthodox,Belarus,232,245,0.9,-1.17,4
+Orthodox,Bulgaria,250,225,1.01,-1.07,4
+Orthodox,Macedonia,324,389,0.13,-0.68,1
+Orthodox,Moldova,222,328,0.46,-1.22,1
+Orthodox,Romania,172,483,-0.37,-1.49,1
+Orthodox,Russia,196,320,0.5,-1.36,1
+Orthodox,Serbia,344,348,0.35,-0.57,1
+Orthodox,Ukraine,302,357,0.3,-0.8,1
+Protestant Europe,Denmark,803,195,1.16,1.87,4
+Protestant Europe,Finland,664,257,0.84,1.13,7
+Protestant Europe,Germany,572,162,1.34,0.64,7
+Protestant Europe,Iceland,758,309,0.56,1.63,7
+Protestant Europe,Netherlands,714,279,0.72,1.39,7
+Protestant Europe,Norway,698,168,1.31,1.31,4
+Protestant Europe,Sweden,890,63,1.87,2.33,4
+Protestant Europe,Switzerland,807,274,0.74,1.89,7
+South Asia,India,418,506,-0.49,-0.18,8
+South Asia,Vietnam,410,469,-0.29,-0.22,8

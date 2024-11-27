@@ -1,0 +1,73 @@
+﻿Region,Country,pixel_x,pixel_y,Based_Rational_Values,Surviving_Flourishing_Values
+Islamic,Zimbabwe,206,693,-1.3,-1.5
+Islamic,Morocco,256,721,-1.0,-1.6
+Islamic,Jordan,266,715,-1.0,-1.6
+Islamic,Pakistan,227,679,-1.2,-1.4
+Islamic,Bangladesh,273,639,-1.0,-1.2
+Islamic,Iran,375,641,-0.4,-1.2
+Islamic,Iraq,147,488,-1.6,-0.4
+Islamic,Indonesia,309,516,-0.8, -0.5
+Islamic,Ethiopia,384,534,-0.9,-0.1
+Islamic,Zambia,344,557,-0.8,0.0
+Islamic,Turkey,393,573,-0.7,0.1
+South Asia,India,418,506,-0.6,0.2
+South Asia,Vietnam,410,469,-0.5,0.3
+Catholic Europe,Poland,432,558,-0.4,0.4
+Orthodox,Romania,172,483,-0.3,0.5
+Orthodox,Macedonia,324,389,-0.2,0.6
+Orthodox,Ukraine,302,357,-0.1,0.7
+Orthodox,Serbia,344,348,0.0,0.8
+Orthodox,Moldova,222,328,0.1,0.9
+Orthodox,Russia,196,320,0.2,1.0
+Confucian,S. Korea,227,296,0.3,1.1
+Confucian,China,256,264,0.4,1.2
+Orthodox,Belarus,232,245,0.5,1.3
+Orthodox,Bulgaria,250,225,0.6,1.4
+Confucian,Taiwan,241,195,0.7,1.5
+Confucian,Hong Kong,277,187,0.8,1.6
+Confucian,Japan,513,46,0.9,1.7
+Protestant Europe,Sweden,890,63,1.0,1.8
+Protestant Europe,Norway,698,168,1.1,1.9
+Protestant Europe,Denmark,803,195,1.2,2.0
+Protestant Europe,Switzerland,807,274,1.3,2.1
+Protestant Europe,Netherlands,714,279,1.4,2.2
+Protestant Europe,Iceland,758,309,1.5,2.3
+Protestant Europe,Finland,664,257,1.6,2.4
+Protestant Europe,Germany,572,162,1.7,2.5
+Catholic Europe,Czech Rep.,527,182,1.8,2.6
+Catholic Europe,Slovenia,523,276,1.9,2.7
+Catholic Europe,Slovakia,378,288,2.0,2.8
+Catholic Europe,Belgium,666,279,2.1,2.9
+Catholic Europe,France,666,319,2.2,3.0
+Catholic Europe,Luxembourg,666,334,2.3,3.1
+Catholic Europe,Italy,568,386,2.4,3.2
+Catholic Europe,Spain,556,396,2.5,3.3
+Catholic Europe,Croatia,514,398,2.6,3.4
+Latin America,Uruguay,627,482,2.7,3.5
+Latin America,Argentina,527,535,2.8,3.6
+Latin America,Chile,456,582,2.9,3.7
+Latin America,Brazil,571,596,3.0,3.8
+Latin America,Mexico,648,688,3.1,3.9
+Latin America,Peru,509,699,3.2,4.0
+Latin America,Venezuela,537,712,3.3,4.1
+Latin America,Colombia,570,762,3.4,4.2
+Latin America,Puerto Rico,665,786,3.5,4.3
+Latin America,El Salvador,555,785,3.6,4.4
+Latin America,Guatemala,426,730,3.7,4.5
+Africa,Tanzania,430,758,3.8,4.6
+Africa,Ghana,407,775,3.9,4.7
+Africa,S. Africa,365,677,4.0,4.8
+Africa,Nigeria,476,666,4.1,4.9
+Africa,Mali,388,674,4.2,5.0
+Africa,Uganda,441,647,4.3,5.1
+Africa,Burkina Faso,367,661,4.4,5.2
+Africa,Ruanda,322,689,4.5,5.3
+Islamic,Algeria,342,704,4.6,5.4
+Islamic,Egypt,353,721,4.7,5.5
+English Speaking,N. Ireland,643,474,4.8,5.6
+English Speaking,Ireland,675,583,4.9,5.7
+English Speaking,Australia,781,373,5.0,5.8
+English Speaking,New Zealand,800,412,5.1,5.9
+English Speaking,Britain,767,401,5.2,6.0
+English Speaking,Canada,809,460,5.3,6.1
+English Speaking,USA,784,564,5.4,6.2

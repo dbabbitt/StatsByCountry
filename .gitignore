@@ -153,3 +153,5 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+data/cvs/WVS_Cross-National_Wave_7_csv_v6_0.csv
+data/zip/F00011356-WVS_Cross-National_Wave_7_csv_v6_0.zip
