@@ -1,46 +1,13 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   version="1.1"
-   id="svg-id"
-   sodipodi:docname="wrap.svg"
-   width="850.21094"
-   height="369.17578"
-   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs-svg" />
-  <sodipodi:namedview
-     id="namedview-svg"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="0"
-     showgrid="false"
-     inkscape:zoom="1.4749281"
-     inkscape:cx="425.10547"
-     inkscape:cy="184.41577"
-     inkscape:window-width="1920"
-     inkscape:window-height="991"
-     inkscape:window-x="-9"
-     inkscape:window-y="-9"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg-id" />
-  <script
-     src="//d3plus.org/js/d3.js"
-     id="script85638" />
-  <script
-     src="//d3plus.org/js/d3plus.js"
-     id="script85640" />
-  <style
-     id="style85565">
+<?xml version="1.0" encoding="utf-8"?>
+<svg:svg height="369.17578" id="svg-id" inkscape:version="1.1.2 (b8e25be833, 2022-02-05)" sodipodi:docname="wrap.svg" version="1.1" width="850.21094" xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:svg="http://www.w3.org/2000/svg">
+<svg:defs id="defs-svg"/>
+<sodipodi:namedview bordercolor="#666666" borderopacity="1.0" id="namedview-svg" inkscape:current-layer="svg-id" inkscape:cx="425.10547" inkscape:cy="184.41577" inkscape:pagecheckerboard="0" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:window-height="991" inkscape:window-maximized="1" inkscape:window-width="1920" inkscape:window-x="-9" inkscape:window-y="-9" inkscape:zoom="1.4749281" pagecolor="#ffffff" showgrid="false"/>
+<svg:script id="script85638" src="//d3plus.org/js/d3.js"/>
+<svg:script id="script85640" src="//d3plus.org/js/d3plus.js"/>
+<svg:style id="style85565">
 
   svg {
-    font-family: &quot;Helvetica&quot;, &quot;Arial&quot;, sans-serif;
+    font-family: "Helvetica", "Arial", sans-serif;
     height: 425px;
     margin: 25px;
     width: 900px;
@@ -56,126 +23,48 @@
     stroke: #ccc;
   }
 
-</style>
-  <!-- Text that will use the D3plus default wrapping. -->
-  <text
-     class="type"
-     dy="15"
-     x="75"
-     id="text85399"
-     y="-5.8242188">Wrapped</text>
-  <rect
-     class="shape"
-     height="150"
-     width="150"
-     y="44.175781"
-     id="rect85401"
-     x="0" />
-  <text
-     id="rectWrap"
-     class="wrap"
-     y="44.175781"
-     font-size="12px">Here is a long text string that SVG should wrap by default, but it does not.</text>
-  <circle
-     class="shape"
-     r="75"
-     cx="75"
-     cy="294.17578"
-     id="circle85404" />
-  <text
-     id="circleWrap"
-     class="wrap"
-     y="219.17578"
-     x="0"
-     font-size="12px">Here is a long text string that SVG should wrap by default, but it does not.</text>
-  <!-- Text that D3plus will resize to fit the available space. -->
-  <text
-     class="type"
-     dy="15"
-     x="275"
-     id="text85407"
-     y="-5.8242188">Resized</text>
-  <rect
-     class="shape"
-     height="150"
-     width="150"
-     y="44.175781"
-     x="200"
-     id="rect85409" />
-  <text
-     id="rectResize"
-     class="wrap"
-     y="44.175781"
-     x="200"
-     font-size="12px">Here is a long text string that SVG should wrap by default, but it does not.</text>
-  <circle
-     class="shape"
-     r="75"
-     cx="275"
-     cy="294.17578"
-     id="circle85412" />
-  <text
-     id="circleResize"
-     class="wrap"
-     y="219.17578"
-     x="200"
-     font-size="12px">Here is a long text string that SVG should wrap by default, but it does not.</text>
-  <!-- For comparison, how SVG would display the text without D3plus. -->
-  <text
-     class="type"
-     dy="15"
-     x="475"
-     id="text85415"
-     y="-5.8242188">Default Behavior</text>
-  <rect
-     class="shape"
-     height="150"
-     width="150"
-     y="44.175781"
-     x="400"
-     id="rect85417" />
-  <text
-     class="wrap"
-     y="44.175781"
-     x="400"
-     font-size="12px"
-     id="text85419">Here is a long text string that SVG should wrap by default, but it does not.</text>
-  <circle
-     class="shape"
-     r="75"
-     cx="475"
-     cy="294.17578"
-     id="circle85421" />
-  <text
-     class="wrap"
-     y="219.17578"
-     x="400"
-     font-size="12px"
-     id="text85423">Here is a long text string that SVG should wrap by default, but it does not.</text>
-  <script
-     id="script85734">
+</svg:style>
+<!-- Text that will use the D3plus default wrapping. -->
+<svg:text class="type" dy="15" id="text85399" x="75" y="-5.8242188">Wrapped</svg:text>
+<svg:rect class="shape" height="150" id="rect85401" width="150" x="0" y="44.175781"/>
+<svg:text class="wrap" font-size="12px" id="rectWrap" y="44.175781">Here is a long text string that SVG should wrap by default, but it does not.</svg:text>
+<svg:circle class="shape" cx="75" cy="294.17578" id="circle85404" r="75"/>
+<svg:text class="wrap" font-size="12px" id="circleWrap" x="0" y="219.17578">Here is a long text string that SVG should wrap by default, but it does not.</svg:text>
+<!-- Text that D3plus will resize to fit the available space. -->
+<svg:text class="type" dy="15" id="text85407" x="275" y="-5.8242188">Resized</svg:text>
+<svg:rect class="shape" height="150" id="rect85409" width="150" x="200" y="44.175781"/>
+<svg:text class="wrap" font-size="12px" id="rectResize" x="200" y="44.175781">Here is a long text string that SVG should wrap by default, but it does not.</svg:text>
+<svg:circle class="shape" cx="275" cy="294.17578" id="circle85412" r="75"/>
+<svg:text class="wrap" font-size="12px" id="circleResize" x="200" y="219.17578">Here is a long text string that SVG should wrap by default, but it does not.</svg:text>
+<!-- For comparison, how SVG would display the text without D3plus. -->
+<svg:text class="type" dy="15" id="text85415" x="475" y="-5.8242188">Default Behavior</svg:text>
+<svg:rect class="shape" height="150" id="rect85417" width="150" x="400" y="44.175781"/>
+<svg:text class="wrap" font-size="12px" id="text85419" x="400" y="44.175781">Here is a long text string that SVG should wrap by default, but it does not.</svg:text>
+<svg:circle class="shape" cx="475" cy="294.17578" id="circle85421" r="75"/>
+<svg:text class="wrap" font-size="12px" id="text85423" x="400" y="219.17578">Here is a long text string that SVG should wrap by default, but it does not.</svg:text>
+<svg:script id="script85734">
 
   // Wrap text in a rectangle.
   d3plus.textwrap()
-    .container(d3.select(&quot;#rectWrap&quot;))
+    .container(d3.select("#rectWrap"))
     .draw();
 
   // Wrap text in a rectangle, and size the text to fit.
   d3plus.textwrap()
-    .container(d3.select(&quot;#rectResize&quot;))
+    .container(d3.select("#rectResize"))
     .resize(true)
     .draw();
 
   // Wrap text in a circle.
   d3plus.textwrap()
-    .container(d3.select(&quot;#circleWrap&quot;))
+    .container(d3.select("#circleWrap"))
     .draw();
 
   // Wrap text in a circle, and size the text to fit.
   d3plus.textwrap()
-    .container(d3.select(&quot;#circleResize&quot;))
+    .container(d3.select("#circleResize"))
     .resize(true)
     .draw();
 
-  </script>
-</svg>
+  </svg:script>
+</svg:svg>
