@@ -25,7 +25,7 @@ class StatsScrapingUtilities(object):
     
     Example:
         import sys
-        sys.path.insert(1, '../py')
+        sys.path.insert(1, osp.join('..', 'py'))
         from stats_scraping_utils import StatsScrapingUtilities
         ssu = StatsScrapingUtilities()
     """

@@ -47,7 +47,7 @@ class ChoroplethUtilities(object):
     --------
     
     import sys
-    sys.path.insert(1, '../py')
+    sys.path.insert(1, osp.join('..', 'py'))
     from StatsByCountry import nu
     from choropleth_utils import ChoroplethUtilities
     
