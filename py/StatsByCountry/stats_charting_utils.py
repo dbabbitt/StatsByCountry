@@ -30,7 +30,7 @@ class StatsChartingUtilities(object):
     
     Examples:
         import sys
-        sys.path.insert(1, osp.join('..', 'py'))
+        sys.path.insert(1, osp.join(os.pardir, 'py'))
         from stats_charting_utils import StatsChartingUtilities
         scu = StatsChartingUtilities()
     """
